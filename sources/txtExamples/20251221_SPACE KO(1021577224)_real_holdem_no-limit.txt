@@ -1,0 +1,2134 @@
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-9-1766318930 - Holdem no limit (25/100/200) - 2025/12/21 12:08:50 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (22555, 0.50€ bounty)
+Seat 2: Bobbyhatch (18612, 0.50€ bounty)
+Seat 3: donSimon987 (20000, 0.50€ bounty)
+Seat 4: Apophis_17 (29718, 0.50€ bounty)
+Seat 5: Esquillots32 (18675, 0.50€ bounty)
+Seat 6: Caliko15 (13450, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+oliv62300 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+Bobbyhatch posts small blind 100
+donSimon987 posts big blind 200
+Dealt to donSimon987 [4c Ah]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 raises 200 to 400
+Caliko15 folds
+oliv62300 folds
+Bobbyhatch folds
+donSimon987 calls 200
+*** FLOP *** [8h 6c 5d]
+donSimon987 checks
+Esquillots32 checks
+*** TURN *** [8h 6c 5d][3c]
+donSimon987 bets 368
+Esquillots32 calls 368
+*** RIVER *** [8h 6c 5d 3c][2c]
+donSimon987 bets 893
+Esquillots32 calls 893
+*** SHOW DOWN ***
+Esquillots32 shows [6d 6h] (Trips of 6)
+donSimon987 shows [4c Ah] (Straight 6 high)
+donSimon987 collected 3572 from pot
+*** SUMMARY ***
+Total pot 3572 | No rake
+Board: [8h 6c 5d 3c 2c]
+Seat 3: donSimon987 (big blind) showed [4c Ah] and won 3572 with Straight 6 high
+Seat 5: Esquillots32 showed [6d 6h] and lost with Trips of 6
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-10-1766319003 - Holdem no limit (25/100/200) - 2025/12/21 12:10:03 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (22530, 0.50€ bounty)
+Seat 2: Bobbyhatch (18487, 0.50€ bounty)
+Seat 3: donSimon987 (21886, 0.50€ bounty)
+Seat 4: Apophis_17 (29693, 0.50€ bounty)
+Seat 5: Esquillots32 (16989, 0.50€ bounty)
+Seat 6: Caliko15 (13425, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+donSimon987 posts small blind 100
+Apophis_17 posts big blind 200
+Dealt to donSimon987 [Th 3c]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 200
+Bobbyhatch folds
+donSimon987 calls 100
+Apophis_17 raises 900 to 1100
+oliv62300 calls 900
+donSimon987 folds
+*** FLOP *** [2s 4c 9h]
+Apophis_17 bets 842
+oliv62300 calls 842
+*** TURN *** [2s 4c 9h][4s]
+Apophis_17 checks
+oliv62300 checks
+*** RIVER *** [2s 4c 9h 4s][9d]
+Apophis_17 bets 2117
+oliv62300 folds
+Apophis_17 collected 6351 from pot
+*** SUMMARY ***
+Total pot 6351 | No rake
+Board: [2s 4c 9h 4s 9d]
+Seat 4: Apophis_17 (big blind) won 6351
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-11-1766319110 - Holdem no limit (25/100/200) - 2025/12/21 12:11:50 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (20563, 0.50€ bounty)
+Seat 2: Bobbyhatch (18462, 0.50€ bounty)
+Seat 3: donSimon987 (21661, 0.50€ bounty)
+Seat 4: Apophis_17 (31960, 0.50€ bounty)
+Seat 5: Esquillots32 (16964, 0.50€ bounty)
+Seat 6: Caliko15 (13400, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Caliko15 posts ante 25
+Apophis_17 posts small blind 100
+Esquillots32 posts big blind 200
+Dealt to donSimon987 [4h Tc]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 calls 200
+Bobbyhatch folds
+donSimon987 folds
+Apophis_17 calls 100
+Esquillots32 checks
+*** FLOP *** [4d As Qh]
+Apophis_17 checks
+Esquillots32 checks
+oliv62300 checks
+*** TURN *** [4d As Qh][5s]
+Apophis_17 checks
+Esquillots32 checks
+oliv62300 checks
+*** RIVER *** [4d As Qh 5s][Qs]
+Apophis_17 checks
+Esquillots32 checks
+oliv62300 checks
+*** SHOW DOWN ***
+Apophis_17 shows [7d Td] (One pair : Queens)
+Esquillots32 shows [7c 2s] (One pair : Queens)
+oliv62300 shows [Jc 9c] (One pair : Queens)
+oliv62300 collected 750 from pot
+*** SUMMARY ***
+Total pot 750 | No rake
+Board: [4d As Qh 5s Qs]
+Seat 1: oliv62300 showed [Jc 9c] and won 750 with One pair : Queens
+Seat 4: Apophis_17 (small blind) showed [7d Td] and lost with One pair : Queens
+Seat 5: Esquillots32 (big blind) showed [7c 2s] and lost with One pair : Queens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-12-1766319177 - Holdem no limit (25/100/200) - 2025/12/21 12:12:57 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (21088, 0.50€ bounty)
+Seat 2: Bobbyhatch (18437, 0.50€ bounty)
+Seat 3: donSimon987 (21636, 0.50€ bounty)
+Seat 4: Apophis_17 (31735, 0.50€ bounty)
+Seat 5: Esquillots32 (16739, 0.50€ bounty)
+Seat 6: Caliko15 (13375, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts small blind 100
+Caliko15 posts big blind 200
+Dealt to donSimon987 [3h 6c]
+*** PRE-FLOP *** 
+oliv62300 calls 200
+Bobbyhatch folds
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 checks
+*** FLOP *** [8d 6h Jc]
+Caliko15 checks
+oliv62300 checks
+*** TURN *** [8d 6h Jc][Kd]
+Caliko15 checks
+oliv62300 checks
+*** RIVER *** [8d 6h Jc Kd][4d]
+Caliko15 checks
+oliv62300 checks
+*** SHOW DOWN ***
+oliv62300 shows [Ac 4h] (One pair : 4)
+Caliko15 shows [Tc 8c] (One pair : 8)
+Caliko15 collected 650 from pot
+*** SUMMARY ***
+Total pot 650 | No rake
+Board: [8d 6h Jc Kd 4d]
+Seat 1: oliv62300 showed [Ac 4h] and lost with One pair : 4
+Seat 6: Caliko15 (big blind) showed [Tc 8c] and won 650 with One pair : 8
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-13-1766319221 - Holdem no limit (25/100/200) - 2025/12/21 12:13:41 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (20863, 0.50€ bounty)
+Seat 2: Bobbyhatch (18412, 0.50€ bounty)
+Seat 3: donSimon987 (21611, 0.50€ bounty)
+Seat 4: Apophis_17 (31710, 0.50€ bounty)
+Seat 5: Esquillots32 (16614, 0.50€ bounty)
+Seat 6: Caliko15 (13800, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts small blind 100
+oliv62300 posts big blind 200
+Dealt to donSimon987 [3h 9d]
+*** PRE-FLOP *** 
+Bobbyhatch folds
+donSimon987 folds
+Apophis_17 raises 300 to 500
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 300
+*** FLOP *** [4c 7c Tc]
+oliv62300 checks
+Apophis_17 checks
+*** TURN *** [4c 7c Tc][Kd]
+oliv62300 bets 813
+Apophis_17 folds
+oliv62300 collected 2063 from pot
+*** SUMMARY ***
+Total pot 2063 | No rake
+Board: [4c 7c Tc Kd]
+Seat 1: oliv62300 (big blind) won 2063
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-14-1766319252 - Holdem no limit (25/100/200) - 2025/12/21 12:14:12 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (21588, 0.50€ bounty)
+Seat 2: Bobbyhatch (18387, 0.50€ bounty)
+Seat 3: donSimon987 (21586, 0.50€ bounty)
+Seat 4: Apophis_17 (31185, 0.50€ bounty)
+Seat 5: Esquillots32 (16589, 0.50€ bounty)
+Seat 6: Caliko15 (13675, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts small blind 100
+Bobbyhatch posts big blind 200
+Dealt to donSimon987 [Th 9c]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 100
+Bobbyhatch checks
+*** FLOP *** [Kc 5h 4s]
+oliv62300 checks
+Bobbyhatch bets 200
+oliv62300 calls 200
+*** TURN *** [Kc 5h 4s][8s]
+oliv62300 bets 950
+Bobbyhatch folds
+oliv62300 collected 1900 from pot
+*** SUMMARY ***
+Total pot 1900 | No rake
+Board: [Kc 5h 4s 8s]
+Seat 1: oliv62300 (small blind) won 1900
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-15-1766319340 - Holdem no limit (25/100/200) - 2025/12/21 12:15:40 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (22113, 0.50€ bounty)
+Seat 2: Bobbyhatch (17962, 0.50€ bounty)
+Seat 3: donSimon987 (21561, 0.50€ bounty)
+Seat 4: Apophis_17 (31160, 0.50€ bounty)
+Seat 5: Esquillots32 (16564, 0.50€ bounty)
+Seat 6: Caliko15 (13650, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+oliv62300 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+Bobbyhatch posts small blind 100
+donSimon987 posts big blind 200
+Dealt to donSimon987 [Kc 7s]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 raises 400 to 600
+Bobbyhatch folds
+donSimon987 calls 400
+*** FLOP *** [Jh Ks 4c]
+donSimon987 checks
+oliv62300 checks
+*** TURN *** [Jh Ks 4c][Qs]
+donSimon987 bets 508
+oliv62300 raises 2466 to 2974
+donSimon987 folds
+oliv62300 collected 4932 from pot
+*** SUMMARY ***
+Total pot 4932 | No rake
+Board: [Jh Ks 4c Qs]
+Seat 1: oliv62300 (button) won 4932
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-16-1766319404 - Holdem no limit (25/100/200) - 2025/12/21 12:16:44 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (23446, 0.50€ bounty)
+Seat 2: Bobbyhatch (17837, 0.50€ bounty)
+Seat 3: donSimon987 (20428, 0.50€ bounty)
+Seat 4: Apophis_17 (31135, 0.50€ bounty)
+Seat 5: Esquillots32 (16539, 0.50€ bounty)
+Seat 6: Caliko15 (13625, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+donSimon987 posts small blind 100
+Apophis_17 posts big blind 200
+Dealt to donSimon987 [Jc 5d]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 calls 200
+oliv62300 calls 200
+Bobbyhatch folds
+donSimon987 folds
+Apophis_17 checks
+*** FLOP *** [4d Th 4c]
+Apophis_17 checks
+Caliko15 checks
+oliv62300 checks
+*** TURN *** [4d Th 4c][6c]
+Apophis_17 checks
+Caliko15 checks
+oliv62300 bets 850
+Apophis_17 folds
+Caliko15 folds
+oliv62300 collected 1700 from pot
+*** SUMMARY ***
+Total pot 1700 | No rake
+Board: [4d Th 4c 6c]
+Seat 1: oliv62300 won 1700
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-17-1766319458 - Holdem no limit (25/100/200) - 2025/12/21 12:17:38 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (24071, 0.50€ bounty)
+Seat 2: Bobbyhatch (17812, 0.50€ bounty)
+Seat 3: donSimon987 (20303, 0.50€ bounty)
+Seat 4: Apophis_17 (30910, 0.50€ bounty)
+Seat 5: Esquillots32 (16514, 0.50€ bounty)
+Seat 6: Caliko15 (13400, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Caliko15 posts ante 25
+Apophis_17 posts small blind 100
+Esquillots32 posts big blind 200
+Dealt to donSimon987 [Ad 7c]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 folds
+Bobbyhatch raises 200 to 400
+donSimon987 folds
+Apophis_17 calls 300
+Esquillots32 folds
+*** FLOP *** [8h 6d 2h]
+Apophis_17 checks
+Bobbyhatch bets 500
+Apophis_17 calls 500
+*** TURN *** [8h 6d 2h][3c]
+Apophis_17 checks
+Bobbyhatch checks
+*** RIVER *** [8h 6d 2h 3c][4s]
+Apophis_17 checks
+Bobbyhatch bets 1500
+Apophis_17 folds
+Bobbyhatch collected 3650 from pot
+*** SUMMARY ***
+Total pot 3650 | No rake
+Board: [8h 6d 2h 3c 4s]
+Seat 2: Bobbyhatch won 3650
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-18-1766319559 - Holdem no limit (25/100/200) - 2025/12/21 12:19:19 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (24046, 0.50€ bounty)
+Seat 2: Bobbyhatch (19037, 0.50€ bounty)
+Seat 3: donSimon987 (20278, 0.50€ bounty)
+Seat 4: Apophis_17 (29985, 0.50€ bounty)
+Seat 5: Esquillots32 (16289, 0.50€ bounty)
+Seat 6: Caliko15 (13375, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Bobbyhatch posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts small blind 100
+Caliko15 posts big blind 200
+Dealt to donSimon987 [6h Ts]
+*** PRE-FLOP *** 
+oliv62300 folds
+Bobbyhatch folds
+donSimon987 folds
+Apophis_17 raises 300 to 500
+Esquillots32 calls 400
+Caliko15 folds
+*** FLOP *** [2s 3s Ad]
+Esquillots32 bets 472
+Apophis_17 calls 472
+*** TURN *** [2s 3s Ad][7h]
+Esquillots32 bets 1491
+Apophis_17 calls 1491
+*** RIVER *** [2s 3s Ad 7h][5h]
+Esquillots32 checks
+Apophis_17 checks
+*** SHOW DOWN ***
+Apophis_17 shows [Ks 6s] (High card : Ace)
+Esquillots32 shows [Ah Jc] (One pair : Aces)
+Esquillots32 collected 5276 from pot
+*** SUMMARY ***
+Total pot 5276 | No rake
+Board: [2s 3s Ad 7h 5h]
+Seat 4: Apophis_17 (button) showed [Ks 6s] and lost with High card : Ace
+Seat 5: Esquillots32 (small blind) showed [Ah Jc] and won 5276 with One pair : Aces
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-19-1766319601 - Holdem no limit (25/100/200) - 2025/12/21 12:20:01 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (24021, 0.50€ bounty)
+Seat 3: donSimon987 (20253, 0.50€ bounty)
+Seat 4: Apophis_17 (27497, 0.50€ bounty)
+Seat 5: Esquillots32 (19077, 0.50€ bounty)
+Seat 6: Caliko15 (13150, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts small blind 100
+oliv62300 posts big blind 200
+Dealt to donSimon987 [Ac Kh]
+*** PRE-FLOP *** 
+donSimon987 raises 200 to 400
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 calls 300
+oliv62300 calls 200
+*** FLOP *** [Ts 4d Kd]
+Caliko15 checks
+oliv62300 checks
+donSimon987 bets 663
+Caliko15 calls 663
+oliv62300 folds
+*** TURN *** [Ts 4d Kd][Ah]
+Caliko15 checks
+donSimon987 bets 928
+Caliko15 calls 928
+*** RIVER *** [Ts 4d Kd Ah][Qc]
+Caliko15 bets 11134 and is all-in
+donSimon987 folds
+Caliko15 collected 15641 from pot
+*** SUMMARY ***
+Total pot 15641 | No rake
+Board: [Ts 4d Kd Ah Qc]
+Seat 6: Caliko15 (small blind) won 15641
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-20-1766319704 - Holdem no limit (25/100/200) - 2025/12/21 12:21:44 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (23596, 0.50€ bounty)
+Seat 2: Miami_vice31 (20000, 0.50€ bounty)
+Seat 3: donSimon987 (18237, 0.50€ bounty)
+Seat 4: Apophis_17 (27472, 0.50€ bounty)
+Seat 5: Esquillots32 (19052, 0.50€ bounty)
+Seat 6: Caliko15 (15641, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 25
+Miami_vice31 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts small blind 100
+Miami_vice31 posts big blind 200
+Dealt to donSimon987 [Kd 6d]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 raises 23371 to 23571 and is all-in
+Miami_vice31 calls 19775 and is all-in
+*** FLOP *** [Jh 7d Js]
+*** TURN *** [Jh 7d Js][6c]
+*** RIVER *** [Jh 7d Js 6c][6s]
+*** SHOW DOWN ***
+Miami_vice31 shows [4h 4d] (Two pairs : Jacks and 6)
+oliv62300 shows [Kc As] (Two pairs : Jacks and 6)
+oliv62300 collected 43696 from pot
+*** SUMMARY ***
+Total pot 43696 | No rake
+Board: [Jh 7d Js 6c 6s]
+Seat 1: oliv62300 (small blind) showed [Kc As] and won 43696 with Two pairs : Jacks and 6
+Seat 2: Miami_vice31 (big blind) showed [4h 4d] and lost with Two pairs : Jacks and 6
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-21-1766319737 - Holdem no limit (25/100/200) - 2025/12/21 12:22:17 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (43696, 0.75€ bounty)
+Seat 3: donSimon987 (18212, 0.50€ bounty)
+Seat 4: Apophis_17 (27447, 0.50€ bounty)
+Seat 5: Esquillots32 (19027, 0.50€ bounty)
+Seat 6: Caliko15 (15616, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 25
+oliv62300 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+donSimon987 posts big blind 200
+Dealt to donSimon987 [Jd Qc]
+*** PRE-FLOP *** 
+Apophis_17 raises 300 to 500
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 500
+donSimon987 calls 300
+*** FLOP *** [2d Kh Ac]
+donSimon987 checks
+Apophis_17 checks
+oliv62300 checks
+*** TURN *** [2d Kh Ac][5d]
+donSimon987 checks
+Apophis_17 bets 536
+oliv62300 folds
+donSimon987 calls 536
+*** RIVER *** [2d Kh Ac 5d][5h]
+donSimon987 checks
+Apophis_17 bets 1349
+donSimon987 folds
+Apophis_17 collected 4046 from pot
+*** SUMMARY ***
+Total pot 4046 | No rake
+Board: [2d Kh Ac 5d 5h]
+Seat 4: Apophis_17 won 4046
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-22-1766319816 - Holdem no limit (25/100/200) - 2025/12/21 12:23:36 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (43171, 0.75€ bounty)
+Seat 2: Renardos12 (20000, 0.50€ bounty)
+Seat 3: donSimon987 (17151, 0.50€ bounty)
+Seat 4: Apophis_17 (29083, 0.50€ bounty)
+Seat 5: Esquillots32 (19002, 0.50€ bounty)
+Seat 6: Caliko15 (15591, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+oliv62300 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+donSimon987 posts small blind 100
+Apophis_17 posts big blind 200
+Dealt to donSimon987 [7h Kc]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+donSimon987 calls 100
+Apophis_17 checks
+*** FLOP *** [Ts 9d Th]
+donSimon987 checks
+Apophis_17 checks
+*** TURN *** [Ts 9d Th][As]
+donSimon987 checks
+Apophis_17 bets 263
+donSimon987 calls 263
+*** RIVER *** [Ts 9d Th As][7c]
+donSimon987 bets 526
+Apophis_17 folds
+donSimon987 collected 1577 from pot
+*** SUMMARY ***
+Total pot 1577 | No rake
+Board: [Ts 9d Th As 7c]
+Seat 3: donSimon987 (small blind) won 1577
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-23-1766319881 - Holdem no limit (25/100/200) - 2025/12/21 12:24:41 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (43146, 0.75€ bounty)
+Seat 2: Renardos12 (20000, 0.50€ bounty)
+Seat 3: donSimon987 (17714, 0.50€ bounty)
+Seat 4: Apophis_17 (28595, 0.50€ bounty)
+Seat 5: Esquillots32 (18977, 0.50€ bounty)
+Seat 6: Caliko15 (15566, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Caliko15 posts ante 25
+Apophis_17 posts small blind 100
+Esquillots32 posts big blind 200
+Dealt to donSimon987 [8s 9d]
+*** PRE-FLOP *** 
+Caliko15 calls 200
+oliv62300 folds
+Renardos12 folds
+donSimon987 folds
+Apophis_17 calls 100
+Esquillots32 checks
+*** FLOP *** [7s 7c 2s]
+Apophis_17 checks
+Esquillots32 checks
+Caliko15 checks
+*** TURN *** [7s 7c 2s][As]
+Apophis_17 checks
+Esquillots32 checks
+Caliko15 bets 500
+Apophis_17 calls 500
+Esquillots32 folds
+*** RIVER *** [7s 7c 2s As][6h]
+Apophis_17 checks
+Caliko15 bets 1100
+Apophis_17 folds
+Caliko15 collected 2850 from pot
+*** SUMMARY ***
+Total pot 2850 | No rake
+Board: [7s 7c 2s As 6h]
+Seat 6: Caliko15 won 2850
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-24-1766319955 - Holdem no limit (25/100/200) - 2025/12/21 12:25:55 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (43121, 0.75€ bounty)
+Seat 2: Renardos12 (19975, 0.50€ bounty)
+Seat 3: donSimon987 (17689, 0.50€ bounty)
+Seat 4: Apophis_17 (27870, 0.50€ bounty)
+Seat 5: Esquillots32 (18752, 0.50€ bounty)
+Seat 6: Caliko15 (16591, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts small blind 100
+Caliko15 posts big blind 200
+Dealt to donSimon987 [8d 4h]
+*** PRE-FLOP *** 
+oliv62300 calls 200
+Renardos12 calls 200
+donSimon987 folds
+Apophis_17 calls 200
+Esquillots32 calls 100
+Caliko15 checks
+*** FLOP *** [Ks 4d Ad]
+Esquillots32 checks
+Caliko15 checks
+oliv62300 checks
+Renardos12 checks
+Apophis_17 checks
+*** TURN *** [Ks 4d Ad][2s]
+Esquillots32 checks
+Caliko15 bets 400
+oliv62300 calls 400
+Renardos12 calls 400
+Apophis_17 calls 400
+Esquillots32 folds
+*** RIVER *** [Ks 4d Ad 2s][Qs]
+Caliko15 bets 1200
+oliv62300 calls 1200
+Renardos12 raises 1200 to 2400
+Apophis_17 folds
+Caliko15 calls 1200
+oliv62300 calls 1200
+*** SHOW DOWN ***
+oliv62300 shows [Js Td] (Straight Ace high)
+Renardos12 shows [4c Qh] (Two pairs : Queens and 4)
+Caliko15 shows [9s 4s] (Flush King high)
+Caliko15 collected 9950 from pot
+*** SUMMARY ***
+Total pot 9950 | No rake
+Board: [Ks 4d Ad 2s Qs]
+Seat 1: oliv62300 showed [Js Td] and lost with Straight Ace high
+Seat 2: Renardos12 showed [4c Qh] and lost with Two pairs : Queens and 4
+Seat 6: Caliko15 (big blind) showed [9s 4s] and won 9950 with Flush King high
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-25-1766320033 - Holdem no limit (25/100/200) - 2025/12/21 12:27:13 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (40096, 0.75€ bounty)
+Seat 2: Renardos12 (16950, 0.50€ bounty)
+Seat 3: donSimon987 (17664, 0.50€ bounty)
+Seat 4: Apophis_17 (27245, 0.50€ bounty)
+Seat 5: Esquillots32 (18527, 0.50€ bounty)
+Seat 6: Caliko15 (23516, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts small blind 100
+oliv62300 posts big blind 200
+Dealt to donSimon987 [As 5s]
+*** PRE-FLOP *** 
+Renardos12 folds
+donSimon987 raises 200 to 400
+Apophis_17 folds
+Esquillots32 calls 400
+Caliko15 folds
+oliv62300 calls 200
+*** FLOP *** [8s 3s Ts]
+oliv62300 checks
+donSimon987 checks
+Esquillots32 checks
+*** TURN *** [8s 3s Ts][Jc]
+oliv62300 checks
+donSimon987 bets 508
+Esquillots32 calls 508
+oliv62300 calls 508
+*** RIVER *** [8s 3s Ts Jc][9h]
+oliv62300 checks
+donSimon987 bets 1041
+Esquillots32 raises 1093 to 2134
+oliv62300 folds
+donSimon987 raises 5159 to 7293
+Esquillots32 calls 5159
+*** SHOW DOWN ***
+Esquillots32 shows [Qd Tc] (Straight Queen high)
+donSimon987 shows [As 5s] (Flush Ace high)
+donSimon987 collected 17560 from pot
+*** SUMMARY ***
+Total pot 17560 | No rake
+Board: [8s 3s Ts Jc 9h]
+Seat 3: donSimon987 showed [As 5s] and won 17560 with Flush Ace high
+Seat 5: Esquillots32 (button) showed [Qd Tc] and lost with Straight Queen high
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-26-1766320104 - Holdem no limit (25/100/200) - 2025/12/21 12:28:24 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (39163, 0.75€ bounty)
+Seat 2: Renardos12 (16925, 0.50€ bounty)
+Seat 3: donSimon987 (26998, 0.50€ bounty)
+Seat 4: Apophis_17 (27220, 0.50€ bounty)
+Seat 5: Esquillots32 (10301, 0.50€ bounty)
+Seat 6: Caliko15 (23391, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts small blind 100
+Renardos12 posts big blind 200
+Dealt to donSimon987 [2c 4h]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 raises 300 to 500
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 raises 16400 to 16900 and is all-in
+Apophis_17 calls 16400
+*** FLOP *** [2h 2s 7s]
+*** TURN *** [2h 2s 7s][As]
+*** RIVER *** [2h 2s 7s As][Ks]
+*** SHOW DOWN ***
+Apophis_17 shows [3h 3c] (Two pairs : 3 and 2)
+Renardos12 shows [Ac Kc] (Two pairs : Aces and Kings)
+Renardos12 collected 34050 from pot
+*** SUMMARY ***
+Total pot 34050 | No rake
+Board: [2h 2s 7s As Ks]
+Seat 2: Renardos12 (big blind) showed [Ac Kc] and won 34050 with Two pairs : Aces and Kings
+Seat 4: Apophis_17 showed [3h 3c] and lost with Two pairs : 3 and 2
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-27-1766320147 - Holdem no limit (25/100/200) - 2025/12/21 12:29:07 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (39038, 0.75€ bounty)
+Seat 2: Renardos12 (34050, 0.50€ bounty)
+Seat 3: donSimon987 (26973, 0.50€ bounty)
+Seat 4: Apophis_17 (10295, 0.50€ bounty)
+Seat 5: Esquillots32 (10276, 0.50€ bounty)
+Seat 6: Caliko15 (23366, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+oliv62300 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+Renardos12 posts small blind 100
+donSimon987 posts big blind 200
+Dealt to donSimon987 [Jh Th]
+*** PRE-FLOP *** 
+Apophis_17 raises 10070 to 10270 and is all-in
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 10170
+donSimon987 folds
+*** FLOP *** [7c Qd 4c]
+*** TURN *** [7c Qd 4c][3s]
+*** RIVER *** [7c Qd 4c 3s][9s]
+*** SHOW DOWN ***
+Renardos12 shows [Ks 2s] (High card : King)
+Apophis_17 shows [Tc Ts] (One pair : Tens)
+Apophis_17 collected 20890 from pot
+*** SUMMARY ***
+Total pot 20890 | No rake
+Board: [7c Qd 4c 3s 9s]
+Seat 2: Renardos12 (small blind) showed [Ks 2s] and lost with High card : King
+Seat 4: Apophis_17 showed [Tc Ts] and won 20890 with One pair : Tens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-28-1766320175 - Holdem no limit (25/100/200) - 2025/12/21 12:29:35 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (39013, 0.75€ bounty)
+Seat 2: Renardos12 (23755, 0.50€ bounty)
+Seat 3: donSimon987 (26748, 0.50€ bounty)
+Seat 4: Apophis_17 (20890, 0.50€ bounty)
+Seat 5: Esquillots32 (10251, 0.50€ bounty)
+Seat 6: Caliko15 (23341, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+donSimon987 posts small blind 100
+Apophis_17 posts big blind 200
+Dealt to donSimon987 [Ah Ts]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 raises 300 to 500
+oliv62300 calls 500
+Renardos12 folds
+donSimon987 calls 400
+Apophis_17 folds
+*** FLOP *** [8h Ad 8d]
+donSimon987 checks
+Caliko15 checks
+oliv62300 checks
+*** TURN *** [8h Ad 8d][5h]
+donSimon987 checks
+Caliko15 bets 500
+oliv62300 folds
+donSimon987 calls 500
+*** RIVER *** [8h Ad 8d 5h][3h]
+donSimon987 bets 1425
+Caliko15 calls 1425
+*** SHOW DOWN ***
+Caliko15 shows [Kh Ks] (Two pairs : Kings and 8)
+donSimon987 shows [Ah Ts] (Two pairs : Aces and 8)
+donSimon987 collected 5700 from pot
+*** SUMMARY ***
+Total pot 5700 | No rake
+Board: [8h Ad 8d 5h 3h]
+Seat 3: donSimon987 (small blind) showed [Ah Ts] and won 5700 with Two pairs : Aces and 8
+Seat 6: Caliko15 showed [Kh Ks] and lost with Two pairs : Kings and 8
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-29-1766320278 - Holdem no limit (25/100/200) - 2025/12/21 12:31:18 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (38488, 0.75€ bounty)
+Seat 2: Renardos12 (23730, 0.50€ bounty)
+Seat 3: donSimon987 (29998, 0.50€ bounty)
+Seat 4: Apophis_17 (20665, 0.50€ bounty)
+Seat 5: Esquillots32 (10226, 0.50€ bounty)
+Seat 6: Caliko15 (20891, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Caliko15 posts ante 25
+Apophis_17 posts small blind 100
+Esquillots32 posts big blind 200
+Dealt to donSimon987 [3c 7s]
+*** PRE-FLOP *** 
+Caliko15 calls 200
+oliv62300 folds
+Renardos12 folds
+donSimon987 folds
+Apophis_17 calls 100
+Esquillots32 checks
+*** FLOP *** [3d 7d 4h]
+Apophis_17 checks
+Esquillots32 checks
+Caliko15 checks
+*** TURN *** [3d 7d 4h][Qc]
+Apophis_17 checks
+Esquillots32 checks
+Caliko15 checks
+*** RIVER *** [3d 7d 4h Qc][Ad]
+Apophis_17 bets 375
+Esquillots32 folds
+Caliko15 calls 375
+*** SHOW DOWN ***
+Apophis_17 shows [Ac 2c] (One pair : Aces)
+Caliko15 shows [8d As] (One pair : Aces)
+Caliko15 collected 1500 from pot
+*** SUMMARY ***
+Total pot 1500 | No rake
+Board: [3d 7d 4h Qc Ad]
+Seat 4: Apophis_17 (small blind) showed [Ac 2c] and lost with One pair : Aces
+Seat 6: Caliko15 showed [8d As] and won 1500 with One pair : Aces
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-30-1766320333 - Holdem no limit (25/100/200) - 2025/12/21 12:32:13 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (38463, 0.75€ bounty)
+Seat 2: Renardos12 (23705, 0.50€ bounty)
+Seat 3: donSimon987 (29973, 0.50€ bounty)
+Seat 4: Apophis_17 (20065, 0.50€ bounty)
+Seat 5: Esquillots32 (10001, 0.50€ bounty)
+Seat 6: Caliko15 (21791, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts small blind 100
+Caliko15 posts big blind 200
+Dealt to donSimon987 [Qc 8d]
+*** PRE-FLOP *** 
+oliv62300 folds
+Renardos12 calls 200
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 checks
+*** FLOP *** [Jh 8s 7c]
+Caliko15 bets 300
+Renardos12 calls 300
+*** TURN *** [Jh 8s 7c][6c]
+Caliko15 checks
+Renardos12 checks
+*** RIVER *** [Jh 8s 7c 6c][Qs]
+Caliko15 checks
+Renardos12 checks
+*** SHOW DOWN ***
+Renardos12 shows [4s 4d] (One pair : 4)
+Caliko15 shows [8c 2h] (One pair : 8)
+Caliko15 collected 1250 from pot
+*** SUMMARY ***
+Total pot 1250 | No rake
+Board: [Jh 8s 7c 6c Qs]
+Seat 2: Renardos12 showed [4s 4d] and lost with One pair : 4
+Seat 6: Caliko15 (big blind) showed [8c 2h] and won 1250 with One pair : 8
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-31-1766320371 - Holdem no limit (25/100/200) - 2025/12/21 12:32:51 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (38438, 0.75€ bounty)
+Seat 2: Renardos12 (23180, 0.50€ bounty)
+Seat 3: donSimon987 (29948, 0.50€ bounty)
+Seat 4: Apophis_17 (20040, 0.50€ bounty)
+Seat 5: Esquillots32 (9876, 0.50€ bounty)
+Seat 6: Caliko15 (22516, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 25
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts small blind 100
+oliv62300 posts big blind 200
+Dealt to donSimon987 [7d Kc]
+*** PRE-FLOP *** 
+Renardos12 calls 200
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 raises 9651 to 9851 and is all-in
+Caliko15 folds
+oliv62300 raises 28562 to 38413 and is all-in
+Renardos12 folds
+*** FLOP *** [4h Qd 6d]
+*** TURN *** [4h Qd 6d][Kd]
+*** RIVER *** [4h Qd 6d Kd][As]
+*** SHOW DOWN ***
+oliv62300 shows [Jh Ah] (One pair : Aces)
+Esquillots32 shows [Qs Qh] (Trips of Queens)
+Esquillots32 collected 20152 from main pot
+oliv62300 collected 28562 from side pot 1
+*** SUMMARY ***
+Total pot 48714 | No rake
+Board: [4h Qd 6d Kd As]
+Seat 1: oliv62300 (big blind) showed [Jh Ah] and won 28562 with One pair : Aces
+Seat 5: Esquillots32 (button) showed [Qs Qh] and won 20152 with Trips of Queens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-32-1766320427 - Holdem no limit (25/100/200) - 2025/12/21 12:33:47 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (28562, 0.75€ bounty)
+Seat 2: Renardos12 (22955, 0.50€ bounty)
+Seat 3: donSimon987 (29923, 0.50€ bounty)
+Seat 4: Apophis_17 (20015, 0.50€ bounty)
+Seat 5: Esquillots32 (20152, 0.50€ bounty)
+Seat 6: Caliko15 (22391, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 25
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+oliv62300 posts small blind 100
+Renardos12 posts big blind 200
+Dealt to donSimon987 [8d 9h]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 raises 200 to 400
+Caliko15 folds
+oliv62300 calls 300
+Renardos12 calls 200
+*** FLOP *** [Kd Ac Td]
+oliv62300 checks
+Renardos12 checks
+Esquillots32 bets 472
+oliv62300 folds
+Renardos12 folds
+Esquillots32 collected 1822 from pot
+*** SUMMARY ***
+Total pot 1822 | No rake
+Board: [Kd Ac Td]
+Seat 5: Esquillots32 won 1822
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 1 - HandId: #4387640767418466390-33-1766320460 - Holdem no limit (25/100/200) - 2025/12/21 12:34:20 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (28137, 0.75€ bounty)
+Seat 2: Renardos12 (22530, 0.50€ bounty)
+Seat 3: donSimon987 (29898, 0.50€ bounty)
+Seat 4: Apophis_17 (19990, 0.50€ bounty)
+Seat 5: Esquillots32 (21077, 0.50€ bounty)
+Seat 6: Caliko15 (22366, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 25
+donSimon987 posts ante 25
+oliv62300 posts ante 25
+Apophis_17 posts ante 25
+Esquillots32 posts ante 25
+Caliko15 posts ante 25
+Renardos12 posts small blind 100
+donSimon987 posts big blind 200
+Dealt to donSimon987 [Tc 9h]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 100
+donSimon987 checks
+*** FLOP *** [7d 9c Jc]
+Renardos12 checks
+donSimon987 bets 358
+Renardos12 calls 358
+*** TURN *** [7d 9c Jc][9d]
+Renardos12 checks
+donSimon987 checks
+*** RIVER *** [7d 9c Jc 9d][Th]
+Renardos12 bets 1266
+donSimon987 raises 2785 to 4051
+Renardos12 calls 2785
+*** SHOW DOWN ***
+Renardos12 shows [2h 8c] (Straight Jack high)
+donSimon987 shows [Tc 9h] (Full of 9 and Tens)
+donSimon987 collected 9368 from pot
+*** SUMMARY ***
+Total pot 9368 | No rake
+Board: [7d 9c Jc 9d Th]
+Seat 2: Renardos12 (small blind) showed [2h 8c] and lost with Straight Jack high
+Seat 3: donSimon987 (big blind) showed [Tc 9h] and won 9368 with Full of 9 and Tens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-34-1766320508 - Holdem no limit (30/125/250) - 2025/12/21 12:35:08 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (28112, 0.75€ bounty)
+Seat 2: Renardos12 (17896, 0.50€ bounty)
+Seat 3: donSimon987 (34632, 0.50€ bounty)
+Seat 4: Apophis_17 (19965, 0.50€ bounty)
+Seat 5: Esquillots32 (21052, 0.50€ bounty)
+Seat 6: Caliko15 (22341, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+donSimon987 posts small blind 125
+Apophis_17 posts big blind 250
+Dealt to donSimon987 [Jd 6c]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 folds
+donSimon987 folds
+Apophis_17 collected 555 from pot
+*** SUMMARY ***
+Total pot 555 | No rake
+Seat 4: Apophis_17 (big blind) won 555
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-35-1766320520 - Holdem no limit (30/125/250) - 2025/12/21 12:35:20 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (28082, 0.75€ bounty)
+Seat 2: Renardos12 (17866, 0.50€ bounty)
+Seat 3: donSimon987 (34477, 0.50€ bounty)
+Seat 4: Apophis_17 (20240, 0.50€ bounty)
+Seat 5: Esquillots32 (21022, 0.50€ bounty)
+Seat 6: Caliko15 (22311, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Caliko15 posts ante 30
+Apophis_17 posts small blind 125
+Esquillots32 posts big blind 250
+Dealt to donSimon987 [Js Jc]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 raises 500 to 750
+Renardos12 calls 750
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+*** FLOP *** [4c 6s Ac]
+oliv62300 checks
+Renardos12 checks
+*** TURN *** [4c 6s Ac][2d]
+oliv62300 bets 2055
+Renardos12 folds
+oliv62300 collected 4110 from pot
+*** SUMMARY ***
+Total pot 4110 | No rake
+Board: [4c 6s Ac 2d]
+Seat 1: oliv62300 won 4110
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-36-1766320564 - Holdem no limit (30/125/250) - 2025/12/21 12:36:04 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (29357, 0.75€ bounty)
+Seat 2: Renardos12 (17086, 0.50€ bounty)
+Seat 3: donSimon987 (34447, 0.50€ bounty)
+Seat 4: Apophis_17 (20085, 0.50€ bounty)
+Seat 5: Esquillots32 (20742, 0.50€ bounty)
+Seat 6: Caliko15 (22281, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts small blind 125
+Caliko15 posts big blind 250
+Dealt to donSimon987 [Tc 5d]
+*** PRE-FLOP *** 
+oliv62300 folds
+Renardos12 raises 16806 to 17056 and is all-in
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+Renardos12 collected 17611 from pot
+*** SUMMARY ***
+Total pot 17611 | No rake
+Seat 2: Renardos12 won 17611
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-37-1766320582 - Holdem no limit (30/125/250) - 2025/12/21 12:36:22 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (29327, 0.75€ bounty)
+Seat 2: Renardos12 (17611, 0.50€ bounty)
+Seat 3: donSimon987 (34417, 0.50€ bounty)
+Seat 4: Apophis_17 (20055, 0.50€ bounty)
+Seat 5: Esquillots32 (20587, 0.50€ bounty)
+Seat 6: Caliko15 (22001, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts small blind 125
+oliv62300 posts big blind 250
+Dealt to donSimon987 [3h Jc]
+*** PRE-FLOP *** 
+Renardos12 folds
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 calls 125
+oliv62300 checks
+*** FLOP *** [8h Ts 5s]
+Caliko15 bets 250
+oliv62300 calls 250
+*** TURN *** [8h Ts 5s][8d]
+Caliko15 checks
+oliv62300 checks
+*** RIVER *** [8h Ts 5s 8d][9d]
+Caliko15 checks
+oliv62300 checks
+*** SHOW DOWN ***
+oliv62300 shows [5c Qh] (Two pairs : 8 and 5)
+Caliko15 shows [6d 6s] (Two pairs : 8 and 6)
+Caliko15 collected 1180 from pot
+*** SUMMARY ***
+Total pot 1180 | No rake
+Board: [8h Ts 5s 8d 9d]
+Seat 1: oliv62300 (big blind) showed [5c Qh] and lost with Two pairs : 8 and 5
+Seat 6: Caliko15 (small blind) showed [6d 6s] and won 1180 with Two pairs : 8 and 6
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-38-1766320619 - Holdem no limit (30/125/250) - 2025/12/21 12:36:59 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (28797, 0.75€ bounty)
+Seat 2: Renardos12 (17581, 0.50€ bounty)
+Seat 3: donSimon987 (34387, 0.50€ bounty)
+Seat 4: Apophis_17 (20025, 0.50€ bounty)
+Seat 5: Esquillots32 (20557, 0.50€ bounty)
+Seat 6: Caliko15 (22651, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+oliv62300 posts small blind 125
+Renardos12 posts big blind 250
+Dealt to donSimon987 [Kh 4h]
+*** PRE-FLOP *** 
+donSimon987 raises 250 to 500
+Apophis_17 raises 1250 to 1750
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 1500
+donSimon987 folds
+*** FLOP *** [Th Js 2c]
+Renardos12 checks
+Apophis_17 bets 1421
+Renardos12 calls 1421
+*** TURN *** [Th Js 2c][Jd]
+Renardos12 checks
+Apophis_17 checks
+*** RIVER *** [Th Js 2c Jd][Jc]
+Renardos12 bets 7147
+Apophis_17 calls 7147
+*** SHOW DOWN ***
+Apophis_17 shows [Ah Qh] (Trips of Jacks)
+Renardos12 shows [Kc Ts] (Full of Jacks and Tens)
+Renardos12 collected 21441 from pot
+*** SUMMARY ***
+Total pot 21441 | No rake
+Board: [Th Js 2c Jd Jc]
+Seat 2: Renardos12 (big blind) showed [Kc Ts] and won 21441 with Full of Jacks and Tens
+Seat 4: Apophis_17 showed [Ah Qh] and lost with Trips of Jacks
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-39-1766320669 - Holdem no limit (30/125/250) - 2025/12/21 12:37:49 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (28642, 0.75€ bounty)
+Seat 2: Renardos12 (28674, 0.50€ bounty)
+Seat 3: donSimon987 (33857, 0.50€ bounty)
+Seat 4: Apophis_17 (9677, 0.50€ bounty)
+Seat 5: Esquillots32 (20527, 0.50€ bounty)
+Seat 6: Caliko15 (22621, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+oliv62300 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+Renardos12 posts small blind 125
+donSimon987 posts big blind 250
+Dealt to donSimon987 [6h 9s]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 250
+Renardos12 calls 125
+donSimon987 checks
+*** FLOP *** [Ah Ts 7c]
+Renardos12 checks
+donSimon987 checks
+oliv62300 checks
+*** TURN *** [Ah Ts 7c][4c]
+Renardos12 checks
+donSimon987 checks
+oliv62300 checks
+*** RIVER *** [Ah Ts 7c 4c][6d]
+Renardos12 checks
+donSimon987 bets 605
+oliv62300 folds
+Renardos12 folds
+donSimon987 collected 1535 from pot
+*** SUMMARY ***
+Total pot 1535 | No rake
+Board: [Ah Ts 7c 4c 6d]
+Seat 3: donSimon987 (big blind) won 1535
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-40-1766320707 - Holdem no limit (30/125/250) - 2025/12/21 12:38:27 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (28362, 0.75€ bounty)
+Seat 2: Renardos12 (28394, 0.50€ bounty)
+Seat 3: donSimon987 (34507, 0.50€ bounty)
+Seat 4: Apophis_17 (9647, 0.50€ bounty)
+Seat 5: Esquillots32 (20497, 0.50€ bounty)
+Seat 6: Caliko15 (22591, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+donSimon987 posts small blind 125
+Apophis_17 posts big blind 250
+Dealt to donSimon987 [Kd 5s]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 250
+Renardos12 folds
+donSimon987 calls 125
+Apophis_17 checks
+*** FLOP *** [Ts 2s 4c]
+donSimon987 checks
+Apophis_17 checks
+oliv62300 checks
+*** TURN *** [Ts 2s 4c][Th]
+donSimon987 checks
+Apophis_17 bets 307
+oliv62300 folds
+donSimon987 calls 307
+*** RIVER *** [Ts 2s 4c Th][Jh]
+donSimon987 checks
+Apophis_17 checks
+*** SHOW DOWN ***
+donSimon987 shows [Kd 5s] (One pair : Tens)
+Apophis_17 shows [Qc Ac] (One pair : Tens)
+Apophis_17 collected 1544 from pot
+*** SUMMARY ***
+Total pot 1544 | No rake
+Board: [Ts 2s 4c Th Jh]
+Seat 3: donSimon987 (small blind) showed [Kd 5s] and lost with One pair : Tens
+Seat 4: Apophis_17 (big blind) showed [Qc Ac] and won 1544 with One pair : Tens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-41-1766320788 - Holdem no limit (30/125/250) - 2025/12/21 12:39:48 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (28082, 0.75€ bounty)
+Seat 2: Renardos12 (28364, 0.50€ bounty)
+Seat 3: donSimon987 (33920, 0.50€ bounty)
+Seat 4: Apophis_17 (10604, 0.50€ bounty)
+Seat 5: Esquillots32 (20467, 0.50€ bounty)
+Seat 6: Caliko15 (22561, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Caliko15 posts ante 30
+Apophis_17 posts small blind 125
+Esquillots32 posts big blind 250
+Dealt to donSimon987 [Td 9h]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 250
+donSimon987 calls 250
+Apophis_17 calls 125
+Esquillots32 checks
+*** FLOP *** [6c 2d 6s]
+Apophis_17 checks
+Esquillots32 bets 413
+Renardos12 folds
+donSimon987 folds
+Apophis_17 calls 413
+*** TURN *** [6c 2d 6s][9c]
+Apophis_17 checks
+Esquillots32 bets 1304
+Apophis_17 folds
+Esquillots32 collected 3310 from pot
+*** SUMMARY ***
+Total pot 3310 | No rake
+Board: [6c 2d 6s 9c]
+Seat 5: Esquillots32 (big blind) won 3310
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-42-1766320844 - Holdem no limit (30/125/250) - 2025/12/21 12:40:44 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (28052, 0.75€ bounty)
+Seat 2: Renardos12 (28084, 0.50€ bounty)
+Seat 3: donSimon987 (33640, 0.50€ bounty)
+Seat 4: Apophis_17 (9911, 0.50€ bounty)
+Seat 5: Esquillots32 (21780, 0.50€ bounty)
+Seat 6: Caliko15 (22531, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 30
+Caliko15 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts small blind 125
+Caliko15 posts big blind 250
+Dealt to donSimon987 [Ts Ac]
+*** PRE-FLOP *** 
+oliv62300 folds
+Renardos12 calls 250
+donSimon987 calls 250
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 checks
+*** FLOP *** [Qd 8d 3c]
+Caliko15 checks
+Renardos12 checks
+donSimon987 checks
+*** TURN *** [Qd 8d 3c][6c]
+Caliko15 checks
+Renardos12 bets 686
+donSimon987 folds
+Caliko15 folds
+Renardos12 collected 1741 from pot
+*** SUMMARY ***
+Total pot 1741 | No rake
+Board: [Qd 8d 3c 6c]
+Seat 2: Renardos12 won 1741
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4387640767418466390-43-1766320894 - Holdem no limit (30/125/250) - 2025/12/21 12:41:34 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (28022, 0.75€ bounty)
+Seat 2: Renardos12 (28859, 0.50€ bounty)
+Seat 3: donSimon987 (33360, 0.50€ bounty)
+Seat 4: Apophis_17 (9881, 0.50€ bounty)
+Seat 5: Esquillots32 (21625, 0.50€ bounty)
+Seat 6: Caliko15 (22251, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 30
+oliv62300 posts ante 30
+Renardos12 posts ante 30
+donSimon987 posts ante 30
+Apophis_17 posts ante 30
+Esquillots32 posts ante 30
+Caliko15 posts small blind 125
+oliv62300 posts big blind 250
+Dealt to donSimon987 [Jh Ks]
+*** PRE-FLOP *** 
+Renardos12 folds
+donSimon987 raises 250 to 500
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 250
+*** FLOP *** [Ad Th Jc]
+oliv62300 checks
+donSimon987 bets 457
+oliv62300 folds
+donSimon987 collected 1762 from pot
+*** SUMMARY ***
+Total pot 1762 | No rake
+Board: [Ad Th Jc]
+Seat 3: donSimon987 won 1762
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-44-1766320934 - Holdem no limit (35/150/300) - 2025/12/21 12:42:14 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (27492, 0.75€ bounty)
+Seat 2: Renardos12 (28829, 0.50€ bounty)
+Seat 3: donSimon987 (34135, 0.50€ bounty)
+Seat 4: Apophis_17 (9851, 0.50€ bounty)
+Seat 5: Esquillots32 (21595, 0.50€ bounty)
+Seat 6: Caliko15 (22096, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+oliv62300 posts small blind 150
+Renardos12 posts big blind 300
+Dealt to donSimon987 [4c Ts]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 raises 300 to 600
+Caliko15 calls 600
+oliv62300 calls 450
+Renardos12 calls 300
+*** FLOP *** [Ac As Tc]
+oliv62300 checks
+Renardos12 checks
+Esquillots32 checks
+Caliko15 checks
+*** TURN *** [Ac As Tc][7c]
+oliv62300 bets 2610
+Renardos12 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 collected 5220 from pot
+*** SUMMARY ***
+Total pot 5220 | No rake
+Board: [Ac As Tc 7c]
+Seat 1: oliv62300 (small blind) won 5220
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-45-1766320980 - Holdem no limit (35/150/300) - 2025/12/21 12:43:00 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (29467, 0.75€ bounty)
+Seat 2: Renardos12 (28194, 0.50€ bounty)
+Seat 3: donSimon987 (34100, 0.50€ bounty)
+Seat 4: Apophis_17 (9816, 0.50€ bounty)
+Seat 5: Esquillots32 (20960, 0.50€ bounty)
+Seat 6: Caliko15 (21461, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+oliv62300 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+Renardos12 posts small blind 150
+donSimon987 posts big blind 300
+Dealt to donSimon987 [Jd 8s]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 150
+donSimon987 checks
+*** FLOP *** [7h 6h Td]
+Renardos12 checks
+donSimon987 bets 527
+Renardos12 calls 527
+*** TURN *** [7h 6h Td][5h]
+Renardos12 checks
+donSimon987 bets 932
+Renardos12 calls 932
+*** RIVER *** [7h 6h Td 5h][4d]
+Renardos12 checks
+donSimon987 bets 2423
+Renardos12 calls 2423
+*** SHOW DOWN ***
+Renardos12 shows [Ad 6s] (One pair : 6)
+donSimon987 shows [Jd 8s] (Straight 8 high)
+donSimon987 collected 8574 from pot
+*** SUMMARY ***
+Total pot 8574 | No rake
+Board: [7h 6h Td 5h 4d]
+Seat 2: Renardos12 (small blind) showed [Ad 6s] and lost with One pair : 6
+Seat 3: donSimon987 (big blind) showed [Jd 8s] and won 8574 with Straight 8 high
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-46-1766321041 - Holdem no limit (35/150/300) - 2025/12/21 12:44:01 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (29432, 0.75€ bounty)
+Seat 2: Renardos12 (23977, 0.50€ bounty)
+Seat 3: donSimon987 (38457, 0.50€ bounty)
+Seat 4: Apophis_17 (9781, 0.50€ bounty)
+Seat 5: Esquillots32 (20925, 0.50€ bounty)
+Seat 6: Caliko15 (21426, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 35
+Apophis_17 posts ante 35
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+donSimon987 posts small blind 150
+Apophis_17 posts big blind 300
+Dealt to donSimon987 [7h 9h]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 calls 300
+oliv62300 folds
+Renardos12 calls 300
+donSimon987 calls 150
+Apophis_17 checks
+*** FLOP *** [8c 3d Qc]
+donSimon987 checks
+Apophis_17 checks
+Caliko15 checks
+Renardos12 checks
+*** TURN *** [8c 3d Qc][4s]
+donSimon987 checks
+Apophis_17 checks
+Caliko15 checks
+Renardos12 checks
+*** RIVER *** [8c 3d Qc 4s][Jh]
+donSimon987 checks
+Apophis_17 checks
+Caliko15 bets 705
+Renardos12 folds
+donSimon987 folds
+Apophis_17 folds
+Caliko15 collected 2115 from pot
+*** SUMMARY ***
+Total pot 2115 | No rake
+Board: [8c 3d Qc 4s Jh]
+Seat 6: Caliko15 won 2115
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-47-1766321122 - Holdem no limit (35/150/300) - 2025/12/21 12:45:22 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (29397, 0.75€ bounty)
+Seat 2: Renardos12 (23642, 0.50€ bounty)
+Seat 3: donSimon987 (38122, 0.50€ bounty)
+Seat 4: Apophis_17 (9446, 0.50€ bounty)
+Seat 5: Esquillots32 (20890, 0.50€ bounty)
+Seat 6: Caliko15 (22501, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+Caliko15 posts ante 35
+Apophis_17 posts small blind 150
+Esquillots32 posts big blind 300
+Dealt to donSimon987 [Ts 5d]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 calls 300
+Renardos12 calls 300
+donSimon987 folds
+Apophis_17 calls 150
+Esquillots32 checks
+*** FLOP *** [3c 7d 9h]
+Apophis_17 checks
+Esquillots32 checks
+oliv62300 checks
+Renardos12 checks
+*** TURN *** [3c 7d 9h][9c]
+Apophis_17 checks
+Esquillots32 checks
+oliv62300 checks
+Renardos12 checks
+*** RIVER *** [3c 7d 9h 9c][3d]
+Apophis_17 bets 465
+Esquillots32 folds
+oliv62300 calls 465
+Renardos12 folds
+*** SHOW DOWN ***
+oliv62300 shows [8c 7c] (Two pairs : 9 and 7)
+Apophis_17 shows [7s 8h] (Two pairs : 9 and 7)
+Apophis_17 collected 1170 from pot
+oliv62300 collected 1170 from pot
+*** SUMMARY ***
+Total pot 2340 | No rake
+Board: [3c 7d 9h 9c 3d]
+Seat 1: oliv62300 showed [8c 7c] and won 1170 with Two pairs : 9 and 7
+Seat 4: Apophis_17 (small blind) showed [7s 8h] and won 1170 with Two pairs : 9 and 7
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-48-1766321176 - Holdem no limit (35/150/300) - 2025/12/21 12:46:16 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (29767, 0.75€ bounty)
+Seat 2: Renardos12 (23307, 0.50€ bounty)
+Seat 3: donSimon987 (38087, 0.50€ bounty)
+Seat 4: Apophis_17 (9816, 0.50€ bounty)
+Seat 5: Esquillots32 (20555, 0.50€ bounty)
+Seat 6: Caliko15 (22466, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts small blind 150
+Caliko15 posts big blind 300
+Dealt to donSimon987 [Jd 4s]
+*** PRE-FLOP *** 
+oliv62300 folds
+Renardos12 calls 300
+donSimon987 folds
+Apophis_17 raises 750 to 1050
+Esquillots32 folds
+Caliko15 folds
+Renardos12 calls 750
+*** FLOP *** [Qd Kd Js]
+Renardos12 checks
+Apophis_17 bets 911
+Renardos12 calls 911
+*** TURN *** [Qd Kd Js][9c]
+Renardos12 checks
+Apophis_17 checks
+*** RIVER *** [Qd Kd Js 9c][7s]
+Renardos12 checks
+Apophis_17 checks
+*** SHOW DOWN ***
+Renardos12 shows [6c Ac] (High card : Ace)
+Apophis_17 shows [Ad 8d] (High card : Ace)
+Apophis_17 collected 2291 from pot
+Renardos12 collected 2291 from pot
+*** SUMMARY ***
+Total pot 4582 | No rake
+Board: [Qd Kd Js 9c 7s]
+Seat 2: Renardos12 showed [6c Ac] and won 2291 with High card : Ace
+Seat 4: Apophis_17 (button) showed [Ad 8d] and won 2291 with High card : Ace
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-49-1766321210 - Holdem no limit (35/150/300) - 2025/12/21 12:46:50 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (29732, 0.75€ bounty)
+Seat 2: Renardos12 (23602, 0.50€ bounty)
+Seat 3: donSimon987 (38052, 0.50€ bounty)
+Seat 4: Apophis_17 (10111, 0.50€ bounty)
+Seat 5: Esquillots32 (20370, 0.50€ bounty)
+Seat 6: Caliko15 (22131, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 35
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts small blind 150
+oliv62300 posts big blind 300
+Dealt to donSimon987 [Ad 6d]
+*** PRE-FLOP *** 
+Renardos12 calls 300
+donSimon987 raises 600 to 900
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 600
+*** FLOP *** [3d Kh Qc]
+Renardos12 bets 2460
+donSimon987 folds
+Renardos12 collected 4920 from pot
+*** SUMMARY ***
+Total pot 4920 | No rake
+Board: [3d Kh Qc]
+Seat 2: Renardos12 won 4920
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-50-1766321253 - Holdem no limit (35/150/300) - 2025/12/21 12:47:33 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (29397, 0.75€ bounty)
+Seat 2: Renardos12 (25127, 0.50€ bounty)
+Seat 3: donSimon987 (37117, 0.50€ bounty)
+Seat 4: Apophis_17 (10076, 0.50€ bounty)
+Seat 5: Esquillots32 (20335, 0.50€ bounty)
+Seat 6: Caliko15 (21946, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 35
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+oliv62300 posts small blind 150
+Renardos12 posts big blind 300
+Dealt to donSimon987 [Kh Kd]
+*** PRE-FLOP *** 
+donSimon987 raises 300 to 600
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 450
+Renardos12 folds
+*** FLOP *** [6s 9c 5h]
+oliv62300 checks
+donSimon987 bets 855
+oliv62300 calls 855
+*** TURN *** [6s 9c 5h][8c]
+oliv62300 checks
+donSimon987 bets 1197
+oliv62300 folds
+donSimon987 collected 4617 from pot
+*** SUMMARY ***
+Total pot 4617 | No rake
+Board: [6s 9c 5h 8c]
+Seat 3: donSimon987 won 4617
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4387640767418466390-51-1766321298 - Holdem no limit (35/150/300) - 2025/12/21 12:48:18 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (27907, 0.75€ bounty)
+Seat 2: Renardos12 (24792, 0.50€ bounty)
+Seat 3: donSimon987 (39047, 0.50€ bounty)
+Seat 4: Apophis_17 (10041, 0.50€ bounty)
+Seat 5: Esquillots32 (20300, 0.50€ bounty)
+Seat 6: Caliko15 (21911, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 35
+donSimon987 posts ante 35
+oliv62300 posts ante 35
+Apophis_17 posts ante 35
+Esquillots32 posts ante 35
+Caliko15 posts ante 35
+Renardos12 posts small blind 150
+donSimon987 posts big blind 300
+Dealt to donSimon987 [7c Jh]
+*** PRE-FLOP *** 
+Apophis_17 raises 450 to 750
+Esquillots32 raises 1125 to 1875
+Caliko15 folds
+oliv62300 folds
+Renardos12 folds
+donSimon987 folds
+Apophis_17 calls 1125
+*** FLOP *** [9s Qs Qc]
+Apophis_17 checks
+Esquillots32 checks
+*** TURN *** [9s Qs Qc][8c]
+Apophis_17 checks
+Esquillots32 bets 1544
+Apophis_17 calls 1544
+*** RIVER *** [9s Qs Qc 8c][Kd]
+Apophis_17 checks
+Esquillots32 bets 2624
+Apophis_17 calls 2624
+*** SHOW DOWN ***
+Apophis_17 shows [As Js] (One pair : Queens)
+Esquillots32 shows [Ad Ah] (Two pairs : Aces and Queens)
+Esquillots32 collected 12746 from pot
+*** SUMMARY ***
+Total pot 12746 | No rake
+Board: [9s Qs Qc 8c Kd]
+Seat 4: Apophis_17 showed [As Js] and lost with One pair : Queens
+Seat 5: Esquillots32 showed [Ad Ah] and won 12746 with Two pairs : Aces and Queens
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-52-1766321372 - Holdem no limit (40/175/350) - 2025/12/21 12:49:32 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (27872, 0.75€ bounty)
+Seat 2: Renardos12 (24607, 0.50€ bounty)
+Seat 3: donSimon987 (38712, 0.50€ bounty)
+Seat 4: Apophis_17 (3963, 0.50€ bounty)
+Seat 5: Esquillots32 (26968, 0.50€ bounty)
+Seat 6: Caliko15 (21876, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 40
+Apophis_17 posts ante 40
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+Esquillots32 posts ante 40
+Caliko15 posts ante 40
+donSimon987 posts small blind 175
+Apophis_17 posts big blind 350
+Dealt to donSimon987 [Ac 8h]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 350
+donSimon987 raises 700 to 1050
+Apophis_17 folds
+Renardos12 calls 700
+*** FLOP *** [Td Kc Qs]
+donSimon987 bets 942
+Renardos12 calls 942
+*** TURN *** [Td Kc Qs][Ah]
+donSimon987 bets 2287
+Renardos12 folds
+donSimon987 collected 6861 from pot
+*** SUMMARY ***
+Total pot 6861 | No rake
+Board: [Td Kc Qs Ah]
+Seat 3: donSimon987 (small blind) won 6861
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-53-1766321433 - Holdem no limit (40/175/350) - 2025/12/21 12:50:33 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #3 is the button
+Seat 1: oliv62300 (27832, 0.75€ bounty)
+Seat 2: Renardos12 (22575, 0.50€ bounty)
+Seat 3: donSimon987 (41254, 0.50€ bounty)
+Seat 4: Apophis_17 (3573, 0.50€ bounty)
+Seat 5: Esquillots32 (26928, 0.50€ bounty)
+Seat 6: Caliko15 (21836, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Apophis_17 posts ante 40
+Esquillots32 posts ante 40
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+donSimon987 posts ante 40
+Caliko15 posts ante 40
+Apophis_17 posts small blind 175
+Esquillots32 posts big blind 350
+Dealt to donSimon987 [5d Qd]
+*** PRE-FLOP *** 
+Caliko15 folds
+oliv62300 calls 350
+Renardos12 folds
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 raises 1115 to 1465
+oliv62300 calls 1115
+*** FLOP *** [As 8c 6h]
+Esquillots32 bets 1171
+oliv62300 raises 25156 to 26327 and is all-in
+Esquillots32 folds
+oliv62300 collected 30843 from pot
+*** SUMMARY ***
+Total pot 30843 | No rake
+Board: [As 8c 6h]
+Seat 1: oliv62300 won 30843
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-54-1766321484 - Holdem no limit (40/175/350) - 2025/12/21 12:51:24 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #4 is the button
+Seat 1: oliv62300 (30843, 0.75€ bounty)
+Seat 2: Renardos12 (22535, 0.50€ bounty)
+Seat 3: donSimon987 (41214, 0.50€ bounty)
+Seat 4: Apophis_17 (3358, 0.50€ bounty)
+Seat 5: Esquillots32 (24252, 0.50€ bounty)
+Seat 6: Caliko15 (21796, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Esquillots32 posts ante 40
+Caliko15 posts ante 40
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+donSimon987 posts ante 40
+Apophis_17 posts ante 40
+Esquillots32 posts small blind 175
+Caliko15 posts big blind 350
+Dealt to donSimon987 [Ac 6d]
+*** PRE-FLOP *** 
+oliv62300 folds
+Renardos12 calls 350
+donSimon987 raises 700 to 1050
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 calls 700
+Renardos12 calls 700
+*** FLOP *** [Th 3h Kc]
+Caliko15 checks
+Renardos12 checks
+donSimon987 bets 891
+Caliko15 folds
+Renardos12 folds
+donSimon987 collected 4456 from pot
+*** SUMMARY ***
+Total pot 4456 | No rake
+Board: [Th 3h Kc]
+Seat 3: donSimon987 won 4456
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-55-1766321547 - Holdem no limit (40/175/350) - 2025/12/21 12:52:27 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #5 is the button
+Seat 1: oliv62300 (30803, 0.75€ bounty)
+Seat 2: Renardos12 (21445, 0.50€ bounty)
+Seat 3: donSimon987 (43689, 0.50€ bounty)
+Seat 4: Apophis_17 (3318, 0.50€ bounty)
+Seat 5: Esquillots32 (24037, 0.50€ bounty)
+Seat 6: Caliko15 (20706, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Caliko15 posts ante 40
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+donSimon987 posts ante 40
+Apophis_17 posts ante 40
+Esquillots32 posts ante 40
+Caliko15 posts small blind 175
+oliv62300 posts big blind 350
+Dealt to donSimon987 [7d Jd]
+*** PRE-FLOP *** 
+Renardos12 calls 350
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 calls 175
+oliv62300 checks
+*** FLOP *** [3d 6s Ks]
+Caliko15 bets 700
+oliv62300 folds
+Renardos12 calls 700
+*** TURN *** [3d 6s Ks][Qh]
+Caliko15 bets 700
+Renardos12 calls 700
+*** RIVER *** [3d 6s Ks Qh][9h]
+Caliko15 bets 700
+Renardos12 calls 700
+*** SHOW DOWN ***
+Renardos12 shows [7s 6c] (One pair : 6)
+Caliko15 shows [2h Kc] (One pair : Kings)
+Caliko15 collected 5490 from pot
+*** SUMMARY ***
+Total pot 5490 | No rake
+Board: [3d 6s Ks Qh 9h]
+Seat 2: Renardos12 showed [7s 6c] and lost with One pair : 6
+Seat 6: Caliko15 (small blind) showed [2h Kc] and won 5490 with One pair : Kings
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-56-1766321595 - Holdem no limit (40/175/350) - 2025/12/21 12:53:15 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #6 is the button
+Seat 1: oliv62300 (30413, 0.75€ bounty)
+Seat 2: Renardos12 (18955, 0.50€ bounty)
+Seat 3: donSimon987 (43649, 0.50€ bounty)
+Seat 4: Apophis_17 (3278, 0.50€ bounty)
+Seat 5: Esquillots32 (23997, 0.50€ bounty)
+Seat 6: Caliko15 (23706, 0.50€ bounty)
+*** ANTE/BLINDS ***
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+donSimon987 posts ante 40
+Apophis_17 posts ante 40
+Esquillots32 posts ante 40
+Caliko15 posts ante 40
+oliv62300 posts small blind 175
+Renardos12 posts big blind 350
+Dealt to donSimon987 [Jc 2s]
+*** PRE-FLOP *** 
+donSimon987 folds
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 calls 175
+Renardos12 checks
+*** FLOP *** [5d Td Qh]
+oliv62300 bets 940
+Renardos12 folds
+oliv62300 collected 1880 from pot
+*** SUMMARY ***
+Total pot 1880 | No rake
+Board: [5d Td Qh]
+Seat 1: oliv62300 (small blind) won 1880
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-57-1766321610 - Holdem no limit (40/175/350) - 2025/12/21 12:53:30 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #1 is the button
+Seat 1: oliv62300 (30963, 0.75€ bounty)
+Seat 2: Renardos12 (18565, 0.50€ bounty)
+Seat 3: donSimon987 (43609, 0.50€ bounty)
+Seat 4: Apophis_17 (3238, 0.50€ bounty)
+Seat 5: Esquillots32 (23957, 0.50€ bounty)
+Seat 6: Caliko15 (23666, 0.50€ bounty)
+*** ANTE/BLINDS ***
+Renardos12 posts ante 40
+donSimon987 posts ante 40
+oliv62300 posts ante 40
+Apophis_17 posts ante 40
+Esquillots32 posts ante 40
+Caliko15 posts ante 40
+Renardos12 posts small blind 175
+donSimon987 posts big blind 350
+Dealt to donSimon987 [3h Ac]
+*** PRE-FLOP *** 
+Apophis_17 folds
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 raises 18175 to 18525 and is all-in
+donSimon987 folds
+Renardos12 collected 19115 from pot
+*** SUMMARY ***
+Total pot 19115 | No rake
+Seat 2: Renardos12 (small blind) won 19115
+
+
+Winamax Poker - Tournament "SPACE KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4387640767418466390-58-1766321653 - Holdem no limit (40/175/350) - 2025/12/21 12:54:13 UTC
+Table: 'SPACE KO(1021577224)#085' 6-max (real money) Seat #2 is the button
+Seat 1: oliv62300 (30923, 0.75€ bounty)
+Seat 2: Renardos12 (19115, 0.50€ bounty)
+Seat 3: donSimon987 (43219, 0.50€ bounty)
+Seat 4: Apophis_17 (3198, 0.50€ bounty)
+Seat 5: Esquillots32 (23917, 0.50€ bounty)
+Seat 6: Caliko15 (23626, 0.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 40
+Apophis_17 posts ante 40
+oliv62300 posts ante 40
+Renardos12 posts ante 40
+Esquillots32 posts ante 40
+Caliko15 posts ante 40
+donSimon987 posts small blind 175
+Apophis_17 posts big blind 350
+Dealt to donSimon987 [Kh Jc]
+*** PRE-FLOP *** 
+Esquillots32 folds
+Caliko15 folds
+oliv62300 folds
+Renardos12 calls 350
+donSimon987 raises 1050 to 1400
+Apophis_17 raises 1758 to 3158 and is all-in
+Renardos12 calls 2808
+donSimon987 calls 1758
+*** FLOP *** [4s 2d 9d]
+donSimon987 bets 2429
+Renardos12 calls 2429
+*** TURN *** [4s 2d 9d][Jd]
+donSimon987 bets 37592 and is all-in
+Renardos12 calls 13488 and is all-in
+*** RIVER *** [4s 2d 9d Jd][8d]
+*** SHOW DOWN ***
+Apophis_17 shows [4h 3s] (One pair : 4)
+Renardos12 shows [5c Qd] (Flush Queen high)
+donSimon987 shows [Kh Jc] (One pair : Jacks)
+donSimon987 collected 24104 from side pot 1
+Renardos12 collected 41548 from main pot
+*** SUMMARY ***
+Total pot 65652 | No rake
+Board: [4s 2d 9d Jd 8d]
+Seat 2: Renardos12 (button) showed [5c Qd] and won 41548 with Flush Queen high
+Seat 3: donSimon987 (small blind) showed [Kh Jc] and won 24104 with One pair : Jacks
+Seat 4: Apophis_17 (big blind) showed [4h 3s] and lost with One pair : 4
+
+

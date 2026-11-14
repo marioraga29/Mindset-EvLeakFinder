@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="696" viewBox="0 0 1000 696">
+<rect width="1000" height="696" fill="#FFFFFF"/>
+<rect x="38.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="124.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Motor</text>
+<line x1="124.0" y1="74" x2="124.0" y2="676" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="226.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="312.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Baseline</text>
+<line x1="312.0" y1="74" x2="312.0" y2="676" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="414.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="500.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Detectores</text>
+<line x1="500.0" y1="74" x2="500.0" y2="676" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="602.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="688.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FDR</text>
+<line x1="688.0" y1="74" x2="688.0" y2="676" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="790.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="876.0" y="46.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Base de</text>
+<text x="876.0" y="66.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">datos</text>
+<line x1="876.0" y1="74" x2="876.0" y2="676" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="124.0" y1="130" x2="876.0" y2="130" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,130 864.0,124 864.0,136" fill="#333333"/>
+<rect x="354.4" y="105.0" width="291.2" height="20" fill="#FFFFFF"/>
+<text x="500.0" y="120.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Lee manos anteriores al periodo</text>
+<line x1="876.0" y1="184" x2="124.0" y2="184" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="124.0,184 136.0,178 136.0,190" fill="#333333"/>
+<rect x="423.4" y="159.0" width="153.2" height="20" fill="#FFFFFF"/>
+<text x="500.0" y="174.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Manos y métricas</text>
+<line x1="124.0" y1="238" x2="312.0" y2="238" stroke="#333333" stroke-width="1.6"/>
+<polygon points="312.0,238 300.0,232 300.0,244" fill="#333333"/>
+<rect x="141.4" y="213.0" width="153.2" height="20" fill="#FFFFFF"/>
+<text x="218.0" y="228.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Calcula snapshot</text>
+<line x1="312.0" y1="292" x2="876.0" y2="292" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,292 864.0,286 864.0,298" fill="#333333"/>
+<rect x="476.0" y="267.0" width="236.0" height="20" fill="#FFFFFF"/>
+<text x="594.0" y="282.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Congela versión inmutable</text>
+<line x1="124.0" y1="346" x2="500.0" y2="346" stroke="#333333" stroke-width="1.6"/>
+<polygon points="500.0,346 488.0,340 488.0,352" fill="#333333"/>
+<rect x="244.6" y="321.0" width="134.8" height="20" fill="#FFFFFF"/>
+<text x="312.0" y="336.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Evalúa el lote</text>
+<path d="M 500.0 400 L 546.0 400 L 546.0 422 L 500.0 422" fill="none" stroke="#333333" stroke-width="1.6"/><polygon points="500.0,422 512.0,416 512.0,428" fill="#333333"/><rect x="551.0" y="401.0" width="208.4" height="20" fill="#FFFFFF"/><text x="554.0" y="416.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="start">Trigger, T+30 y tramos</text>
+<line x1="500.0" y1="454" x2="688.0" y2="454" stroke="#333333" stroke-width="1.6"/>
+<polygon points="688.0,454 676.0,448 676.0,460" fill="#333333"/>
+<rect x="499.0" y="429.0" width="190.0" height="20" fill="#FFFFFF"/>
+<text x="594.0" y="444.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Pruebas estadísticas</text>
+<line x1="688.0" y1="508" x2="500.0" y2="508" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="500.0,508 512.0,502 512.0,514" fill="#333333"/>
+<rect x="554.2" y="483.0" width="79.6" height="20" fill="#FFFFFF"/>
+<text x="594.0" y="498.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">q-values</text>
+<line x1="500.0" y1="562" x2="876.0" y2="562" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,562 864.0,556 864.0,568" fill="#333333"/>
+<rect x="583.8" y="537.0" width="208.4" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="552.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Alertas significativas</text>
+<line x1="124.0" y1="616" x2="876.0" y2="616" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,616 864.0,610 864.0,622" fill="#333333"/>
+<rect x="414.2" y="591.0" width="171.6" height="20" fill="#FFFFFF"/>
+<text x="500.0" y="606.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Resultado del lote</text>
+</svg>

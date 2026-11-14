@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="DejaVu Sans">
+<rect width="1000" height="560" fill="#FFFFFF"/>
+<line x1="90" y1="410.0" x2="970" y2="410.0" stroke="#D9DEE6"/>
+<text x="80" y="414.0" font-size="13" fill="#5A6B7B" text-anchor="end">0</text>
+<line x1="90" y1="350.0" x2="970" y2="350.0" stroke="#D9DEE6"/>
+<text x="80" y="354.0" font-size="13" fill="#5A6B7B" text-anchor="end">25</text>
+<line x1="90" y1="290.0" x2="970" y2="290.0" stroke="#D9DEE6"/>
+<text x="80" y="294.0" font-size="13" fill="#5A6B7B" text-anchor="end">50</text>
+<line x1="90" y1="230.0" x2="970" y2="230.0" stroke="#D9DEE6"/>
+<text x="80" y="234.0" font-size="13" fill="#5A6B7B" text-anchor="end">75</text>
+<line x1="90" y1="170.0" x2="970" y2="170.0" stroke="#D9DEE6"/>
+<text x="80" y="174.0" font-size="13" fill="#5A6B7B" text-anchor="end">100</text>
+<line x1="90" y1="110.0" x2="970" y2="110.0" stroke="#D9DEE6"/>
+<text x="80" y="114.0" font-size="13" fill="#5A6B7B" text-anchor="end">125</text>
+<line x1="90" y1="50.0" x2="970" y2="50.0" stroke="#D9DEE6"/>
+<text x="80" y="54.0" font-size="13" fill="#5A6B7B" text-anchor="end">150</text>
+<text x="24" y="230" font-size="14" fill="#5A6B7B" text-anchor="middle" transform="rotate(-90 24 230)">Horas estimadas</text>
+<rect x="123.0" y="362.0" width="80.7" height="48.0" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="163.3" y="354.0" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">20 h</text>
+<text x="163.3" y="432" font-size="13" fill="#222222" text-anchor="middle">1. Estudio y</text>
+<text x="163.3" y="449" font-size="13" fill="#222222" text-anchor="middle">análisis</text>
+<rect x="269.7" y="338.0" width="80.7" height="72.0" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="310.0" y="330.0" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">30 h</text>
+<text x="310.0" y="432" font-size="13" fill="#222222" text-anchor="middle">2.</text>
+<text x="310.0" y="449" font-size="13" fill="#222222" text-anchor="middle">Descubrimiento</text>
+<rect x="416.3" y="278.0" width="80.7" height="132.0" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="456.7" y="270.0" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">55 h</text>
+<text x="456.7" y="432" font-size="13" fill="#222222" text-anchor="middle">3. Desarrollo:</text>
+<text x="456.7" y="449" font-size="13" fill="#222222" text-anchor="middle">Plan</text>
+<rect x="563.0" y="88.4" width="80.7" height="321.6" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="603.3" y="80.4" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">134 h</text>
+<text x="603.3" y="432" font-size="13" fill="#222222" text-anchor="middle">4. Desarrollo:</text>
+<text x="603.3" y="449" font-size="13" fill="#222222" text-anchor="middle">Code, Build y</text>
+<text x="603.3" y="466" font-size="13" fill="#222222" text-anchor="middle">Test</text>
+<rect x="709.7" y="366.8" width="80.7" height="43.2" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="750.0" y="358.8" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">18 h</text>
+<text x="750.0" y="432" font-size="13" fill="#222222" text-anchor="middle">5. Operaciones</text>
+<rect x="856.3" y="306.8" width="80.7" height="103.2" fill="#5B9BD5" stroke="#4472C4"/>
+<text x="896.7" y="298.8" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle">43 h</text>
+<text x="896.7" y="432" font-size="13" fill="#222222" text-anchor="middle">6. Documentación</text>
+<text x="896.7" y="449" font-size="13" fill="#222222" text-anchor="middle">y defensa</text>
+<line x1="90" y1="410" x2="970" y2="410" stroke="#5A6B7B"/>
+<text x="970" y="544" font-size="14" fill="#5A6B7B" text-anchor="end">Total estimado: 300 h</text>
+</svg>

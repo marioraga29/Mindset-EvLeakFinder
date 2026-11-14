@@ -1,0 +1,160 @@
+Winamax Poker - Tournament "Tridente" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392912143989604371-50-1766596073 - Holdem no limit (4/17/35) - 2025/12/24 17:07:53 UTC
+Table: 'Tridente(1022804562)#0018' 3-max (real money) Seat #2 is the button
+Seat 1: ldcendrillon (1158, 0.45€ bounty)
+Seat 2: donSimon987 (422, 0.45€ bounty)
+Seat 3: El_Trikiz (1860, 1.11€ bounty)
+*** ANTE/BLINDS ***
+El_Trikiz posts ante 4
+ldcendrillon posts ante 4
+donSimon987 posts ante 4
+El_Trikiz posts small blind 17
+ldcendrillon posts big blind 35
+Dealt to donSimon987 [3d 5h]
+*** PRE-FLOP *** 
+donSimon987 folds
+El_Trikiz raises 53 to 88
+ldcendrillon calls 53
+*** FLOP *** [Td 9c 7s]
+El_Trikiz bets 66
+ldcendrillon calls 66
+*** TURN *** [Td 9c 7s][3h]
+El_Trikiz bets 112
+ldcendrillon folds
+El_Trikiz collected 432 from pot
+*** SUMMARY ***
+Total pot 432 | No rake
+Board: [Td 9c 7s 3h]
+Seat 3: El_Trikiz (small blind) won 432
+
+
+Winamax Poker - Tournament "Tridente" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392912143989604371-51-1766596087 - Holdem no limit (4/17/35) - 2025/12/24 17:08:07 UTC
+Table: 'Tridente(1022804562)#0018' 3-max (real money) Seat #3 is the button
+Seat 1: ldcendrillon (1000, 0.45€ bounty)
+Seat 2: donSimon987 (418, 0.45€ bounty)
+Seat 3: El_Trikiz (2022, 1.11€ bounty)
+*** ANTE/BLINDS ***
+ldcendrillon posts ante 4
+donSimon987 posts ante 4
+El_Trikiz posts ante 4
+ldcendrillon posts small blind 17
+donSimon987 posts big blind 35
+Dealt to donSimon987 [Kd Th]
+*** PRE-FLOP *** 
+El_Trikiz calls 35
+ldcendrillon folds
+donSimon987 checks
+*** FLOP *** [6d 2h Ah]
+donSimon987 bets 35
+El_Trikiz calls 35
+*** TURN *** [6d 2h Ah][4c]
+donSimon987 checks
+El_Trikiz checks
+*** RIVER *** [6d 2h Ah 4c][Jd]
+donSimon987 checks
+El_Trikiz bets 110
+donSimon987 folds
+El_Trikiz collected 279 from pot
+*** SUMMARY ***
+Total pot 279 | No rake
+Board: [6d 2h Ah 4c Jd]
+Seat 3: El_Trikiz (button) won 279
+
+
+Winamax Poker - Tournament "Tridente" buyIn: 0.90€ + 0.10€ level: 5 - HandId: #4392912143989604371-52-1766596111 - Holdem no limit (5/20/40) - 2025/12/24 17:08:31 UTC
+Table: 'Tridente(1022804562)#0018' 3-max (real money) Seat #1 is the button
+Seat 1: ldcendrillon (979, 0.45€ bounty)
+Seat 2: donSimon987 (344, 0.45€ bounty)
+Seat 3: El_Trikiz (2117, 1.11€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 5
+El_Trikiz posts ante 5
+ldcendrillon posts ante 5
+donSimon987 posts small blind 20
+El_Trikiz posts big blind 40
+Dealt to donSimon987 [6h 3c]
+*** PRE-FLOP *** 
+ldcendrillon calls 40
+donSimon987 folds
+El_Trikiz checks
+*** FLOP *** [3d Th Kc]
+El_Trikiz bets 40
+ldcendrillon calls 40
+*** TURN *** [3d Th Kc][7c]
+El_Trikiz checks
+ldcendrillon checks
+*** RIVER *** [3d Th Kc 7c][8c]
+El_Trikiz checks
+ldcendrillon checks
+*** SHOW DOWN ***
+ldcendrillon shows [9s Qd] (High card : King)
+El_Trikiz shows [3s Qh] (One pair : 3)
+El_Trikiz collected 195 from pot
+*** SUMMARY ***
+Total pot 195 | No rake
+Board: [3d Th Kc 7c 8c]
+Seat 1: ldcendrillon (button) showed [9s Qd] and lost with High card : King
+Seat 3: El_Trikiz (big blind) showed [3s Qh] and won 195 with One pair : 3
+
+
+Winamax Poker - Tournament "Tridente" buyIn: 0.90€ + 0.10€ level: 5 - HandId: #4392912143989604371-53-1766596129 - Holdem no limit (5/20/40) - 2025/12/24 17:08:49 UTC
+Table: 'Tridente(1022804562)#0018' 3-max (real money) Seat #2 is the button
+Seat 1: ldcendrillon (894, 0.45€ bounty)
+Seat 2: donSimon987 (319, 0.45€ bounty)
+Seat 3: El_Trikiz (2227, 1.11€ bounty)
+*** ANTE/BLINDS ***
+El_Trikiz posts ante 5
+ldcendrillon posts ante 5
+donSimon987 posts ante 5
+El_Trikiz posts small blind 20
+ldcendrillon posts big blind 40
+Dealt to donSimon987 [5s 4c]
+*** PRE-FLOP *** 
+donSimon987 folds
+El_Trikiz raises 40 to 80
+ldcendrillon calls 40
+*** FLOP *** [7s 8s Ks]
+El_Trikiz bets 61
+ldcendrillon folds
+El_Trikiz collected 236 from pot
+*** SUMMARY ***
+Total pot 236 | No rake
+Board: [7s 8s Ks]
+Seat 3: El_Trikiz (small blind) won 236
+
+
+Winamax Poker - Tournament "Tridente" buyIn: 0.90€ + 0.10€ level: 5 - HandId: #4392912143989604371-54-1766596142 - Holdem no limit (5/20/40) - 2025/12/24 17:09:02 UTC
+Table: 'Tridente(1022804562)#0018' 3-max (real money) Seat #3 is the button
+Seat 1: ldcendrillon (809, 0.45€ bounty)
+Seat 2: donSimon987 (314, 0.45€ bounty)
+Seat 3: El_Trikiz (2317, 1.11€ bounty)
+*** ANTE/BLINDS ***
+ldcendrillon posts ante 5
+donSimon987 posts ante 5
+El_Trikiz posts ante 5
+ldcendrillon posts small blind 20
+donSimon987 posts big blind 40
+Dealt to donSimon987 [2h Ac]
+*** PRE-FLOP *** 
+El_Trikiz raises 40 to 80
+ldcendrillon calls 60
+donSimon987 raises 229 to 309 and is all-in
+El_Trikiz calls 229
+ldcendrillon calls 229
+*** FLOP *** [6h 3h 7s]
+ldcendrillon bets 495 and is all-in
+El_Trikiz calls 495
+*** TURN *** [6h 3h 7s][Ah]
+*** RIVER *** [6h 3h 7s Ah][As]
+*** SHOW DOWN ***
+ldcendrillon shows [8c 9c] (One pair : Aces)
+donSimon987 shows [2h Ac] (Trips of Aces)
+El_Trikiz shows [Jh Ad] (Trips of Aces)
+El_Trikiz collected 1932 from pot
+*** SUMMARY ***
+Total pot 1932 | No rake
+Board: [6h 3h 7s Ah As]
+Seat 1: ldcendrillon (small blind) showed [8c 9c] and lost with One pair : Aces
+Seat 2: donSimon987 (big blind) showed [2h Ac] and lost with Trips of Aces
+Seat 3: El_Trikiz (button) showed [Jh Ad] and won 1932 with Trips of Aces
+
+

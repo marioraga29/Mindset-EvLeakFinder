@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="912" viewBox="0 0 1000 912">
+<rect width="1000" height="912" fill="#FFFFFF"/>
+<rect x="38.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="124.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Jugador</text>
+<line x1="124.0" y1="74" x2="124.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="226.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="312.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Dashboard</text>
+<line x1="312.0" y1="74" x2="312.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="414.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="500.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">API</text>
+<line x1="500.0" y1="74" x2="500.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="602.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="688.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Motor</text>
+<line x1="688.0" y1="74" x2="688.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="790.0" y="26" width="172.0" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="876.0" y="46.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Base de</text>
+<text x="876.0" y="66.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">datos</text>
+<line x1="876.0" y1="74" x2="876.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="688.0" y1="130" x2="876.0" y2="130" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,130 864.0,124 864.0,136" fill="#333333"/>
+<rect x="664.0" y="105.0" width="236.0" height="20" fill="#FFFFFF"/>
+<text x="782.0" y="120.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Guarda alerta y evidencia</text>
+<line x1="312.0" y1="184" x2="500.0" y2="184" stroke="#333333" stroke-width="1.6"/>
+<polygon points="500.0,184 488.0,178 488.0,190" fill="#333333"/>
+<rect x="274.2" y="159.0" width="263.6" height="20" fill="#FFFFFF"/>
+<text x="406.0" y="174.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Pide alertas del último lote</text>
+<line x1="500.0" y1="238" x2="876.0" y2="238" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,238 864.0,232 864.0,244" fill="#333333"/>
+<rect x="560.8" y="213.0" width="254.4" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="228.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Consulta alertas y métricas</text>
+<line x1="876.0" y1="292" x2="500.0" y2="292" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="500.0,292 512.0,286 512.0,298" fill="#333333"/>
+<rect x="588.4" y="267.0" width="199.2" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="282.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Alertas con evidencia</text>
+<line x1="500.0" y1="346" x2="312.0" y2="346" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="312.0,346 324.0,340 324.0,352" fill="#333333"/>
+<rect x="343.2" y="321.0" width="125.6" height="20" fill="#FFFFFF"/>
+<text x="406.0" y="336.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Feed del lote</text>
+<line x1="124.0" y1="400" x2="312.0" y2="400" stroke="#333333" stroke-width="1.6"/>
+<polygon points="312.0,400 300.0,394 300.0,406" fill="#333333"/>
+<rect x="146.0" y="375.0" width="144.0" height="20" fill="#FFFFFF"/>
+<text x="218.0" y="390.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Pulsa «Auditar»</text>
+<line x1="312.0" y1="454" x2="500.0" y2="454" stroke="#333333" stroke-width="1.6"/>
+<polygon points="500.0,454 488.0,448 488.0,460" fill="#333333"/>
+<rect x="278.8" y="429.0" width="254.4" height="20" fill="#FFFFFF"/>
+<text x="406.0" y="444.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Abre visor de torneo y mano</text>
+<line x1="500.0" y1="508" x2="876.0" y2="508" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,508 864.0,502 864.0,514" fill="#333333"/>
+<rect x="574.6" y="483.0" width="226.8" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="498.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Consulta mano y baseline</text>
+<line x1="876.0" y1="562" x2="500.0" y2="562" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="500.0,562 512.0,556 512.0,568" fill="#333333"/>
+<rect x="606.8" y="537.0" width="162.4" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="552.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Mano con contexto</text>
+<line x1="500.0" y1="616" x2="312.0" y2="616" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="312.0,616 324.0,610 324.0,622" fill="#333333"/>
+<rect x="343.2" y="591.0" width="125.6" height="20" fill="#FFFFFF"/>
+<text x="406.0" y="606.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Visor de mano</text>
+<line x1="124.0" y1="670" x2="312.0" y2="670" stroke="#333333" stroke-width="1.6"/>
+<polygon points="312.0,670 300.0,664 300.0,676" fill="#333333"/>
+<rect x="132.2" y="645.0" width="171.6" height="20" fill="#FFFFFF"/>
+<text x="218.0" y="660.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Valida la etiqueta</text>
+<line x1="312.0" y1="724" x2="500.0" y2="724" stroke="#333333" stroke-width="1.6"/>
+<polygon points="500.0,724 488.0,718 488.0,730" fill="#333333"/>
+<rect x="334.0" y="699.0" width="144.0" height="20" fill="#FFFFFF"/>
+<text x="406.0" y="714.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Guarda etiqueta</text>
+<line x1="500.0" y1="778" x2="876.0" y2="778" stroke="#333333" stroke-width="1.6"/>
+<polygon points="876.0,778 864.0,772 864.0,784" fill="#333333"/>
+<rect x="565.4" y="753.0" width="245.2" height="20" fill="#FFFFFF"/>
+<text x="688.0" y="768.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Registra etiqueta validada</text>
+<line x1="312.0" y1="832" x2="124.0" y2="832" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="124.0,832 136.0,826 136.0,838" fill="#333333"/>
+<rect x="146.0" y="807.0" width="144.0" height="20" fill="#FFFFFF"/>
+<text x="218.0" y="822.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Alerta auditada</text>
+</svg>

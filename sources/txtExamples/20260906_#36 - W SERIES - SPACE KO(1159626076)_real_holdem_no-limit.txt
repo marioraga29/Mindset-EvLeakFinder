@@ -1,0 +1,3328 @@
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-1-1788728432 - Holdem no limit (120/500/1000) - 2026/09/06 21:00:32 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: 50deWiNana (100000, 2.50€ bounty)
+Seat 2: LPC35BZH (100000, 2.50€ bounty)
+Seat 3: La Barre AK (100000, 2.50€ bounty)
+Seat 4: donSimon987 (100000, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (100000, 2.50€ bounty)
+Seat 6: noheda83 (100000, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 120
+50deWiNana posts ante 120
+LPC35BZH posts ante 120
+La Barre AK posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts small blind 500
+50deWiNana posts big blind 1000
+Dealt to donSimon987 [Kd 9s]
+*** PRE-FLOP *** 
+LPC35BZH raises 1000 to 2000
+La Barre AK folds
+donSimon987 folds
+Milli_ON-AIR folds
+noheda83 folds
+50deWiNana calls 1000
+*** FLOP *** [Qd 5s 4s]
+50deWiNana checks
+LPC35BZH checks
+*** TURN *** [Qd 5s 4s][Jh]
+50deWiNana checks
+LPC35BZH checks
+*** RIVER *** [Qd 5s 4s Jh][6d]
+50deWiNana bets 3915
+LPC35BZH folds
+50deWiNana collected 9135 from pot
+*** SUMMARY ***
+Total pot 9135 | No rake
+Board: [Qd 5s 4s Jh 6d]
+Seat 1: 50deWiNana (big blind) won 9135
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-2-1788728580 - Holdem no limit (120/500/1000) - 2026/09/06 21:03:00 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: 50deWiNana (103100, 2.50€ bounty)
+Seat 2: LPC35BZH (97880, 2.50€ bounty)
+Seat 3: La Barre AK (99880, 2.50€ bounty)
+Seat 4: donSimon987 (99880, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (99880, 2.50€ bounty)
+Seat 6: noheda83 (99380, 2.50€ bounty)
+*** ANTE/BLINDS ***
+50deWiNana posts ante 120
+LPC35BZH posts ante 120
+La Barre AK posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts ante 120
+50deWiNana posts small blind 500
+LPC35BZH posts big blind 1000
+Dealt to donSimon987 [8d Js]
+*** PRE-FLOP *** 
+La Barre AK raises 1000 to 2000
+donSimon987 folds
+Milli_ON-AIR folds
+noheda83 folds
+50deWiNana calls 1500
+LPC35BZH calls 1000
+*** FLOP *** [Qs 8c 7d]
+50deWiNana checks
+LPC35BZH bets 6720
+La Barre AK calls 6720
+50deWiNana folds
+*** TURN *** [Qs 8c 7d][9s]
+LPC35BZH bets 16128
+La Barre AK raises 74912 to 91040 and is all-in
+LPC35BZH calls 72912 and is all-in
+*** RIVER *** [Qs 8c 7d 9s][Jd]
+*** SHOW DOWN ***
+LPC35BZH shows [7s 8h] (Two pairs : 8 and 7)
+La Barre AK shows [Qc 9h] (Two pairs : Queens and 9)
+La Barre AK collected 200240 from pot
+*** SUMMARY ***
+Total pot 200240 | No rake
+Board: [Qs 8c 7d 9s Jd]
+Seat 2: LPC35BZH (big blind) showed [7s 8h] and lost with Two pairs : 8 and 7
+Seat 3: La Barre AK showed [Qc 9h] and won 200240 with Two pairs : Queens and 9
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-3-1788728678 - Holdem no limit (120/500/1000) - 2026/09/06 21:04:38 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: 50deWiNana (100980, 2.50€ bounty)
+Seat 2: FreerollK1ng (100000, 2.50€ bounty)
+Seat 3: La Barre AK (200240, 5€ bounty)
+Seat 4: donSimon987 (99760, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (99760, 2.50€ bounty)
+Seat 6: noheda83 (99260, 2.50€ bounty)
+*** ANTE/BLINDS ***
+La Barre AK posts ante 120
+50deWiNana posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts ante 120
+La Barre AK posts big blind 1000
+Dealt to donSimon987 [Th 2s]
+*** PRE-FLOP *** 
+donSimon987 folds
+Milli_ON-AIR raises 1500 to 2500
+noheda83 folds
+50deWiNana folds
+La Barre AK calls 1500
+*** FLOP *** [7h 8s 7s]
+La Barre AK checks
+Milli_ON-AIR checks
+*** TURN *** [7h 8s 7s][4h]
+La Barre AK bets 3696
+Milli_ON-AIR raises 8820 to 12516
+La Barre AK folds
+Milli_ON-AIR collected 21812 from pot
+*** SUMMARY ***
+Total pot 21812 | No rake
+Board: [7h 8s 7s 4h]
+Seat 5: Milli_ON-AIR won 21812
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-4-1788728764 - Holdem no limit (120/500/1000) - 2026/09/06 21:06:04 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: 50deWiNana (100860, 2.50€ bounty)
+Seat 2: FreerollK1ng (100000, 2.50€ bounty)
+Seat 3: La Barre AK (193924, 5€ bounty)
+Seat 4: donSimon987 (99640, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (106436, 2.50€ bounty)
+Seat 6: noheda83 (99140, 2.50€ bounty)
+*** ANTE/BLINDS ***
+La Barre AK posts ante 120
+donSimon987 posts ante 120
+50deWiNana posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts ante 120
+La Barre AK posts small blind 500
+donSimon987 posts big blind 1000
+Dealt to donSimon987 [6s Jd]
+*** PRE-FLOP *** 
+Milli_ON-AIR folds
+noheda83 folds
+50deWiNana folds
+La Barre AK folds
+donSimon987 collected 2100 from pot
+*** SUMMARY ***
+Total pot 2100 | No rake
+Seat 4: donSimon987 (big blind) won 2100
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-5-1788728807 - Holdem no limit (120/500/1000) - 2026/09/06 21:06:47 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: 50deWiNana (100740, 2.50€ bounty)
+Seat 2: FreerollK1ng (100000, 2.50€ bounty)
+Seat 3: La Barre AK (193304, 5€ bounty)
+Seat 4: donSimon987 (100620, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (106316, 2.50€ bounty)
+Seat 6: noheda83 (99020, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+50deWiNana posts ante 120
+FreerollK1ng posts ante 120
+La Barre AK posts ante 120
+noheda83 posts ante 120
+donSimon987 posts small blind 500
+Milli_ON-AIR posts big blind 1000
+Dealt to donSimon987 [3d Qh]
+*** PRE-FLOP *** 
+noheda83 raises 1000 to 2000
+50deWiNana calls 2000
+FreerollK1ng folds
+La Barre AK folds
+donSimon987 folds
+Milli_ON-AIR folds
+*** FLOP *** [9h 8h 2h]
+noheda83 bets 2177
+50deWiNana calls 2177
+*** TURN *** [9h 8h 2h][Ah]
+noheda83 checks
+50deWiNana bets 6344
+noheda83 calls 6344
+*** RIVER *** [9h 8h 2h Ah][Kh]
+noheda83 checks
+50deWiNana checks
+*** SHOW DOWN ***
+noheda83 shows [5h 5s] (Flush Ace high)
+50deWiNana shows [7d 7h] (Flush Ace high)
+50deWiNana collected 23262 from pot
+*** SUMMARY ***
+Total pot 23262 | No rake
+Board: [9h 8h 2h Ah Kh]
+Seat 1: 50deWiNana showed [7d 7h] and won 23262 with Flush Ace high
+Seat 6: noheda83 showed [5h 5s] and lost with Flush Ace high
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-6-1788728869 - Holdem no limit (120/500/1000) - 2026/09/06 21:07:49 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 2: FreerollK1ng (99880, 2.50€ bounty)
+Seat 3: La Barre AK (193184, 5€ bounty)
+Seat 4: donSimon987 (100000, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (105196, 2.50€ bounty)
+Seat 6: noheda83 (88379, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Milli_ON-AIR posts ante 120
+noheda83 posts ante 120
+FreerollK1ng posts ante 120
+La Barre AK posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts small blind 500
+noheda83 posts big blind 1000
+Dealt to donSimon987 [9h 5c]
+*** PRE-FLOP *** 
+FreerollK1ng raises 1200 to 2200
+La Barre AK raises 5500 to 7700
+donSimon987 folds
+Milli_ON-AIR folds
+noheda83 folds
+FreerollK1ng calls 5500
+*** FLOP *** [Jh 6h Ts]
+FreerollK1ng checks
+La Barre AK bets 8750
+FreerollK1ng calls 8750
+*** TURN *** [Jh 6h Ts][Jc]
+FreerollK1ng checks
+La Barre AK checks
+*** RIVER *** [Jh 6h Ts Jc][2c]
+FreerollK1ng checks
+La Barre AK checks
+*** SHOW DOWN ***
+FreerollK1ng shows [Qc Ad] (One pair : Jacks)
+La Barre AK shows [Ah Qh] (One pair : Jacks)
+La Barre AK collected 17500 from pot
+FreerollK1ng collected 17500 from pot
+*** SUMMARY ***
+Total pot 35000 | No rake
+Board: [Jh 6h Ts Jc 2c]
+Seat 2: FreerollK1ng showed [Qc Ad] and won 17500 with One pair : Jacks
+Seat 3: La Barre AK showed [Ah Qh] and won 17500 with One pair : Jacks
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-7-1788728996 - Holdem no limit (120/500/1000) - 2026/09/06 21:09:56 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (100000, 2.50€ bounty)
+Seat 2: FreerollK1ng (100810, 2.50€ bounty)
+Seat 3: La Barre AK (194114, 5€ bounty)
+Seat 4: donSimon987 (99880, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (104576, 2.50€ bounty)
+Seat 6: noheda83 (87259, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 120
+pacorico80 posts ante 120
+FreerollK1ng posts ante 120
+La Barre AK posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts small blind 500
+pacorico80 posts big blind 1000
+Dealt to donSimon987 [Tc Qc]
+*** PRE-FLOP *** 
+FreerollK1ng folds
+La Barre AK folds
+donSimon987 raises 1500 to 2500
+Milli_ON-AIR raises 5000 to 7500
+noheda83 folds
+pacorico80 calls 6500
+donSimon987 calls 5000
+*** FLOP *** [4s Ad 5c]
+pacorico80 checks
+donSimon987 checks
+Milli_ON-AIR bets 17790
+pacorico80 calls 17790
+donSimon987 folds
+*** TURN *** [4s Ad 5c][Kc]
+pacorico80 checks
+Milli_ON-AIR bets 79166 and is all-in
+pacorico80 calls 74590 and is all-in
+*** RIVER *** [4s Ad 5c Kc][Kh]
+*** SHOW DOWN ***
+pacorico80 shows [Jc As] (Two pairs : Aces and Kings)
+Milli_ON-AIR shows [9c Ah] (Two pairs : Aces and Kings)
+Milli_ON-AIR collected 4576 from side pot 1
+pacorico80 collected 208480 from main pot
+*** SUMMARY ***
+Total pot 213056 | No rake
+Board: [4s Ad 5c Kc Kh]
+Seat 1: pacorico80 (big blind) showed [Jc As] and won 208480 with Two pairs : Aces and Kings
+Seat 5: Milli_ON-AIR (button) showed [9c Ah] and won 4576 with Two pairs : Aces and Kings
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-8-1788729095 - Holdem no limit (120/500/1000) - 2026/09/06 21:11:35 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (208480, 2.50€ bounty)
+Seat 2: FreerollK1ng (100690, 2.50€ bounty)
+Seat 3: KorbenDalas. (100000, 2.50€ bounty)
+Seat 4: donSimon987 (92260, 2.50€ bounty)
+Seat 5: Milli_ON-AIR (4576, 2.50€ bounty)
+Seat 6: noheda83 (86639, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 120
+FreerollK1ng posts ante 120
+KorbenDalas. posts ante 120
+donSimon987 posts ante 120
+Milli_ON-AIR posts ante 120
+noheda83 posts ante 120
+pacorico80 posts small blind 500
+FreerollK1ng posts big blind 1000
+Dealt to donSimon987 [8h 3d]
+*** PRE-FLOP *** 
+KorbenDalas. folds
+donSimon987 folds
+Milli_ON-AIR raises 3456 to 4456 and is all-in
+noheda83 folds
+pacorico80 calls 3956
+FreerollK1ng calls 3456
+*** FLOP *** [6d Kh Th]
+pacorico80 checks
+FreerollK1ng checks
+*** TURN *** [6d Kh Th][Td]
+pacorico80 checks
+FreerollK1ng checks
+*** RIVER *** [6d Kh Th Td][9d]
+pacorico80 bets 4931
+FreerollK1ng calls 4931
+*** SHOW DOWN ***
+FreerollK1ng shows [6s 5s] (Two pairs : Tens and 6)
+Milli_ON-AIR shows [6h Ah] (Two pairs : Tens and 6)
+pacorico80 shows [9c 7d] (Two pairs : Tens and 9)
+pacorico80 collected 23950 from pot
+*** SUMMARY ***
+Total pot 23950 | No rake
+Board: [6d Kh Th Td 9d]
+Seat 1: pacorico80 (small blind) showed [9c 7d] and won 23950 with Two pairs : Tens and 9
+Seat 2: FreerollK1ng (big blind) showed [6s 5s] and lost with Two pairs : Tens and 6
+Seat 5: Milli_ON-AIR showed [6h Ah] and lost with Two pairs : Tens and 6
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-9-1788729198 - Holdem no limit (120/500/1000) - 2026/09/06 21:13:18 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (222923, 3€ bounty)
+Seat 2: FreerollK1ng (91183, 2.50€ bounty)
+Seat 3: KorbenDalas. (99880, 2.50€ bounty)
+Seat 4: donSimon987 (92140, 2.50€ bounty)
+Seat 6: noheda83 (86519, 2.50€ bounty)
+*** ANTE/BLINDS ***
+FreerollK1ng posts ante 120
+KorbenDalas. posts ante 120
+pacorico80 posts ante 120
+donSimon987 posts ante 120
+noheda83 posts ante 120
+FreerollK1ng posts small blind 500
+KorbenDalas. posts big blind 1000
+Dealt to donSimon987 [Td 5c]
+*** PRE-FLOP *** 
+donSimon987 folds
+noheda83 raises 1000 to 2000
+pacorico80 calls 2000
+FreerollK1ng folds
+KorbenDalas. folds
+*** FLOP *** [Jc 8s 6h]
+noheda83 bets 2135
+pacorico80 folds
+noheda83 collected 8235 from pot
+*** SUMMARY ***
+Total pot 8235 | No rake
+Board: [Jc 8s 6h]
+Seat 6: noheda83 won 8235
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 1 - HandId: #4980556072008810530-10-1788729269 - Holdem no limit (120/500/1000) - 2026/09/06 21:14:29 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (220803, 3€ bounty)
+Seat 2: FreerollK1ng (90563, 2.50€ bounty)
+Seat 3: KorbenDalas. (98760, 2.50€ bounty)
+Seat 4: donSimon987 (92020, 2.50€ bounty)
+Seat 5: Uztail1989 (100000, 2.50€ bounty)
+Seat 6: noheda83 (90499, 2.50€ bounty)
+*** ANTE/BLINDS ***
+KorbenDalas. posts ante 120
+donSimon987 posts ante 120
+pacorico80 posts ante 120
+FreerollK1ng posts ante 120
+Uztail1989 posts ante 120
+noheda83 posts ante 120
+KorbenDalas. posts small blind 500
+donSimon987 posts big blind 1000
+Dealt to donSimon987 [2h Tc]
+*** PRE-FLOP *** 
+Uztail1989 calls 1000
+noheda83 folds
+pacorico80 calls 1000
+FreerollK1ng folds
+KorbenDalas. folds
+donSimon987 checks
+*** FLOP *** [3d 9c 3c]
+donSimon987 checks
+Uztail1989 checks
+pacorico80 checks
+*** TURN *** [3d 9c 3c][9s]
+donSimon987 checks
+Uztail1989 checks
+pacorico80 checks
+*** RIVER *** [3d 9c 3c 9s][Jd]
+donSimon987 checks
+Uztail1989 checks
+pacorico80 checks
+*** SHOW DOWN ***
+pacorico80 shows [Kc Qc] (Two pairs : 9 and 3)
+donSimon987 shows [2h Tc] (Two pairs : 9 and 3)
+Uztail1989 shows [Th Ah] (Two pairs : 9 and 3)
+Uztail1989 collected 4220 from pot
+*** SUMMARY ***
+Total pot 4220 | No rake
+Board: [3d 9c 3c 9s Jd]
+Seat 1: pacorico80 showed [Kc Qc] and lost with Two pairs : 9 and 3
+Seat 4: donSimon987 (big blind) showed [2h Tc] and lost with Two pairs : 9 and 3
+Seat 5: Uztail1989 showed [Th Ah] and won 4220 with Two pairs : 9 and 3
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 2 - HandId: #4980556072008810530-11-1788729328 - Holdem no limit (140/600/1200) - 2026/09/06 21:15:28 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (219683, 3€ bounty)
+Seat 2: FreerollK1ng (90443, 2.50€ bounty)
+Seat 3: KorbenDalas. (98140, 2.50€ bounty)
+Seat 4: donSimon987 (90900, 2.50€ bounty)
+Seat 5: Uztail1989 (103100, 2.50€ bounty)
+Seat 6: noheda83 (90379, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 140
+Uztail1989 posts ante 140
+pacorico80 posts ante 140
+FreerollK1ng posts ante 140
+KorbenDalas. posts ante 140
+noheda83 posts ante 140
+donSimon987 posts small blind 600
+Uztail1989 posts big blind 1200
+Dealt to donSimon987 [Kc Jc]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 1200
+FreerollK1ng folds
+KorbenDalas. calls 1200
+donSimon987 raises 4518 to 5718
+Uztail1989 folds
+pacorico80 calls 4518
+KorbenDalas. calls 4518
+*** FLOP *** [7h 3h As]
+donSimon987 bets 6718
+pacorico80 calls 6718
+KorbenDalas. folds
+*** TURN *** [7h 3h As][6d]
+donSimon987 bets 21210
+pacorico80 folds
+donSimon987 collected 53840 from pot
+*** SUMMARY ***
+Total pot 53840 | No rake
+Board: [7h 3h As 6d]
+Seat 4: donSimon987 (small blind) won 53840
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 2 - HandId: #4980556072008810530-12-1788729396 - Holdem no limit (140/600/1200) - 2026/09/06 21:16:36 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (207107, 3€ bounty)
+Seat 2: FreerollK1ng (90303, 2.50€ bounty)
+Seat 3: KorbenDalas. (92282, 2.50€ bounty)
+Seat 4: donSimon987 (110954, 2.50€ bounty)
+Seat 5: Uztail1989 (101760, 2.50€ bounty)
+Seat 6: noheda83 (90239, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Uztail1989 posts ante 140
+noheda83 posts ante 140
+pacorico80 posts ante 140
+FreerollK1ng posts ante 140
+KorbenDalas. posts ante 140
+donSimon987 posts ante 140
+Uztail1989 posts small blind 600
+noheda83 posts big blind 1200
+Dealt to donSimon987 [6h Kh]
+*** PRE-FLOP *** 
+pacorico80 calls 1200
+FreerollK1ng folds
+KorbenDalas. folds
+donSimon987 calls 1200
+Uztail1989 calls 600
+noheda83 checks
+*** FLOP *** [6d 2h 5h]
+Uztail1989 checks
+noheda83 checks
+pacorico80 checks
+donSimon987 bets 3666
+Uztail1989 folds
+noheda83 calls 3666
+pacorico80 folds
+*** TURN *** [6d 2h 5h][2s]
+noheda83 checks
+donSimon987 checks
+*** RIVER *** [6d 2h 5h 2s][3d]
+noheda83 checks
+donSimon987 checks
+*** SHOW DOWN ***
+noheda83 shows [8h Ks] (One pair : 2)
+donSimon987 shows [6h Kh] (Two pairs : 6 and 2)
+donSimon987 collected 12972 from pot
+*** SUMMARY ***
+Total pot 12972 | No rake
+Board: [6d 2h 5h 2s 3d]
+Seat 4: donSimon987 (button) showed [6h Kh] and won 12972 with Two pairs : 6 and 2
+Seat 6: noheda83 (big blind) showed [8h Ks] and lost with One pair : 2
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 2 - HandId: #4980556072008810530-13-1788729479 - Holdem no limit (140/600/1200) - 2026/09/06 21:17:59 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (205767, 3€ bounty)
+Seat 2: FreerollK1ng (90163, 2.50€ bounty)
+Seat 3: KorbenDalas. (92142, 2.50€ bounty)
+Seat 4: donSimon987 (118920, 2.50€ bounty)
+Seat 5: Uztail1989 (100420, 2.50€ bounty)
+Seat 6: noheda83 (85233, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 140
+pacorico80 posts ante 140
+FreerollK1ng posts ante 140
+KorbenDalas. posts ante 140
+donSimon987 posts ante 140
+Uztail1989 posts ante 140
+noheda83 posts small blind 600
+pacorico80 posts big blind 1200
+Dealt to donSimon987 [2h Jd]
+*** PRE-FLOP *** 
+FreerollK1ng folds
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 raises 2400 to 3600
+noheda83 folds
+pacorico80 calls 2400
+*** FLOP *** [8h Ks 9d]
+pacorico80 checks
+Uztail1989 checks
+*** TURN *** [8h Ks 9d][4d]
+pacorico80 checks
+Uztail1989 bets 5616
+pacorico80 calls 5616
+*** RIVER *** [8h Ks 9d 4d][5c]
+pacorico80 checks
+Uztail1989 checks
+*** SHOW DOWN ***
+pacorico80 shows [Js Td] (High card : King)
+Uztail1989 shows [Qs Qc] (One pair : Queens)
+Uztail1989 collected 19872 from pot
+*** SUMMARY ***
+Total pot 19872 | No rake
+Board: [8h Ks 9d 4d 5c]
+Seat 1: pacorico80 (big blind) showed [Js Td] and lost with High card : King
+Seat 5: Uztail1989 (button) showed [Qs Qc] and won 19872 with One pair : Queens
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 3 - HandId: #4980556072008810530-14-1788729553 - Holdem no limit (160/700/1400) - 2026/09/06 21:19:13 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (196411, 3€ bounty)
+Seat 2: FreerollK1ng (90023, 2.50€ bounty)
+Seat 3: KorbenDalas. (92002, 2.50€ bounty)
+Seat 4: donSimon987 (118780, 2.50€ bounty)
+Seat 5: Uztail1989 (110936, 2.50€ bounty)
+Seat 6: noheda83 (84493, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 160
+FreerollK1ng posts ante 160
+KorbenDalas. posts ante 160
+donSimon987 posts ante 160
+Uztail1989 posts ante 160
+noheda83 posts ante 160
+pacorico80 posts small blind 700
+FreerollK1ng posts big blind 1400
+Dealt to donSimon987 [9c 8s]
+*** PRE-FLOP *** 
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 raises 2800 to 4200
+noheda83 folds
+pacorico80 calls 3500
+FreerollK1ng calls 2800
+*** FLOP *** [Qs 2h Ad]
+pacorico80 checks
+FreerollK1ng checks
+Uztail1989 bets 5446
+pacorico80 folds
+FreerollK1ng folds
+Uztail1989 collected 19006 from pot
+*** SUMMARY ***
+Total pot 19006 | No rake
+Board: [Qs 2h Ad]
+Seat 5: Uztail1989 won 19006
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 3 - HandId: #4980556072008810530-15-1788729614 - Holdem no limit (160/700/1400) - 2026/09/06 21:20:14 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (192051, 3€ bounty)
+Seat 2: FreerollK1ng (85663, 2.50€ bounty)
+Seat 3: KorbenDalas. (91842, 2.50€ bounty)
+Seat 4: donSimon987 (118620, 2.50€ bounty)
+Seat 5: Uztail1989 (120136, 2.50€ bounty)
+Seat 6: noheda83 (84333, 2.50€ bounty)
+*** ANTE/BLINDS ***
+FreerollK1ng posts ante 160
+KorbenDalas. posts ante 160
+pacorico80 posts ante 160
+donSimon987 posts ante 160
+Uztail1989 posts ante 160
+noheda83 posts ante 160
+FreerollK1ng posts small blind 700
+KorbenDalas. posts big blind 1400
+Dealt to donSimon987 [Td 8s]
+*** PRE-FLOP *** 
+donSimon987 folds
+Uztail1989 folds
+noheda83 folds
+pacorico80 calls 1400
+FreerollK1ng calls 700
+KorbenDalas. raises 5600 to 7000
+pacorico80 calls 5600
+FreerollK1ng folds
+*** FLOP *** [4s 2s Js]
+KorbenDalas. bets 13088
+pacorico80 folds
+KorbenDalas. collected 29448 from pot
+*** SUMMARY ***
+Total pot 29448 | No rake
+Board: [4s 2s Js]
+Seat 3: KorbenDalas. (big blind) won 29448
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 4 - HandId: #4980556072008810530-16-1788729701 - Holdem no limit (200/800/1600) - 2026/09/06 21:21:41 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (184891, 3€ bounty)
+Seat 2: FreerollK1ng (84103, 2.50€ bounty)
+Seat 3: KorbenDalas. (101042, 2.50€ bounty)
+Seat 4: donSimon987 (118460, 2.50€ bounty)
+Seat 5: Uztail1989 (119976, 2.50€ bounty)
+Seat 6: noheda83 (84173, 2.50€ bounty)
+*** ANTE/BLINDS ***
+KorbenDalas. posts ante 200
+donSimon987 posts ante 200
+pacorico80 posts ante 200
+FreerollK1ng posts ante 200
+Uztail1989 posts ante 200
+noheda83 posts ante 200
+KorbenDalas. posts small blind 800
+donSimon987 posts big blind 1600
+Dealt to donSimon987 [Td 7c]
+*** PRE-FLOP *** 
+Uztail1989 raises 2400 to 4000
+noheda83 folds
+pacorico80 calls 4000
+FreerollK1ng folds
+KorbenDalas. folds
+donSimon987 folds
+*** FLOP *** [Kh 5d Qs]
+Uztail1989 checks
+pacorico80 checks
+*** TURN *** [Kh 5d Qs][Ks]
+Uztail1989 checks
+pacorico80 checks
+*** RIVER *** [Kh 5d Qs Ks][3s]
+Uztail1989 checks
+pacorico80 bets 4060
+Uztail1989 folds
+pacorico80 collected 15660 from pot
+*** SUMMARY ***
+Total pot 15660 | No rake
+Board: [Kh 5d Qs Ks 3s]
+Seat 1: pacorico80 won 15660
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 4 - HandId: #4980556072008810530-17-1788729739 - Holdem no limit (200/800/1600) - 2026/09/06 21:22:19 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (192291, 3€ bounty)
+Seat 2: FreerollK1ng (83903, 2.50€ bounty)
+Seat 3: KorbenDalas. (100042, 2.50€ bounty)
+Seat 4: donSimon987 (116660, 2.50€ bounty)
+Seat 5: Uztail1989 (115776, 2.50€ bounty)
+Seat 6: noheda83 (83973, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 200
+Uztail1989 posts ante 200
+pacorico80 posts ante 200
+FreerollK1ng posts ante 200
+KorbenDalas. posts ante 200
+noheda83 posts ante 200
+donSimon987 posts small blind 800
+Uztail1989 posts big blind 1600
+Dealt to donSimon987 [5c 6s]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 1600
+FreerollK1ng folds
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 checks
+*** FLOP *** [Qd 9h Ac]
+Uztail1989 checks
+pacorico80 checks
+*** TURN *** [Qd 9h Ac][Qc]
+Uztail1989 checks
+pacorico80 checks
+*** RIVER *** [Qd 9h Ac Qc][Ad]
+Uztail1989 checks
+pacorico80 checks
+*** SHOW DOWN ***
+Uztail1989 shows [3d 3s] (Two pairs : Aces and Queens)
+pacorico80 shows [8s Qh] (Full of Queens and Aces)
+pacorico80 collected 5200 from pot
+*** SUMMARY ***
+Total pot 5200 | No rake
+Board: [Qd 9h Ac Qc Ad]
+Seat 1: pacorico80 showed [8s Qh] and won 5200 with Full of Queens and Aces
+Seat 5: Uztail1989 (big blind) showed [3d 3s] and lost with Two pairs : Aces and Queens
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 4 - HandId: #4980556072008810530-18-1788729812 - Holdem no limit (200/800/1600) - 2026/09/06 21:23:32 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (195691, 3€ bounty)
+Seat 2: FreerollK1ng (83703, 2.50€ bounty)
+Seat 3: KorbenDalas. (99842, 2.50€ bounty)
+Seat 4: donSimon987 (115660, 2.50€ bounty)
+Seat 5: Uztail1989 (113976, 2.50€ bounty)
+Seat 6: noheda83 (83773, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Uztail1989 posts ante 200
+noheda83 posts ante 200
+pacorico80 posts ante 200
+FreerollK1ng posts ante 200
+KorbenDalas. posts ante 200
+donSimon987 posts ante 200
+Uztail1989 posts small blind 800
+noheda83 posts big blind 1600
+Dealt to donSimon987 [5s Kc]
+*** PRE-FLOP *** 
+pacorico80 calls 1600
+FreerollK1ng raises 4000 to 5600
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 folds
+noheda83 folds
+pacorico80 raises 14800 to 20400
+FreerollK1ng calls 14800
+*** FLOP *** [Ah 9h 5h]
+pacorico80 bets 28860
+FreerollK1ng raises 34243 to 63103 and is all-in
+pacorico80 calls 34243
+*** TURN *** [Ah 9h 5h][3s]
+*** RIVER *** [Ah 9h 5h 3s][2h]
+*** SHOW DOWN ***
+FreerollK1ng shows [Th Ts] (Flush Ace high)
+pacorico80 shows [Qh Qs] (Flush Ace high)
+pacorico80 collected 170606 from pot
+*** SUMMARY ***
+Total pot 170606 | No rake
+Board: [Ah 9h 5h 3s 2h]
+Seat 1: pacorico80 showed [Qh Qs] and won 170606 with Flush Ace high
+Seat 2: FreerollK1ng showed [Th Ts] and lost with Flush Ace high
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 5 - HandId: #4980556072008810530-19-1788729879 - Holdem no limit (250/1000/2000) - 2026/09/06 21:24:39 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (282594, 3.50€ bounty)
+Seat 3: KorbenDalas. (99642, 2.50€ bounty)
+Seat 4: donSimon987 (115460, 2.50€ bounty)
+Seat 5: Uztail1989 (112976, 2.50€ bounty)
+Seat 6: noheda83 (81973, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 250
+pacorico80 posts ante 250
+KorbenDalas. posts ante 250
+donSimon987 posts ante 250
+Uztail1989 posts ante 250
+noheda83 posts small blind 1000
+pacorico80 posts big blind 2000
+Dealt to donSimon987 [Jd 3c]
+*** PRE-FLOP *** 
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 folds
+noheda83 folds
+pacorico80 collected 4250 from pot
+*** SUMMARY ***
+Total pot 4250 | No rake
+Seat 1: pacorico80 (big blind) won 4250
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 5 - HandId: #4980556072008810530-20-1788729894 - Holdem no limit (250/1000/2000) - 2026/09/06 21:24:54 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (284594, 3.50€ bounty)
+Seat 2: PlusDeForce (100000, 2.50€ bounty)
+Seat 3: KorbenDalas. (99392, 2.50€ bounty)
+Seat 4: donSimon987 (115210, 2.50€ bounty)
+Seat 5: Uztail1989 (112726, 2.50€ bounty)
+Seat 6: noheda83 (80723, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 250
+PlusDeForce posts ante 250
+KorbenDalas. posts ante 250
+donSimon987 posts ante 250
+Uztail1989 posts ante 250
+noheda83 posts ante 250
+pacorico80 posts small blind 1000
+PlusDeForce posts big blind 2000
+Dealt to donSimon987 [8s Kh]
+*** PRE-FLOP *** 
+KorbenDalas. folds
+donSimon987 folds
+Uztail1989 folds
+noheda83 folds
+pacorico80 calls 1000
+PlusDeForce checks
+*** FLOP *** [Th 2h 5s]
+pacorico80 checks
+PlusDeForce bets 5500
+pacorico80 calls 5500
+*** TURN *** [Th 2h 5s][Qc]
+pacorico80 checks
+PlusDeForce bets 10725
+pacorico80 folds
+PlusDeForce collected 27225 from pot
+*** SUMMARY ***
+Total pot 27225 | No rake
+Board: [Th 2h 5s Qc]
+Seat 2: PlusDeForce (big blind) won 27225
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 5 - HandId: #4980556072008810530-21-1788729927 - Holdem no limit (250/1000/2000) - 2026/09/06 21:25:27 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (276844, 3.50€ bounty)
+Seat 2: PlusDeForce (108750, 2.50€ bounty)
+Seat 3: KorbenDalas. (99142, 2.50€ bounty)
+Seat 4: donSimon987 (114960, 2.50€ bounty)
+Seat 5: Uztail1989 (112476, 2.50€ bounty)
+Seat 6: noheda83 (80473, 2.50€ bounty)
+*** ANTE/BLINDS ***
+PlusDeForce posts ante 250
+KorbenDalas. posts ante 250
+pacorico80 posts ante 250
+donSimon987 posts ante 250
+Uztail1989 posts ante 250
+noheda83 posts ante 250
+PlusDeForce posts small blind 1000
+KorbenDalas. posts big blind 2000
+Dealt to donSimon987 [Kc Jh]
+*** PRE-FLOP *** 
+donSimon987 raises 2500 to 4500
+Uztail1989 folds
+noheda83 folds
+pacorico80 calls 4500
+PlusDeForce folds
+KorbenDalas. calls 2500
+*** FLOP *** [Jc 3h Ac]
+KorbenDalas. checks
+donSimon987 bets 5600
+pacorico80 calls 5600
+KorbenDalas. calls 5600
+*** TURN *** [Jc 3h Ac][9d]
+KorbenDalas. checks
+donSimon987 checks
+pacorico80 checks
+*** RIVER *** [Jc 3h Ac 9d][5s]
+KorbenDalas. checks
+donSimon987 checks
+pacorico80 checks
+*** SHOW DOWN ***
+pacorico80 shows [Td Kh] (High card : Ace)
+KorbenDalas. shows [Tc Qh] (High card : Ace)
+donSimon987 shows [Kc Jh] (One pair : Jacks)
+donSimon987 collected 32800 from pot
+*** SUMMARY ***
+Total pot 32800 | No rake
+Board: [Jc 3h Ac 9d 5s]
+Seat 1: pacorico80 (button) showed [Td Kh] and lost with High card : Ace
+Seat 3: KorbenDalas. (big blind) showed [Tc Qh] and lost with High card : Ace
+Seat 4: donSimon987 showed [Kc Jh] and won 32800 with One pair : Jacks
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 5 - HandId: #4980556072008810530-22-1788729986 - Holdem no limit (250/1000/2000) - 2026/09/06 21:26:26 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (266494, 3.50€ bounty)
+Seat 2: PlusDeForce (107500, 2.50€ bounty)
+Seat 3: KorbenDalas. (88792, 2.50€ bounty)
+Seat 4: donSimon987 (137410, 2.50€ bounty)
+Seat 6: noheda83 (80223, 2.50€ bounty)
+*** ANTE/BLINDS ***
+KorbenDalas. posts ante 250
+donSimon987 posts ante 250
+pacorico80 posts ante 250
+PlusDeForce posts ante 250
+noheda83 posts ante 250
+KorbenDalas. posts small blind 1000
+donSimon987 posts big blind 2000
+Dealt to donSimon987 [6c 6d]
+*** PRE-FLOP *** 
+noheda83 raises 2000 to 4000
+pacorico80 calls 4000
+PlusDeForce folds
+KorbenDalas. folds
+donSimon987 calls 2000
+*** FLOP *** [3d 7d Jd]
+donSimon987 checks
+noheda83 bets 4988
+pacorico80 calls 4988
+donSimon987 folds
+*** TURN *** [3d 7d Jd][2d]
+noheda83 checks
+pacorico80 bets 8479
+noheda83 folds
+pacorico80 collected 32705 from pot
+*** SUMMARY ***
+Total pot 32705 | No rake
+Board: [3d 7d Jd 2d]
+Seat 1: pacorico80 won 32705
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 5 - HandId: #4980556072008810530-23-1788730030 - Holdem no limit (250/1000/2000) - 2026/09/06 21:27:10 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (281482, 3.50€ bounty)
+Seat 2: PlusDeForce (107250, 2.50€ bounty)
+Seat 3: KorbenDalas. (87542, 2.50€ bounty)
+Seat 4: donSimon987 (133160, 2.50€ bounty)
+Seat 5: bigfloaTalin (100000, 2.50€ bounty)
+Seat 6: noheda83 (70985, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 250
+bigfloaTalin posts ante 250
+pacorico80 posts ante 250
+PlusDeForce posts ante 250
+KorbenDalas. posts ante 250
+noheda83 posts ante 250
+donSimon987 posts small blind 1000
+bigfloaTalin posts big blind 2000
+Dealt to donSimon987 [Jh 6s]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 folds
+PlusDeForce folds
+KorbenDalas. raises 2000 to 4000
+donSimon987 folds
+bigfloaTalin calls 2000
+*** FLOP *** [Kh 8c 8s]
+bigfloaTalin checks
+KorbenDalas. bets 3675
+bigfloaTalin calls 3675
+*** TURN *** [Kh 8c 8s][Qs]
+bigfloaTalin checks
+KorbenDalas. checks
+*** RIVER *** [Kh 8c 8s Qs][8d]
+bigfloaTalin bets 5000
+KorbenDalas. calls 5000
+*** SHOW DOWN ***
+bigfloaTalin shows [Ac 7h] (Trips of 8)
+KorbenDalas. shows [Js Qh] (Full of 8 and Queens)
+KorbenDalas. collected 27850 from pot
+*** SUMMARY ***
+Total pot 27850 | No rake
+Board: [Kh 8c 8s Qs 8d]
+Seat 3: KorbenDalas. (button) showed [Js Qh] and won 27850 with Full of 8 and Queens
+Seat 5: bigfloaTalin (big blind) showed [Ac 7h] and lost with Trips of 8
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 6 - HandId: #4980556072008810530-24-1788730074 - Holdem no limit (300/1250/2500) - 2026/09/06 21:27:54 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (281232, 3.50€ bounty)
+Seat 2: PlusDeForce (107000, 2.50€ bounty)
+Seat 3: KorbenDalas. (102467, 2.50€ bounty)
+Seat 4: donSimon987 (131910, 2.50€ bounty)
+Seat 5: bigfloaTalin (87075, 2.50€ bounty)
+Seat 6: noheda83 (70735, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 300
+noheda83 posts ante 300
+pacorico80 posts ante 300
+PlusDeForce posts ante 300
+KorbenDalas. posts ante 300
+donSimon987 posts ante 300
+bigfloaTalin posts small blind 1250
+noheda83 posts big blind 2500
+Dealt to donSimon987 [Jc Jd]
+*** PRE-FLOP *** 
+pacorico80 calls 2500
+PlusDeForce folds
+KorbenDalas. folds
+donSimon987 raises 6250 to 8750
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 6250
+*** FLOP *** [9h Td 6s]
+pacorico80 checks
+donSimon987 bets 8068
+pacorico80 calls 8068
+*** TURN *** [9h Td 6s][5d]
+pacorico80 checks
+donSimon987 checks
+*** RIVER *** [9h Td 6s 5d][Ad]
+pacorico80 checks
+donSimon987 bets 19593
+pacorico80 folds
+donSimon987 collected 58779 from pot
+*** SUMMARY ***
+Total pot 58779 | No rake
+Board: [9h Td 6s 5d Ad]
+Seat 4: donSimon987 (button) won 58779
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 6 - HandId: #4980556072008810530-25-1788730158 - Holdem no limit (300/1250/2500) - 2026/09/06 21:29:18 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (264114, 3.50€ bounty)
+Seat 2: PlusDeForce (106700, 2.50€ bounty)
+Seat 3: KorbenDalas. (102167, 2.50€ bounty)
+Seat 4: donSimon987 (153978, 2.50€ bounty)
+Seat 5: bigfloaTalin (85525, 2.50€ bounty)
+Seat 6: noheda83 (67935, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 300
+pacorico80 posts ante 300
+PlusDeForce posts ante 300
+KorbenDalas. posts ante 300
+donSimon987 posts ante 300
+bigfloaTalin posts ante 300
+noheda83 posts small blind 1250
+pacorico80 posts big blind 2500
+Dealt to donSimon987 [Jc 9c]
+*** PRE-FLOP *** 
+PlusDeForce calls 2500
+KorbenDalas. folds
+donSimon987 calls 2500
+bigfloaTalin folds
+noheda83 folds
+pacorico80 checks
+*** FLOP *** [5h Qs 4d]
+pacorico80 checks
+PlusDeForce checks
+donSimon987 checks
+*** TURN *** [5h Qs 4d][Ac]
+pacorico80 checks
+PlusDeForce checks
+donSimon987 checks
+*** RIVER *** [5h Qs 4d Ac][Kh]
+pacorico80 bets 3692
+PlusDeForce folds
+donSimon987 folds
+pacorico80 collected 14242 from pot
+*** SUMMARY ***
+Total pot 14242 | No rake
+Board: [5h Qs 4d Ac Kh]
+Seat 1: pacorico80 (big blind) won 14242
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 7 - HandId: #4980556072008810530-26-1788730223 - Holdem no limit (350/1500/3000) - 2026/09/06 21:30:23 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (271864, 3.50€ bounty)
+Seat 2: PlusDeForce (103900, 2.50€ bounty)
+Seat 3: KorbenDalas. (101867, 2.50€ bounty)
+Seat 4: donSimon987 (151178, 2.50€ bounty)
+Seat 5: bigfloaTalin (85225, 2.50€ bounty)
+Seat 6: noheda83 (66385, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 350
+PlusDeForce posts ante 350
+KorbenDalas. posts ante 350
+donSimon987 posts ante 350
+bigfloaTalin posts ante 350
+noheda83 posts ante 350
+pacorico80 posts small blind 1500
+PlusDeForce posts big blind 3000
+Dealt to donSimon987 [5d 3h]
+*** PRE-FLOP *** 
+KorbenDalas. folds
+donSimon987 folds
+bigfloaTalin raises 3000 to 6000
+noheda83 folds
+pacorico80 calls 4500
+PlusDeForce calls 3000
+*** FLOP *** [Kd 9s Jc]
+pacorico80 checks
+PlusDeForce checks
+bigfloaTalin bets 3000
+pacorico80 calls 3000
+PlusDeForce calls 3000
+*** TURN *** [Kd 9s Jc][Ks]
+pacorico80 checks
+PlusDeForce checks
+bigfloaTalin bets 13968
+pacorico80 calls 13968
+PlusDeForce folds
+*** RIVER *** [Kd 9s Jc Ks][9d]
+pacorico80 checks
+bigfloaTalin checks
+*** SHOW DOWN ***
+pacorico80 shows [As 6s] (Two pairs : Kings and 9)
+bigfloaTalin shows [Td Jh] (Two pairs : Kings and Jacks)
+bigfloaTalin collected 57036 from pot
+*** SUMMARY ***
+Total pot 57036 | No rake
+Board: [Kd 9s Jc Ks 9d]
+Seat 1: pacorico80 (small blind) showed [As 6s] and lost with Two pairs : Kings and 9
+Seat 5: bigfloaTalin showed [Td Jh] and won 57036 with Two pairs : Kings and Jacks
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 7 - HandId: #4980556072008810530-27-1788730334 - Holdem no limit (350/1500/3000) - 2026/09/06 21:32:14 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (248546, 3.50€ bounty)
+Seat 2: PlusDeForce (94550, 2.50€ bounty)
+Seat 3: KorbenDalas. (101517, 2.50€ bounty)
+Seat 4: donSimon987 (150828, 2.50€ bounty)
+Seat 5: bigfloaTalin (118943, 2.50€ bounty)
+Seat 6: noheda83 (66035, 2.50€ bounty)
+*** ANTE/BLINDS ***
+PlusDeForce posts ante 350
+KorbenDalas. posts ante 350
+pacorico80 posts ante 350
+donSimon987 posts ante 350
+bigfloaTalin posts ante 350
+noheda83 posts ante 350
+PlusDeForce posts small blind 1500
+KorbenDalas. posts big blind 3000
+Dealt to donSimon987 [9c Qs]
+*** PRE-FLOP *** 
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 3000
+PlusDeForce folds
+KorbenDalas. raises 7500 to 10500
+pacorico80 calls 7500
+*** FLOP *** [2c Jd 5d]
+KorbenDalas. bets 12300
+pacorico80 calls 12300
+*** TURN *** [2c Jd 5d][9d]
+KorbenDalas. checks
+pacorico80 checks
+*** RIVER *** [2c Jd 5d 9d][2h]
+KorbenDalas. checks
+pacorico80 checks
+*** SHOW DOWN ***
+pacorico80 shows [Th Ad] (One pair : 2)
+KorbenDalas. shows [6h 6s] (Two pairs : 6 and 2)
+KorbenDalas. collected 49200 from pot
+*** SUMMARY ***
+Total pot 49200 | No rake
+Board: [2c Jd 5d 9d 2h]
+Seat 1: pacorico80 (button) showed [Th Ad] and lost with One pair : 2
+Seat 3: KorbenDalas. (big blind) showed [6h 6s] and won 49200 with Two pairs : 6 and 2
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 7 - HandId: #4980556072008810530-28-1788730399 - Holdem no limit (350/1500/3000) - 2026/09/06 21:33:19 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (225396, 3.50€ bounty)
+Seat 2: PlusDeForce (92700, 2.50€ bounty)
+Seat 3: KorbenDalas. (127567, 2.50€ bounty)
+Seat 4: donSimon987 (150478, 2.50€ bounty)
+Seat 5: bigfloaTalin (118593, 2.50€ bounty)
+Seat 6: noheda83 (65685, 2.50€ bounty)
+*** ANTE/BLINDS ***
+KorbenDalas. posts ante 350
+donSimon987 posts ante 350
+pacorico80 posts ante 350
+PlusDeForce posts ante 350
+bigfloaTalin posts ante 350
+noheda83 posts ante 350
+KorbenDalas. posts small blind 1500
+donSimon987 posts big blind 3000
+Dealt to donSimon987 [8c 5s]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+noheda83 raises 3000 to 6000
+pacorico80 folds
+PlusDeForce folds
+KorbenDalas. folds
+donSimon987 folds
+noheda83 collected 12600 from pot
+*** SUMMARY ***
+Total pot 12600 | No rake
+Seat 6: noheda83 won 12600
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-29-1788730441 - Holdem no limit (400/1750/3500) - 2026/09/06 21:34:01 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (225046, 3.50€ bounty)
+Seat 2: PlusDeForce (92350, 2.50€ bounty)
+Seat 3: KorbenDalas. (125717, 2.50€ bounty)
+Seat 4: donSimon987 (147128, 2.50€ bounty)
+Seat 5: bigfloaTalin (118243, 2.50€ bounty)
+Seat 6: noheda83 (71935, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 400
+bigfloaTalin posts ante 400
+pacorico80 posts ante 400
+PlusDeForce posts ante 400
+KorbenDalas. posts ante 400
+noheda83 posts ante 400
+donSimon987 posts small blind 1750
+bigfloaTalin posts big blind 3500
+Dealt to donSimon987 [Js 2s]
+*** PRE-FLOP *** 
+noheda83 raises 3500 to 7000
+pacorico80 calls 7000
+PlusDeForce folds
+KorbenDalas. raises 118317 to 125317 and is all-in
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 118317
+*** FLOP *** [7c 5h Jd]
+*** TURN *** [7c 5h Jd][6s]
+*** RIVER *** [7c 5h Jd 6s][7d]
+*** SHOW DOWN ***
+KorbenDalas. shows [9c 9h] (Two pairs : 9 and 7)
+pacorico80 shows [Td Tc] (Two pairs : Tens and 7)
+pacorico80 collected 265284 from pot
+*** SUMMARY ***
+Total pot 265284 | No rake
+Board: [7c 5h Jd 6s 7d]
+Seat 1: pacorico80 showed [Td Tc] and won 265284 with Two pairs : Tens and 7
+Seat 3: KorbenDalas. (button) showed [9c 9h] and lost with Two pairs : 9 and 7
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-30-1788730488 - Holdem no limit (400/1750/3500) - 2026/09/06 21:34:48 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (364613, 6€ bounty)
+Seat 2: PlusDeForce (91950, 2.50€ bounty)
+Seat 4: donSimon987 (144978, 2.50€ bounty)
+Seat 5: bigfloaTalin (114343, 2.50€ bounty)
+Seat 6: noheda83 (64535, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 400
+noheda83 posts ante 400
+pacorico80 posts ante 400
+PlusDeForce posts ante 400
+donSimon987 posts ante 400
+bigfloaTalin posts small blind 1750
+noheda83 posts big blind 3500
+Dealt to donSimon987 [7s 2h]
+*** PRE-FLOP *** 
+pacorico80 folds
+PlusDeForce raises 3500 to 7000
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+PlusDeForce collected 14250 from pot
+*** SUMMARY ***
+Total pot 14250 | No rake
+Seat 2: PlusDeForce won 14250
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-31-1788730505 - Holdem no limit (400/1750/3500) - 2026/09/06 21:35:05 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (364213, 6€ bounty)
+Seat 2: PlusDeForce (98800, 2.50€ bounty)
+Seat 4: donSimon987 (144578, 2.50€ bounty)
+Seat 5: bigfloaTalin (112193, 2.50€ bounty)
+Seat 6: noheda83 (60635, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 400
+pacorico80 posts ante 400
+PlusDeForce posts ante 400
+donSimon987 posts ante 400
+bigfloaTalin posts ante 400
+noheda83 posts small blind 1750
+pacorico80 posts big blind 3500
+Dealt to donSimon987 [8d 9h]
+*** PRE-FLOP *** 
+PlusDeForce folds
+donSimon987 folds
+bigfloaTalin raises 3500 to 7000
+noheda83 folds
+pacorico80 calls 3500
+*** FLOP *** [Qc Kh 2s]
+pacorico80 checks
+bigfloaTalin bets 6568
+pacorico80 folds
+bigfloaTalin collected 24318 from pot
+*** SUMMARY ***
+Total pot 24318 | No rake
+Board: [Qc Kh 2s]
+Seat 5: bigfloaTalin (button) won 24318
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-32-1788730528 - Holdem no limit (400/1750/3500) - 2026/09/06 21:35:28 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (356813, 6€ bounty)
+Seat 2: PlusDeForce (98400, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (100000, 2.50€ bounty)
+Seat 4: donSimon987 (144178, 2.50€ bounty)
+Seat 5: bigfloaTalin (122543, 2.50€ bounty)
+Seat 6: noheda83 (58485, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 400
+PlusDeForce posts ante 400
+wmx-95rfzs8 posts ante 400
+donSimon987 posts ante 400
+bigfloaTalin posts ante 400
+noheda83 posts ante 400
+pacorico80 posts small blind 1750
+PlusDeForce posts big blind 3500
+Dealt to donSimon987 [Tc 5d]
+*** PRE-FLOP *** 
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin raises 3500 to 7000
+noheda83 folds
+pacorico80 folds
+PlusDeForce folds
+bigfloaTalin collected 14650 from pot
+*** SUMMARY ***
+Total pot 14650 | No rake
+Seat 5: bigfloaTalin won 14650
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-33-1788730560 - Holdem no limit (400/1750/3500) - 2026/09/06 21:36:00 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (354663, 6€ bounty)
+Seat 2: PlusDeForce (94500, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (99600, 2.50€ bounty)
+Seat 4: donSimon987 (143778, 2.50€ bounty)
+Seat 5: bigfloaTalin (129793, 2.50€ bounty)
+Seat 6: noheda83 (58085, 2.50€ bounty)
+*** ANTE/BLINDS ***
+PlusDeForce posts ante 400
+wmx-95rfzs8 posts ante 400
+pacorico80 posts ante 400
+donSimon987 posts ante 400
+bigfloaTalin posts ante 400
+noheda83 posts ante 400
+PlusDeForce posts small blind 1750
+wmx-95rfzs8 posts big blind 3500
+Dealt to donSimon987 [3d 9s]
+*** PRE-FLOP *** 
+donSimon987 folds
+bigfloaTalin folds
+noheda83 raises 3500 to 7000
+pacorico80 folds
+PlusDeForce folds
+wmx-95rfzs8 folds
+noheda83 collected 14650 from pot
+*** SUMMARY ***
+Total pot 14650 | No rake
+Seat 6: noheda83 won 14650
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 8 - HandId: #4980556072008810530-34-1788730578 - Holdem no limit (400/1750/3500) - 2026/09/06 21:36:18 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (354263, 6€ bounty)
+Seat 2: PlusDeForce (92350, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (95700, 2.50€ bounty)
+Seat 4: donSimon987 (143378, 2.50€ bounty)
+Seat 5: bigfloaTalin (129393, 2.50€ bounty)
+Seat 6: noheda83 (65335, 2.50€ bounty)
+*** ANTE/BLINDS ***
+wmx-95rfzs8 posts ante 400
+donSimon987 posts ante 400
+pacorico80 posts ante 400
+PlusDeForce posts ante 400
+bigfloaTalin posts ante 400
+noheda83 posts ante 400
+wmx-95rfzs8 posts small blind 1750
+donSimon987 posts big blind 3500
+Dealt to donSimon987 [Qs 2h]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+noheda83 folds
+pacorico80 folds
+PlusDeForce calls 3500
+wmx-95rfzs8 folds
+donSimon987 checks
+*** FLOP *** [9s Th Qd]
+donSimon987 checks
+PlusDeForce bets 8920
+donSimon987 calls 8920
+*** TURN *** [9s Th Qd][9c]
+donSimon987 checks
+PlusDeForce checks
+*** RIVER *** [9s Th Qd 9c][5d]
+donSimon987 checks
+PlusDeForce checks
+*** SHOW DOWN ***
+PlusDeForce shows [6h Ac] (One pair : 9)
+donSimon987 shows [Qs 2h] (Two pairs : Queens and 9)
+donSimon987 collected 28990 from pot
+*** SUMMARY ***
+Total pot 28990 | No rake
+Board: [9s Th Qd 9c 5d]
+Seat 2: PlusDeForce (button) showed [6h Ac] and lost with One pair : 9
+Seat 4: donSimon987 (big blind) showed [Qs 2h] and won 28990 with Two pairs : Queens and 9
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 9 - HandId: #4980556072008810530-35-1788730612 - Holdem no limit (500/2000/4000) - 2026/09/06 21:36:52 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (353863, 6€ bounty)
+Seat 2: PlusDeForce (79530, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (93550, 2.50€ bounty)
+Seat 4: donSimon987 (159548, 2.50€ bounty)
+Seat 5: bigfloaTalin (128993, 2.50€ bounty)
+Seat 6: noheda83 (64935, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 500
+bigfloaTalin posts ante 500
+pacorico80 posts ante 500
+PlusDeForce posts ante 500
+wmx-95rfzs8 posts ante 500
+noheda83 posts ante 500
+donSimon987 posts small blind 2000
+bigfloaTalin posts big blind 4000
+Dealt to donSimon987 [8d 3s]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 4000
+PlusDeForce folds
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin checks
+*** FLOP *** [Qh 8c Ad]
+bigfloaTalin checks
+pacorico80 bets 4000
+bigfloaTalin folds
+pacorico80 collected 17000 from pot
+*** SUMMARY ***
+Total pot 17000 | No rake
+Board: [Qh 8c Ad]
+Seat 1: pacorico80 won 17000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 9 - HandId: #4980556072008810530-36-1788730651 - Holdem no limit (500/2000/4000) - 2026/09/06 21:37:31 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (362363, 6€ bounty)
+Seat 2: PlusDeForce (79030, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (93050, 2.50€ bounty)
+Seat 4: donSimon987 (157048, 2.50€ bounty)
+Seat 5: bigfloaTalin (124493, 2.50€ bounty)
+Seat 6: noheda83 (64435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 500
+noheda83 posts ante 500
+pacorico80 posts ante 500
+PlusDeForce posts ante 500
+wmx-95rfzs8 posts ante 500
+donSimon987 posts ante 500
+bigfloaTalin posts small blind 2000
+noheda83 posts big blind 4000
+Dealt to donSimon987 [6d 4c]
+*** PRE-FLOP *** 
+pacorico80 calls 4000
+PlusDeForce calls 4000
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin calls 2000
+noheda83 checks
+*** FLOP *** [8d 2d 4s]
+bigfloaTalin bets 19000
+noheda83 folds
+pacorico80 folds
+PlusDeForce folds
+bigfloaTalin collected 38000 from pot
+*** SUMMARY ***
+Total pot 38000 | No rake
+Board: [8d 2d 4s]
+Seat 5: bigfloaTalin (small blind) won 38000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 9 - HandId: #4980556072008810530-37-1788730691 - Holdem no limit (500/2000/4000) - 2026/09/06 21:38:11 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (357863, 6€ bounty)
+Seat 2: PlusDeForce (74530, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (92550, 2.50€ bounty)
+Seat 4: donSimon987 (156548, 2.50€ bounty)
+Seat 5: bigfloaTalin (138993, 2.50€ bounty)
+Seat 6: noheda83 (59935, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 500
+pacorico80 posts ante 500
+PlusDeForce posts ante 500
+wmx-95rfzs8 posts ante 500
+donSimon987 posts ante 500
+bigfloaTalin posts ante 500
+noheda83 posts small blind 2000
+pacorico80 posts big blind 4000
+Dealt to donSimon987 [6d 5s]
+*** PRE-FLOP *** 
+PlusDeForce calls 4000
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 checks
+*** FLOP *** [Qs 7h 3c]
+pacorico80 checks
+PlusDeForce bets 13000
+pacorico80 folds
+PlusDeForce collected 26000 from pot
+*** SUMMARY ***
+Total pot 26000 | No rake
+Board: [Qs 7h 3c]
+Seat 2: PlusDeForce won 26000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 9 - HandId: #4980556072008810530-38-1788730722 - Holdem no limit (500/2000/4000) - 2026/09/06 21:38:42 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (353363, 6€ bounty)
+Seat 2: PlusDeForce (83030, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (92050, 2.50€ bounty)
+Seat 4: donSimon987 (156048, 2.50€ bounty)
+Seat 5: bigfloaTalin (138493, 2.50€ bounty)
+Seat 6: noheda83 (57435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 500
+PlusDeForce posts ante 500
+wmx-95rfzs8 posts ante 500
+donSimon987 posts ante 500
+bigfloaTalin posts ante 500
+noheda83 posts ante 500
+pacorico80 posts small blind 2000
+PlusDeForce posts big blind 4000
+Dealt to donSimon987 [6h 3c]
+*** PRE-FLOP *** 
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin raises 4000 to 8000
+noheda83 folds
+pacorico80 calls 6000
+PlusDeForce calls 4000
+*** FLOP *** [Qc 9h 7d]
+pacorico80 checks
+PlusDeForce checks
+bigfloaTalin bets 15390
+pacorico80 calls 15390
+PlusDeForce folds
+*** TURN *** [Qc 9h 7d][Jh]
+pacorico80 checks
+bigfloaTalin bets 41602
+pacorico80 folds
+bigfloaTalin collected 99382 from pot
+*** SUMMARY ***
+Total pot 99382 | No rake
+Board: [Qc 9h 7d Jh]
+Seat 5: bigfloaTalin won 99382
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 10 - HandId: #4980556072008810530-39-1788730806 - Holdem no limit (600/2500/5000) - 2026/09/06 21:40:06 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (329473, 6€ bounty)
+Seat 2: PlusDeForce (74530, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (91550, 2.50€ bounty)
+Seat 4: donSimon987 (155548, 2.50€ bounty)
+Seat 5: bigfloaTalin (172383, 2.50€ bounty)
+Seat 6: noheda83 (56935, 2.50€ bounty)
+*** ANTE/BLINDS ***
+PlusDeForce posts ante 600
+wmx-95rfzs8 posts ante 600
+pacorico80 posts ante 600
+donSimon987 posts ante 600
+bigfloaTalin posts ante 600
+noheda83 posts ante 600
+PlusDeForce posts small blind 2500
+wmx-95rfzs8 posts big blind 5000
+Dealt to donSimon987 [4s 6h]
+*** PRE-FLOP *** 
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 5000
+PlusDeForce folds
+wmx-95rfzs8 checks
+*** FLOP *** [7h 7s 5c]
+wmx-95rfzs8 bets 8050
+pacorico80 calls 8050
+*** TURN *** [7h 7s 5c][3s]
+wmx-95rfzs8 bets 32200
+pacorico80 folds
+wmx-95rfzs8 collected 64400 from pot
+*** SUMMARY ***
+Total pot 64400 | No rake
+Board: [7h 7s 5c 3s]
+Seat 3: wmx-95rfzs8 (big blind) won 64400
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 10 - HandId: #4980556072008810530-40-1788730857 - Holdem no limit (600/2500/5000) - 2026/09/06 21:40:57 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (315823, 6€ bounty)
+Seat 2: PlusDeForce (71430, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (110100, 2.50€ bounty)
+Seat 4: donSimon987 (154948, 2.50€ bounty)
+Seat 5: bigfloaTalin (171783, 2.50€ bounty)
+Seat 6: noheda83 (56335, 2.50€ bounty)
+*** ANTE/BLINDS ***
+wmx-95rfzs8 posts ante 600
+donSimon987 posts ante 600
+pacorico80 posts ante 600
+PlusDeForce posts ante 600
+bigfloaTalin posts ante 600
+noheda83 posts ante 600
+wmx-95rfzs8 posts small blind 2500
+donSimon987 posts big blind 5000
+Dealt to donSimon987 [Jd Jh]
+*** PRE-FLOP *** 
+bigfloaTalin raises 5000 to 10000
+noheda83 folds
+pacorico80 calls 10000
+PlusDeForce folds
+wmx-95rfzs8 folds
+donSimon987 raises 144348 to 154348 and is all-in
+bigfloaTalin folds
+pacorico80 folds
+donSimon987 collected 180448 from pot
+*** SUMMARY ***
+Total pot 180448 | No rake
+Seat 4: donSimon987 (big blind) won 180448
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 10 - HandId: #4980556072008810530-41-1788730893 - Holdem no limit (600/2500/5000) - 2026/09/06 21:41:33 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (305223, 6€ bounty)
+Seat 2: PlusDeForce (70830, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (107000, 2.50€ bounty)
+Seat 4: donSimon987 (180448, 2.50€ bounty)
+Seat 5: bigfloaTalin (161183, 2.50€ bounty)
+Seat 6: noheda83 (55735, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 600
+bigfloaTalin posts ante 600
+pacorico80 posts ante 600
+PlusDeForce posts ante 600
+wmx-95rfzs8 posts ante 600
+noheda83 posts ante 600
+donSimon987 posts small blind 2500
+bigfloaTalin posts big blind 5000
+Dealt to donSimon987 [8c 8d]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 5000
+PlusDeForce folds
+wmx-95rfzs8 folds
+donSimon987 calls 2500
+bigfloaTalin checks
+*** FLOP *** [Ts 2c 3d]
+donSimon987 checks
+bigfloaTalin checks
+pacorico80 checks
+*** TURN *** [Ts 2c 3d][Kh]
+donSimon987 checks
+bigfloaTalin checks
+pacorico80 checks
+*** RIVER *** [Ts 2c 3d Kh][Tc]
+donSimon987 bets 9300
+bigfloaTalin folds
+pacorico80 folds
+donSimon987 collected 27900 from pot
+*** SUMMARY ***
+Total pot 27900 | No rake
+Board: [Ts 2c 3d Kh Tc]
+Seat 4: donSimon987 (small blind) won 27900
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 11 - HandId: #4980556072008810530-42-1788730949 - Holdem no limit (700/3000/6000) - 2026/09/06 21:42:29 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (299623, 6€ bounty)
+Seat 2: PlusDeForce (70230, 2.50€ bounty)
+Seat 3: wmx-95rfzs8 (106400, 2.50€ bounty)
+Seat 4: donSimon987 (193448, 2.50€ bounty)
+Seat 5: bigfloaTalin (155583, 2.50€ bounty)
+Seat 6: noheda83 (55135, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 700
+noheda83 posts ante 700
+pacorico80 posts ante 700
+PlusDeForce posts ante 700
+wmx-95rfzs8 posts ante 700
+donSimon987 posts ante 700
+bigfloaTalin posts small blind 3000
+noheda83 posts big blind 6000
+Dealt to donSimon987 [9s Ah]
+*** PRE-FLOP *** 
+pacorico80 calls 6000
+PlusDeForce raises 63530 to 69530 and is all-in
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 63530
+*** FLOP *** [Kc Qh 8c]
+*** TURN *** [Kc Qh 8c][Td]
+*** RIVER *** [Kc Qh 8c Td][5c]
+*** SHOW DOWN ***
+PlusDeForce shows [2d 2c] (One pair : 2)
+pacorico80 shows [Jh Qd] (One pair : Queens)
+pacorico80 collected 152260 from pot
+*** SUMMARY ***
+Total pot 152260 | No rake
+Board: [Kc Qh 8c Td 5c]
+Seat 1: pacorico80 showed [Jh Qd] and won 152260 with One pair : Queens
+Seat 2: PlusDeForce showed [2d 2c] and lost with One pair : 2
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 11 - HandId: #4980556072008810530-43-1788730997 - Holdem no limit (700/3000/6000) - 2026/09/06 21:43:17 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (381653, 7.25€ bounty)
+Seat 3: wmx-95rfzs8 (105700, 2.50€ bounty)
+Seat 4: donSimon987 (192748, 2.50€ bounty)
+Seat 5: bigfloaTalin (151883, 2.50€ bounty)
+Seat 6: noheda83 (48435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 700
+pacorico80 posts ante 700
+wmx-95rfzs8 posts ante 700
+donSimon987 posts ante 700
+bigfloaTalin posts ante 700
+noheda83 posts small blind 3000
+pacorico80 posts big blind 6000
+Dealt to donSimon987 [7d 9c]
+*** PRE-FLOP *** 
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 collected 12500 from pot
+*** SUMMARY ***
+Total pot 12500 | No rake
+Seat 1: pacorico80 (big blind) won 12500
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 11 - HandId: #4980556072008810530-44-1788731009 - Holdem no limit (700/3000/6000) - 2026/09/06 21:43:29 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (387453, 7.25€ bounty)
+Seat 3: wmx-95rfzs8 (105000, 2.50€ bounty)
+Seat 4: donSimon987 (192048, 2.50€ bounty)
+Seat 5: bigfloaTalin (151183, 2.50€ bounty)
+Seat 6: noheda83 (44735, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 700
+wmx-95rfzs8 posts ante 700
+donSimon987 posts ante 700
+bigfloaTalin posts ante 700
+noheda83 posts ante 700
+pacorico80 posts small blind 3000
+wmx-95rfzs8 posts big blind 6000
+Dealt to donSimon987 [2d Td]
+*** PRE-FLOP *** 
+donSimon987 raises 6000 to 12000
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 9000
+wmx-95rfzs8 calls 6000
+*** FLOP *** [Js 7h 8h]
+pacorico80 checks
+wmx-95rfzs8 checks
+donSimon987 checks
+*** TURN *** [Js 7h 8h][3c]
+pacorico80 checks
+wmx-95rfzs8 checks
+donSimon987 checks
+*** RIVER *** [Js 7h 8h 3c][6d]
+pacorico80 checks
+wmx-95rfzs8 bets 31600
+donSimon987 folds
+pacorico80 folds
+wmx-95rfzs8 collected 71100 from pot
+*** SUMMARY ***
+Total pot 71100 | No rake
+Board: [Js 7h 8h 3c 6d]
+Seat 3: wmx-95rfzs8 (big blind) won 71100
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 11 - HandId: #4980556072008810530-45-1788731079 - Holdem no limit (700/3000/6000) - 2026/09/06 21:44:39 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (374753, 7.25€ bounty)
+Seat 2: Palitra91 (534090, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (131800, 2.50€ bounty)
+Seat 4: donSimon987 (179348, 2.50€ bounty)
+Seat 5: bigfloaTalin (150483, 2.50€ bounty)
+Seat 6: noheda83 (44035, 2.50€ bounty)
+*** ANTE/BLINDS ***
+wmx-95rfzs8 posts ante 700
+donSimon987 posts ante 700
+pacorico80 posts ante 700
+bigfloaTalin posts ante 700
+noheda83 posts ante 700
+wmx-95rfzs8 posts small blind 3000
+donSimon987 posts big blind 6000
+Dealt to donSimon987 [3c 7d]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 6000
+wmx-95rfzs8 calls 3000
+donSimon987 checks
+*** FLOP *** [Ac 2c Ts]
+wmx-95rfzs8 checks
+donSimon987 checks
+pacorico80 checks
+*** TURN *** [Ac 2c Ts][3d]
+wmx-95rfzs8 bets 10750
+donSimon987 calls 10750
+pacorico80 calls 10750
+*** RIVER *** [Ac 2c Ts 3d][2d]
+wmx-95rfzs8 checks
+donSimon987 checks
+pacorico80 checks
+*** SHOW DOWN ***
+wmx-95rfzs8 shows [8d Tc] (Two pairs : Tens and 2)
+donSimon987 shows [3c 7d] (Two pairs : 3 and 2)
+pacorico80 shows [Ad 9h] (Two pairs : Aces and 2)
+pacorico80 collected 53750 from pot
+*** SUMMARY ***
+Total pot 53750 | No rake
+Board: [Ac 2c Ts 3d 2d]
+Seat 1: pacorico80 (button) showed [Ad 9h] and won 53750 with Two pairs : Aces and 2
+Seat 3: wmx-95rfzs8 (small blind) showed [8d Tc] and lost with Two pairs : Tens and 2
+Seat 4: donSimon987 (big blind) showed [3c 7d] and lost with Two pairs : 3 and 2
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 12 - HandId: #4980556072008810530-46-1788731139 - Holdem no limit (800/3500/7000) - 2026/09/06 21:45:39 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (411053, 7.25€ bounty)
+Seat 2: Palitra91 (534090, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (114350, 2.50€ bounty)
+Seat 4: donSimon987 (161898, 2.50€ bounty)
+Seat 5: bigfloaTalin (149783, 2.50€ bounty)
+Seat 6: noheda83 (43335, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 800
+bigfloaTalin posts ante 800
+pacorico80 posts ante 800
+Palitra91 posts ante 800
+wmx-95rfzs8 posts ante 800
+noheda83 posts ante 800
+donSimon987 posts small blind 3500
+bigfloaTalin posts big blind 7000
+Dealt to donSimon987 [4d 3s]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 7000
+Palitra91 folds
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin checks
+*** FLOP *** [Td 3h 7h]
+bigfloaTalin checks
+pacorico80 checks
+*** TURN *** [Td 3h 7h][6c]
+bigfloaTalin bets 10704
+pacorico80 calls 10704
+*** RIVER *** [Td 3h 7h 6c][8s]
+bigfloaTalin bets 20980
+pacorico80 folds
+bigfloaTalin collected 64688 from pot
+*** SUMMARY ***
+Total pot 64688 | No rake
+Board: [Td 3h 7h 6c 8s]
+Seat 5: bigfloaTalin (big blind) won 64688
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 12 - HandId: #4980556072008810530-47-1788731187 - Holdem no limit (800/3500/7000) - 2026/09/06 21:46:27 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (392549, 7.25€ bounty)
+Seat 2: Palitra91 (533290, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (113550, 2.50€ bounty)
+Seat 4: donSimon987 (157598, 2.50€ bounty)
+Seat 5: bigfloaTalin (174987, 2.50€ bounty)
+Seat 6: noheda83 (42535, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 800
+noheda83 posts ante 800
+pacorico80 posts ante 800
+Palitra91 posts ante 800
+wmx-95rfzs8 posts ante 800
+donSimon987 posts ante 800
+bigfloaTalin posts small blind 3500
+noheda83 posts big blind 7000
+Dealt to donSimon987 [Qd Kh]
+*** PRE-FLOP *** 
+pacorico80 folds
+Palitra91 raises 7000 to 14000
+wmx-95rfzs8 calls 14000
+donSimon987 calls 14000
+bigfloaTalin folds
+noheda83 folds
+*** FLOP *** [7s 3h 9s]
+Palitra91 bets 14325
+wmx-95rfzs8 calls 14325
+donSimon987 calls 14325
+*** TURN *** [7s 3h 9s][2h]
+Palitra91 checks
+wmx-95rfzs8 checks
+donSimon987 checks
+*** RIVER *** [7s 3h 9s 2h][Jd]
+Palitra91 checks
+wmx-95rfzs8 checks
+donSimon987 bets 128473 and is all-in
+Palitra91 folds
+wmx-95rfzs8 folds
+donSimon987 collected 228748 from pot
+*** SUMMARY ***
+Total pot 228748 | No rake
+Board: [7s 3h 9s 2h Jd]
+Seat 4: donSimon987 (button) won 228748
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 12 - HandId: #4980556072008810530-48-1788731273 - Holdem no limit (800/3500/7000) - 2026/09/06 21:47:53 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (391749, 7.25€ bounty)
+Seat 2: Palitra91 (504165, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (84425, 2.50€ bounty)
+Seat 4: donSimon987 (228748, 2.50€ bounty)
+Seat 5: bigfloaTalin (170687, 2.50€ bounty)
+Seat 6: noheda83 (34735, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 800
+pacorico80 posts ante 800
+Palitra91 posts ante 800
+wmx-95rfzs8 posts ante 800
+donSimon987 posts ante 800
+bigfloaTalin posts ante 800
+noheda83 posts small blind 3500
+pacorico80 posts big blind 7000
+Dealt to donSimon987 [Kd 2d]
+*** PRE-FLOP *** 
+Palitra91 folds
+wmx-95rfzs8 folds
+donSimon987 raises 7000 to 14000
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 7000
+*** FLOP *** [7h Ad 8c]
+pacorico80 checks
+donSimon987 bets 12055
+pacorico80 calls 12055
+*** TURN *** [7h Ad 8c][Ac]
+pacorico80 checks
+donSimon987 bets 21144
+pacorico80 calls 21144
+*** RIVER *** [7h Ad 8c Ac][3s]
+pacorico80 checks
+donSimon987 checks
+*** SHOW DOWN ***
+donSimon987 shows [Kd 2d] (One pair : Aces)
+pacorico80 shows [2c As] (Trips of Aces)
+pacorico80 collected 102698 from pot
+*** SUMMARY ***
+Total pot 102698 | No rake
+Board: [7h Ad 8c Ac 3s]
+Seat 1: pacorico80 (big blind) showed [2c As] and won 102698 with Trips of Aces
+Seat 4: donSimon987 showed [Kd 2d] and lost with One pair : Aces
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 13 - HandId: #4980556072008810530-49-1788731311 - Holdem no limit (1000/4000/8000) - 2026/09/06 21:48:31 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (446448, 7.25€ bounty)
+Seat 2: Palitra91 (503365, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (83625, 2.50€ bounty)
+Seat 4: donSimon987 (180749, 2.50€ bounty)
+Seat 5: bigfloaTalin (169887, 2.50€ bounty)
+Seat 6: noheda83 (30435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 1000
+Palitra91 posts ante 1000
+wmx-95rfzs8 posts ante 1000
+donSimon987 posts ante 1000
+bigfloaTalin posts ante 1000
+noheda83 posts ante 1000
+pacorico80 posts small blind 4000
+Palitra91 posts big blind 8000
+Dealt to donSimon987 [4s Ts]
+*** PRE-FLOP *** 
+wmx-95rfzs8 calls 8000
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 4000
+Palitra91 checks
+*** FLOP *** [3c 8s Ad]
+pacorico80 checks
+Palitra91 checks
+wmx-95rfzs8 bets 74625 and is all-in
+pacorico80 folds
+Palitra91 folds
+wmx-95rfzs8 collected 104625 from pot
+*** SUMMARY ***
+Total pot 104625 | No rake
+Board: [3c 8s Ad]
+Seat 3: wmx-95rfzs8 won 104625
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 13 - HandId: #4980556072008810530-50-1788731364 - Holdem no limit (1000/4000/8000) - 2026/09/06 21:49:24 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (437448, 7.25€ bounty)
+Seat 2: Palitra91 (494365, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (104625, 2.50€ bounty)
+Seat 4: donSimon987 (179749, 2.50€ bounty)
+Seat 5: bigfloaTalin (168887, 2.50€ bounty)
+Seat 6: noheda83 (29435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 1000
+wmx-95rfzs8 posts ante 1000
+pacorico80 posts ante 1000
+donSimon987 posts ante 1000
+bigfloaTalin posts ante 1000
+noheda83 posts ante 1000
+Palitra91 posts small blind 4000
+wmx-95rfzs8 posts big blind 8000
+Dealt to donSimon987 [8d Td]
+*** PRE-FLOP *** 
+donSimon987 calls 8000
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 8000
+Palitra91 calls 4000
+wmx-95rfzs8 checks
+*** FLOP *** [Tc 9h 5d]
+Palitra91 bets 8000
+wmx-95rfzs8 folds
+donSimon987 calls 8000
+pacorico80 calls 8000
+*** TURN *** [Tc 9h 5d][8s]
+Palitra91 checks
+donSimon987 checks
+pacorico80 checks
+*** RIVER *** [Tc 9h 5d 8s][7c]
+Palitra91 checks
+donSimon987 checks
+pacorico80 checks
+*** SHOW DOWN ***
+pacorico80 shows [Qs 8h] (One pair : 8)
+Palitra91 shows [Kh 9c] (One pair : 9)
+donSimon987 shows [8d Td] (Two pairs : Tens and 8)
+donSimon987 collected 62000 from pot
+*** SUMMARY ***
+Total pot 62000 | No rake
+Board: [Tc 9h 5d 8s 7c]
+Seat 1: pacorico80 (button) showed [Qs 8h] and lost with One pair : 8
+Seat 2: Palitra91 (small blind) showed [Kh 9c] and lost with One pair : 9
+Seat 4: donSimon987 showed [8d Td] and won 62000 with Two pairs : Tens and 8
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 13 - HandId: #4980556072008810530-51-1788731430 - Holdem no limit (1000/4000/8000) - 2026/09/06 21:50:30 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (420448, 7.25€ bounty)
+Seat 2: Palitra91 (477365, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (95625, 2.50€ bounty)
+Seat 4: donSimon987 (224749, 2.50€ bounty)
+Seat 5: bigfloaTalin (167887, 2.50€ bounty)
+Seat 6: noheda83 (28435, 2.50€ bounty)
+*** ANTE/BLINDS ***
+wmx-95rfzs8 posts ante 1000
+donSimon987 posts ante 1000
+pacorico80 posts ante 1000
+Palitra91 posts ante 1000
+bigfloaTalin posts ante 1000
+noheda83 posts ante 1000
+wmx-95rfzs8 posts small blind 4000
+donSimon987 posts big blind 8000
+Dealt to donSimon987 [8d Kh]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+noheda83 raises 19435 to 27435 and is all-in
+pacorico80 calls 27435
+Palitra91 folds
+wmx-95rfzs8 folds
+donSimon987 calls 19435
+*** FLOP *** [6h Th 7c]
+donSimon987 checks
+pacorico80 bets 32307
+donSimon987 folds
+*** TURN *** [6h Th 7c][9h]
+*** RIVER *** [6h Th 7c 9h][5d]
+*** SHOW DOWN ***
+pacorico80 shows [9c Ts] (Two pairs : Tens and 9)
+noheda83 shows [7s 7d] (Trips of 7)
+noheda83 collected 92305 from main pot
+pacorico80 collected 32307 from side pot 1
+*** SUMMARY ***
+Total pot 124612 | No rake
+Board: [6h Th 7c 9h 5d]
+Seat 1: pacorico80 showed [9c Ts] and won 32307 with Two pairs : Tens and 9
+Seat 6: noheda83 showed [7s 7d] and won 92305 with Trips of 7
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 14 - HandId: #4980556072008810530-52-1788731489 - Holdem no limit (1200/5000/10000) - 2026/09/06 21:51:29 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (392013, 7.25€ bounty)
+Seat 2: Palitra91 (476365, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (90625, 2.50€ bounty)
+Seat 4: donSimon987 (196314, 2.50€ bounty)
+Seat 5: bigfloaTalin (166887, 2.50€ bounty)
+Seat 6: noheda83 (92305, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 1200
+bigfloaTalin posts ante 1200
+pacorico80 posts ante 1200
+Palitra91 posts ante 1200
+wmx-95rfzs8 posts ante 1200
+noheda83 posts ante 1200
+donSimon987 posts small blind 5000
+bigfloaTalin posts big blind 10000
+Dealt to donSimon987 [3s Th]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 10000
+Palitra91 folds
+wmx-95rfzs8 calls 10000
+donSimon987 folds
+bigfloaTalin checks
+*** FLOP *** [8h Jd 9c]
+bigfloaTalin checks
+pacorico80 checks
+wmx-95rfzs8 bets 79425 and is all-in
+bigfloaTalin folds
+pacorico80 folds
+wmx-95rfzs8 collected 121625 from pot
+*** SUMMARY ***
+Total pot 121625 | No rake
+Board: [8h Jd 9c]
+Seat 3: wmx-95rfzs8 (button) won 121625
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 14 - HandId: #4980556072008810530-53-1788731542 - Holdem no limit (1200/5000/10000) - 2026/09/06 21:52:22 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (380813, 7.25€ bounty)
+Seat 2: Palitra91 (475165, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (121625, 2.50€ bounty)
+Seat 4: donSimon987 (190114, 2.50€ bounty)
+Seat 5: bigfloaTalin (155687, 2.50€ bounty)
+Seat 6: noheda83 (91105, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 1200
+noheda83 posts ante 1200
+pacorico80 posts ante 1200
+Palitra91 posts ante 1200
+wmx-95rfzs8 posts ante 1200
+donSimon987 posts ante 1200
+bigfloaTalin posts small blind 5000
+noheda83 posts big blind 10000
+Dealt to donSimon987 [3d Js]
+*** PRE-FLOP *** 
+pacorico80 calls 10000
+Palitra91 raises 25000 to 35000
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 25000
+*** FLOP *** [3s 6d 4s]
+pacorico80 checks
+Palitra91 bets 23050
+pacorico80 calls 23050
+*** TURN *** [3s 6d 4s][4c]
+pacorico80 checks
+Palitra91 checks
+*** RIVER *** [3s 6d 4s 4c][7s]
+pacorico80 checks
+Palitra91 bets 69150
+pacorico80 calls 69150
+*** SHOW DOWN ***
+Palitra91 shows [Jd Qs] (One pair : 4)
+pacorico80 shows [5c Ad] (Straight 7 high)
+pacorico80 collected 276600 from pot
+*** SUMMARY ***
+Total pot 276600 | No rake
+Board: [3s 6d 4s 4c 7s]
+Seat 1: pacorico80 showed [5c Ad] and won 276600 with Straight 7 high
+Seat 2: Palitra91 showed [Jd Qs] and lost with One pair : 4
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 14 - HandId: #4980556072008810530-54-1788731597 - Holdem no limit (1200/5000/10000) - 2026/09/06 21:53:17 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (529013, 7.25€ bounty)
+Seat 2: Palitra91 (346765, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (120425, 2.50€ bounty)
+Seat 4: donSimon987 (188914, 2.50€ bounty)
+Seat 5: bigfloaTalin (149487, 2.50€ bounty)
+Seat 6: noheda83 (79905, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 1200
+pacorico80 posts ante 1200
+Palitra91 posts ante 1200
+wmx-95rfzs8 posts ante 1200
+donSimon987 posts ante 1200
+bigfloaTalin posts ante 1200
+noheda83 posts small blind 5000
+pacorico80 posts big blind 10000
+Dealt to donSimon987 [2c Kh]
+*** PRE-FLOP *** 
+Palitra91 raises 10000 to 20000
+wmx-95rfzs8 folds
+donSimon987 folds
+bigfloaTalin folds
+noheda83 calls 15000
+pacorico80 calls 10000
+*** FLOP *** [3c 7h 9d]
+noheda83 checks
+pacorico80 checks
+Palitra91 bets 22176
+noheda83 folds
+pacorico80 calls 22176
+*** TURN *** [3c 7h 9d][Kd]
+pacorico80 checks
+Palitra91 bets 83664
+pacorico80 calls 83664
+*** RIVER *** [3c 7h 9d Kd][8s]
+pacorico80 checks
+Palitra91 bets 219725 and is all-in
+pacorico80 folds
+Palitra91 collected 498605 from pot
+*** SUMMARY ***
+Total pot 498605 | No rake
+Board: [3c 7h 9d Kd 8s]
+Seat 2: Palitra91 won 498605
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 15 - HandId: #4980556072008810530-55-1788731691 - Holdem no limit (1400/6000/12000) - 2026/09/06 21:54:51 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (401973, 7.25€ bounty)
+Seat 2: Palitra91 (498605, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (119225, 2.50€ bounty)
+Seat 4: donSimon987 (187714, 2.50€ bounty)
+Seat 5: bigfloaTalin (148287, 2.50€ bounty)
+Seat 6: noheda83 (58705, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 1400
+Palitra91 posts ante 1400
+wmx-95rfzs8 posts ante 1400
+donSimon987 posts ante 1400
+bigfloaTalin posts ante 1400
+noheda83 posts ante 1400
+pacorico80 posts small blind 6000
+Palitra91 posts big blind 12000
+Dealt to donSimon987 [5h 2d]
+*** PRE-FLOP *** 
+wmx-95rfzs8 calls 12000
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 6000
+Palitra91 checks
+*** FLOP *** [5s 8s 8d]
+pacorico80 checks
+Palitra91 checks
+wmx-95rfzs8 checks
+*** TURN *** [5s 8s 8d][3d]
+pacorico80 checks
+Palitra91 checks
+wmx-95rfzs8 bets 35520
+pacorico80 calls 35520
+Palitra91 folds
+*** RIVER *** [5s 8s 8d 3d][Js]
+pacorico80 checks
+wmx-95rfzs8 checks
+*** SHOW DOWN ***
+pacorico80 shows [4h 4c] (Two pairs : 8 and 4)
+wmx-95rfzs8 shows [Jh Qd] (Two pairs : Jacks and 8)
+wmx-95rfzs8 collected 115440 from pot
+*** SUMMARY ***
+Total pot 115440 | No rake
+Board: [5s 8s 8d 3d Js]
+Seat 1: pacorico80 (small blind) showed [4h 4c] and lost with Two pairs : 8 and 4
+Seat 3: wmx-95rfzs8 showed [Jh Qd] and won 115440 with Two pairs : Jacks and 8
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 15 - HandId: #4980556072008810530-56-1788732060 - Holdem no limit (1400/6000/12000) - 2026/09/06 22:01:00 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (353053, 7.25€ bounty)
+Seat 2: Palitra91 (485205, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (185745, 2.50€ bounty)
+Seat 4: donSimon987 (186314, 2.50€ bounty)
+Seat 5: bigfloaTalin (146887, 2.50€ bounty)
+Seat 6: noheda83 (57305, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 1400
+wmx-95rfzs8 posts ante 1400
+pacorico80 posts ante 1400
+donSimon987 posts ante 1400
+bigfloaTalin posts ante 1400
+noheda83 posts ante 1400
+Palitra91 posts small blind 6000
+wmx-95rfzs8 posts big blind 12000
+Dealt to donSimon987 [7h 3h]
+*** PRE-FLOP *** 
+donSimon987 folds
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 12000
+Palitra91 calls 6000
+wmx-95rfzs8 checks
+*** FLOP *** [4h 8d 6d]
+Palitra91 checks
+wmx-95rfzs8 checks
+pacorico80 checks
+*** TURN *** [4h 8d 6d][4c]
+Palitra91 bets 12000
+wmx-95rfzs8 folds
+pacorico80 calls 12000
+*** RIVER *** [4h 8d 6d 4c][Ts]
+Palitra91 bets 34200
+pacorico80 folds
+Palitra91 collected 102600 from pot
+*** SUMMARY ***
+Total pot 102600 | No rake
+Board: [4h 8d 6d 4c Ts]
+Seat 2: Palitra91 (small blind) won 102600
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 15 - HandId: #4980556072008810530-57-1788732114 - Holdem no limit (1400/6000/12000) - 2026/09/06 22:01:54 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (327653, 7.25€ bounty)
+Seat 2: Palitra91 (528205, 12.12€ bounty)
+Seat 3: wmx-95rfzs8 (172345, 2.50€ bounty)
+Seat 4: donSimon987 (184914, 2.50€ bounty)
+Seat 5: bigfloaTalin (145487, 2.50€ bounty)
+Seat 6: noheda83 (55905, 2.50€ bounty)
+*** ANTE/BLINDS ***
+wmx-95rfzs8 posts ante 1400
+donSimon987 posts ante 1400
+pacorico80 posts ante 1400
+Palitra91 posts ante 1400
+bigfloaTalin posts ante 1400
+noheda83 posts ante 1400
+wmx-95rfzs8 posts small blind 6000
+donSimon987 posts big blind 12000
+Dealt to donSimon987 [3d 2s]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+noheda83 folds
+pacorico80 calls 12000
+Palitra91 folds
+wmx-95rfzs8 calls 6000
+donSimon987 checks
+*** FLOP *** [Qs As 5c]
+wmx-95rfzs8 checks
+donSimon987 checks
+pacorico80 checks
+*** TURN *** [Qs As 5c][4d]
+wmx-95rfzs8 bets 22200
+donSimon987 raises 22200 to 44400
+pacorico80 folds
+wmx-95rfzs8 calls 22200
+*** RIVER *** [Qs As 5c 4d][8d]
+wmx-95rfzs8 checks
+donSimon987 bets 127114 and is all-in
+wmx-95rfzs8 calls 114545 and is all-in
+*** SHOW DOWN ***
+wmx-95rfzs8 shows [Qd Js] (One pair : Queens)
+donSimon987 shows [3d 2s] (Straight 5 high)
+donSimon987 collected 374859 from pot
+*** SUMMARY ***
+Total pot 374859 | No rake
+Board: [Qs As 5c 4d 8d]
+Seat 3: wmx-95rfzs8 (small blind) showed [Qd Js] and lost with One pair : Queens
+Seat 4: donSimon987 (big blind) showed [3d 2s] and won 374859 with Straight 5 high
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 15 - HandId: #4980556072008810530-58-1788732186 - Holdem no limit (1400/6000/12000) - 2026/09/06 22:03:06 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (314253, 7.25€ bounty)
+Seat 2: Palitra91 (526805, 12.12€ bounty)
+Seat 4: donSimon987 (374859, 3€ bounty)
+Seat 5: bigfloaTalin (144087, 2.50€ bounty)
+Seat 6: noheda83 (54505, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 1400
+bigfloaTalin posts ante 1400
+pacorico80 posts ante 1400
+Palitra91 posts ante 1400
+noheda83 posts ante 1400
+donSimon987 posts small blind 6000
+bigfloaTalin posts big blind 12000
+Dealt to donSimon987 [9h 5h]
+*** PRE-FLOP *** 
+noheda83 folds
+pacorico80 calls 12000
+Palitra91 folds
+donSimon987 calls 6000
+bigfloaTalin checks
+*** FLOP *** [Kd 4s Js]
+donSimon987 checks
+bigfloaTalin checks
+pacorico80 checks
+*** TURN *** [Kd 4s Js][Jc]
+donSimon987 checks
+bigfloaTalin bets 18000
+pacorico80 folds
+donSimon987 folds
+bigfloaTalin collected 61000 from pot
+*** SUMMARY ***
+Total pot 61000 | No rake
+Board: [Kd 4s Js Jc]
+Seat 5: bigfloaTalin (big blind) won 61000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 16 - HandId: #4980556072008810530-59-1788732255 - Holdem no limit (1600/7000/14000) - 2026/09/06 22:04:15 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (300853, 7.25€ bounty)
+Seat 2: Palitra91 (525405, 12.12€ bounty)
+Seat 3: galderdwomoh (212799, 3€ bounty)
+Seat 4: donSimon987 (361459, 3€ bounty)
+Seat 5: bigfloaTalin (173687, 2.50€ bounty)
+Seat 6: noheda83 (53105, 2.50€ bounty)
+*** ANTE/BLINDS ***
+bigfloaTalin posts ante 1600
+noheda83 posts ante 1600
+pacorico80 posts ante 1600
+Palitra91 posts ante 1600
+galderdwomoh posts ante 1600
+donSimon987 posts ante 1600
+bigfloaTalin posts small blind 7000
+noheda83 posts big blind 14000
+Dealt to donSimon987 [Jh Qh]
+*** PRE-FLOP *** 
+pacorico80 folds
+Palitra91 folds
+galderdwomoh folds
+donSimon987 raises 14000 to 28000
+bigfloaTalin raises 33600 to 61600
+noheda83 folds
+donSimon987 calls 33600
+*** FLOP *** [Js Ks 3s]
+bigfloaTalin bets 110487 and is all-in
+donSimon987 folds
+bigfloaTalin collected 257287 from pot
+*** SUMMARY ***
+Total pot 257287 | No rake
+Board: [Js Ks 3s]
+Seat 5: bigfloaTalin (small blind) won 257287
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 16 - HandId: #4980556072008810530-60-1788732292 - Holdem no limit (1600/7000/14000) - 2026/09/06 22:04:52 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (299253, 7.25€ bounty)
+Seat 2: Palitra91 (523805, 12.12€ bounty)
+Seat 3: galderdwomoh (211199, 3€ bounty)
+Seat 4: donSimon987 (298259, 3€ bounty)
+Seat 5: bigfloaTalin (257287, 2.50€ bounty)
+Seat 6: noheda83 (37505, 2.50€ bounty)
+*** ANTE/BLINDS ***
+noheda83 posts ante 1600
+pacorico80 posts ante 1600
+Palitra91 posts ante 1600
+galderdwomoh posts ante 1600
+donSimon987 posts ante 1600
+bigfloaTalin posts ante 1600
+noheda83 posts small blind 7000
+pacorico80 posts big blind 14000
+Dealt to donSimon987 [5d 5h]
+*** PRE-FLOP *** 
+Palitra91 folds
+galderdwomoh folds
+donSimon987 raises 282659 to 296659 and is all-in
+bigfloaTalin folds
+noheda83 folds
+pacorico80 folds
+donSimon987 collected 327259 from pot
+*** SUMMARY ***
+Total pot 327259 | No rake
+Seat 4: donSimon987 won 327259
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 16 - HandId: #4980556072008810530-61-1788732322 - Holdem no limit (1600/7000/14000) - 2026/09/06 22:05:22 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (283653, 7.25€ bounty)
+Seat 2: Palitra91 (522205, 12.12€ bounty)
+Seat 3: galderdwomoh (209599, 3€ bounty)
+Seat 4: donSimon987 (327259, 3€ bounty)
+Seat 5: bigfloaTalin (255687, 2.50€ bounty)
+Seat 6: noheda83 (28905, 2.50€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 1600
+Palitra91 posts ante 1600
+galderdwomoh posts ante 1600
+donSimon987 posts ante 1600
+bigfloaTalin posts ante 1600
+noheda83 posts ante 1600
+pacorico80 posts small blind 7000
+Palitra91 posts big blind 14000
+Dealt to donSimon987 [3s Kc]
+*** PRE-FLOP *** 
+galderdwomoh folds
+donSimon987 folds
+bigfloaTalin raises 14000 to 28000
+noheda83 folds
+pacorico80 folds
+Palitra91 raises 492605 to 520605 and is all-in
+bigfloaTalin folds
+Palitra91 collected 565205 from pot
+*** SUMMARY ***
+Total pot 565205 | No rake
+Seat 2: Palitra91 (big blind) won 565205
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 16 - HandId: #4980556072008810530-62-1788732369 - Holdem no limit (1600/7000/14000) - 2026/09/06 22:06:09 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (275053, 7.25€ bounty)
+Seat 2: Palitra91 (565205, 12.12€ bounty)
+Seat 3: galderdwomoh (207999, 3€ bounty)
+Seat 4: donSimon987 (325659, 3€ bounty)
+Seat 5: bigfloaTalin (226087, 2.50€ bounty)
+Seat 6: noheda83 (27305, 2.50€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 1600
+galderdwomoh posts ante 1600
+pacorico80 posts ante 1600
+donSimon987 posts ante 1600
+bigfloaTalin posts ante 1600
+noheda83 posts ante 1600
+Palitra91 posts small blind 7000
+galderdwomoh posts big blind 14000
+Dealt to donSimon987 [Qd Tc]
+*** PRE-FLOP *** 
+donSimon987 folds
+bigfloaTalin folds
+noheda83 raises 11705 to 25705 and is all-in
+pacorico80 calls 25705
+Palitra91 raises 537900 to 563605 and is all-in
+galderdwomoh folds
+pacorico80 calls 247748 and is all-in
+*** FLOP *** [Ad 7s 8c]
+*** TURN *** [Ad 7s 8c][6s]
+*** RIVER *** [Ad 7s 8c 6s][3d]
+*** SHOW DOWN ***
+noheda83 shows [Jd Qs] (High card : Ace)
+pacorico80 shows [2h Ah] (One pair : Aces)
+Palitra91 shows [As 4h] (One pair : Aces)
+Palitra91 collected 588258 from side pot 1
+pacorico80 collected 298105 from main pot
+*** SUMMARY ***
+Total pot 886363 | No rake
+Board: [Ad 7s 8c 6s 3d]
+Seat 1: pacorico80 (button) showed [2h Ah] and won 298105 with One pair : Aces
+Seat 2: Palitra91 (small blind) showed [As 4h] and won 588258 with One pair : Aces
+Seat 6: noheda83 showed [Jd Qs] and lost with High card : Ace
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 17 - HandId: #4980556072008810530-63-1788732415 - Holdem no limit (2000/8000/16000) - 2026/09/06 22:06:55 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (298105, 7.50€ bounty)
+Seat 2: Palitra91 (588258, 12.37€ bounty)
+Seat 3: galderdwomoh (192399, 3€ bounty)
+Seat 4: donSimon987 (324059, 3€ bounty)
+Seat 5: bigfloaTalin (224487, 2.50€ bounty)
+*** ANTE/BLINDS ***
+galderdwomoh posts ante 2000
+donSimon987 posts ante 2000
+pacorico80 posts ante 2000
+Palitra91 posts ante 2000
+bigfloaTalin posts ante 2000
+galderdwomoh posts small blind 8000
+donSimon987 posts big blind 16000
+Dealt to donSimon987 [As 9h]
+*** PRE-FLOP *** 
+bigfloaTalin folds
+pacorico80 folds
+Palitra91 folds
+galderdwomoh calls 8000
+donSimon987 raises 306059 to 322059 and is all-in
+galderdwomoh folds
+donSimon987 collected 348059 from pot
+*** SUMMARY ***
+Total pot 348059 | No rake
+Seat 4: donSimon987 (big blind) won 348059
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 17 - HandId: #4980556072008810530-64-1788732438 - Holdem no limit (2000/8000/16000) - 2026/09/06 22:07:18 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (296105, 7.50€ bounty)
+Seat 2: Palitra91 (586258, 12.37€ bounty)
+Seat 3: galderdwomoh (174399, 3€ bounty)
+Seat 4: donSimon987 (348059, 3€ bounty)
+Seat 5: bigfloaTalin (222487, 2.50€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 2000
+bigfloaTalin posts ante 2000
+pacorico80 posts ante 2000
+Palitra91 posts ante 2000
+galderdwomoh posts ante 2000
+donSimon987 posts small blind 8000
+bigfloaTalin posts big blind 16000
+Dealt to donSimon987 [5c Th]
+*** PRE-FLOP *** 
+pacorico80 folds
+Palitra91 raises 16000 to 32000
+galderdwomoh folds
+donSimon987 folds
+bigfloaTalin raises 188487 to 220487 and is all-in
+Palitra91 calls 188487
+*** FLOP *** [Tc 3s 7h]
+*** TURN *** [Tc 3s 7h][4d]
+*** RIVER *** [Tc 3s 7h 4d][3d]
+*** SHOW DOWN ***
+bigfloaTalin shows [As 2h] (One pair : 3)
+Palitra91 shows [Ac 8s] (One pair : 3)
+Palitra91 collected 458974 from pot
+*** SUMMARY ***
+Total pot 458974 | No rake
+Board: [Tc 3s 7h 4d 3d]
+Seat 2: Palitra91 showed [Ac 8s] and won 458974 with One pair : 3
+Seat 5: bigfloaTalin (big blind) showed [As 2h] and lost with One pair : 3
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 17 - HandId: #4980556072008810530-65-1788732471 - Holdem no limit (2000/8000/16000) - 2026/09/06 22:07:51 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (294105, 7.50€ bounty)
+Seat 2: Palitra91 (822745, 12.87€ bounty)
+Seat 3: galderdwomoh (172399, 3€ bounty)
+Seat 4: donSimon987 (338059, 3€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 2000
+Palitra91 posts ante 2000
+galderdwomoh posts ante 2000
+donSimon987 posts ante 2000
+pacorico80 posts big blind 16000
+Dealt to donSimon987 [7d 4h]
+*** PRE-FLOP *** 
+Palitra91 folds
+galderdwomoh folds
+donSimon987 folds
+pacorico80 collected 24000 from pot
+*** SUMMARY ***
+Total pot 24000 | No rake
+Seat 1: pacorico80 (big blind) won 24000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 17 - HandId: #4980556072008810530-66-1788732490 - Holdem no limit (2000/8000/16000) - 2026/09/06 22:08:10 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (300105, 7.50€ bounty)
+Seat 2: Palitra91 (820745, 12.87€ bounty)
+Seat 3: galderdwomoh (170399, 3€ bounty)
+Seat 4: donSimon987 (336059, 3€ bounty)
+Seat 5: Aigle 439307 (103610, 3.75€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 2000
+Palitra91 posts ante 2000
+galderdwomoh posts ante 2000
+donSimon987 posts ante 2000
+pacorico80 posts small blind 8000
+Palitra91 posts big blind 16000
+Dealt to donSimon987 [Jh 7s]
+*** PRE-FLOP *** 
+galderdwomoh folds
+donSimon987 folds
+pacorico80 calls 8000
+Palitra91 raises 802745 to 818745 and is all-in
+pacorico80 folds
+Palitra91 collected 842745 from pot
+*** SUMMARY ***
+Total pot 842745 | No rake
+Seat 2: Palitra91 (big blind) won 842745
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 17 - HandId: #4980556072008810530-67-1788732520 - Holdem no limit (2000/8000/16000) - 2026/09/06 22:08:40 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (282105, 7.50€ bounty)
+Seat 2: Palitra91 (842745, 12.87€ bounty)
+Seat 3: galderdwomoh (168399, 3€ bounty)
+Seat 4: donSimon987 (334059, 3€ bounty)
+Seat 5: Aigle 439307 (103610, 3.75€ bounty)
+Seat 6: FromLaManga (489087, 8€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 2000
+galderdwomoh posts ante 2000
+pacorico80 posts ante 2000
+donSimon987 posts ante 2000
+Aigle 439307 posts ante 2000
+FromLaManga posts ante 2000
+Palitra91 posts small blind 8000
+galderdwomoh posts big blind 16000
+Dealt to donSimon987 [6h 8h]
+*** PRE-FLOP *** 
+donSimon987 folds
+Aigle 439307 raises 85610 to 101610 and is all-in
+FromLaManga folds
+pacorico80 raises 178495 to 280105 and is all-in
+Palitra91 folds
+galderdwomoh folds
+*** FLOP *** [2d Ad 9s]
+*** TURN *** [2d Ad 9s][3c]
+*** RIVER *** [2d Ad 9s 3c][Kh]
+*** SHOW DOWN ***
+Aigle 439307 shows [7s 7h] (One pair : 7)
+pacorico80 shows [Kd Qd] (One pair : Kings)
+pacorico80 collected 417715 from pot
+*** SUMMARY ***
+Total pot 417715 | No rake
+Board: [2d Ad 9s 3c Kh]
+Seat 1: pacorico80 (button) showed [Kd Qd] and won 417715 with One pair : Kings
+Seat 5: Aigle 439307 showed [7s 7h] and lost with One pair : 7
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 18 - HandId: #4980556072008810530-68-1788732586 - Holdem no limit (2500/10000/20000) - 2026/09/06 22:09:46 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (417715, 13.12€ bounty)
+Seat 2: Palitra91 (832745, 12.87€ bounty)
+Seat 3: galderdwomoh (150399, 3€ bounty)
+Seat 4: donSimon987 (332059, 3€ bounty)
+Seat 6: FromLaManga (487087, 8€ bounty)
+*** ANTE/BLINDS ***
+galderdwomoh posts ante 2500
+donSimon987 posts ante 2500
+pacorico80 posts ante 2500
+Palitra91 posts ante 2500
+FromLaManga posts ante 2500
+galderdwomoh posts small blind 10000
+donSimon987 posts big blind 20000
+Dealt to donSimon987 [As Th]
+*** PRE-FLOP *** 
+FromLaManga raises 20000 to 40000
+pacorico80 folds
+Palitra91 folds
+galderdwomoh raises 107899 to 147899 and is all-in
+donSimon987 raises 181660 to 329559 and is all-in
+FromLaManga folds
+*** FLOP *** [6s 6c 8h]
+*** TURN *** [6s 6c 8h][Ad]
+*** RIVER *** [6s 6c 8h Ad][Js]
+*** SHOW DOWN ***
+galderdwomoh shows [4d 4s] (Two pairs : 6 and 4)
+donSimon987 shows [As Th] (Two pairs : Aces and 6)
+donSimon987 collected 529958 from pot
+*** SUMMARY ***
+Total pot 529958 | No rake
+Board: [6s 6c 8h Ad Js]
+Seat 3: galderdwomoh (small blind) showed [4d 4s] and lost with Two pairs : 6 and 4
+Seat 4: donSimon987 (big blind) showed [As Th] and won 529958 with Two pairs : Aces and 6
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 18 - HandId: #4980556072008810530-69-1788732652 - Holdem no limit (2500/10000/20000) - 2026/09/06 22:10:52 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (415215, 13.12€ bounty)
+Seat 2: Palitra91 (830245, 12.87€ bounty)
+Seat 4: donSimon987 (529958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (421776, 4.35€ bounty)
+Seat 6: FromLaManga (444587, 8€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 2500
+ChristPqrs34 posts ante 2500
+pacorico80 posts ante 2500
+Palitra91 posts ante 2500
+FromLaManga posts ante 2500
+donSimon987 posts small blind 10000
+ChristPqrs34 posts big blind 20000
+Dealt to donSimon987 [8d Ac]
+*** PRE-FLOP *** 
+FromLaManga folds
+pacorico80 calls 20000
+Palitra91 calls 20000
+donSimon987 calls 10000
+ChristPqrs34 checks
+*** FLOP *** [3h Tc 7h]
+donSimon987 checks
+ChristPqrs34 checks
+pacorico80 checks
+Palitra91 checks
+*** TURN *** [3h Tc 7h][Th]
+donSimon987 checks
+ChristPqrs34 checks
+pacorico80 checks
+Palitra91 checks
+*** RIVER *** [3h Tc 7h Th][Qs]
+donSimon987 checks
+ChristPqrs34 checks
+pacorico80 checks
+Palitra91 checks
+*** SHOW DOWN ***
+Palitra91 shows [Ad 4d] (One pair : Tens)
+donSimon987 shows [8d Ac] (One pair : Tens)
+ChristPqrs34 shows [2c 6c] (One pair : Tens)
+pacorico80 shows [7s Kh] (Two pairs : Tens and 7)
+pacorico80 collected 92500 from pot
+*** SUMMARY ***
+Total pot 92500 | No rake
+Board: [3h Tc 7h Th Qs]
+Seat 1: pacorico80 showed [7s Kh] and won 92500 with Two pairs : Tens and 7
+Seat 2: Palitra91 showed [Ad 4d] and lost with One pair : Tens
+Seat 4: donSimon987 (small blind) showed [8d Ac] and lost with One pair : Tens
+Seat 5: ChristPqrs34 (big blind) showed [2c 6c] and lost with One pair : Tens
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 18 - HandId: #4980556072008810530-70-1788732727 - Holdem no limit (2500/10000/20000) - 2026/09/06 22:12:07 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (485215, 13.12€ bounty)
+Seat 2: Palitra91 (807745, 12.87€ bounty)
+Seat 3: Fungusriper (214483, 7.25€ bounty)
+Seat 4: donSimon987 (507458, 3.60€ bounty)
+Seat 5: ChristPqrs34 (399276, 4.35€ bounty)
+Seat 6: FromLaManga (442087, 8€ bounty)
+*** ANTE/BLINDS ***
+ChristPqrs34 posts ante 2500
+FromLaManga posts ante 2500
+pacorico80 posts ante 2500
+Palitra91 posts ante 2500
+Fungusriper posts ante 2500
+donSimon987 posts ante 2500
+ChristPqrs34 posts small blind 10000
+FromLaManga posts big blind 20000
+Dealt to donSimon987 [9h 3c]
+*** PRE-FLOP *** 
+pacorico80 calls 20000
+Palitra91 raises 30000 to 50000
+Fungusriper folds
+donSimon987 folds
+ChristPqrs34 folds
+FromLaManga folds
+pacorico80 calls 30000
+*** FLOP *** [8s 5h Ah]
+pacorico80 checks
+Palitra91 bets 72500
+pacorico80 calls 72500
+*** TURN *** [8s 5h Ah][Jh]
+pacorico80 checks
+Palitra91 bets 682745 and is all-in
+pacorico80 folds
+Palitra91 collected 972745 from pot
+*** SUMMARY ***
+Total pot 972745 | No rake
+Board: [8s 5h Ah Jh]
+Seat 2: Palitra91 won 972745
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 19 - HandId: #4980556072008810530-71-1788732790 - Holdem no limit (3000/12500/25000) - 2026/09/06 22:13:10 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (360215, 13.12€ bounty)
+Seat 2: Palitra91 (972745, 12.87€ bounty)
+Seat 3: Fungusriper (211983, 7.25€ bounty)
+Seat 4: donSimon987 (504958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (386776, 4.35€ bounty)
+Seat 6: FromLaManga (419587, 8€ bounty)
+*** ANTE/BLINDS ***
+FromLaManga posts ante 3000
+pacorico80 posts ante 3000
+Palitra91 posts ante 3000
+Fungusriper posts ante 3000
+donSimon987 posts ante 3000
+ChristPqrs34 posts ante 3000
+FromLaManga posts small blind 12500
+pacorico80 posts big blind 25000
+Dealt to donSimon987 [8d 3h]
+*** PRE-FLOP *** 
+Palitra91 raises 25000 to 50000
+Fungusriper folds
+donSimon987 folds
+ChristPqrs34 folds
+FromLaManga folds
+pacorico80 calls 25000
+*** FLOP *** [5h 4d 7s]
+pacorico80 checks
+Palitra91 checks
+*** TURN *** [5h 4d 7s][8h]
+pacorico80 checks
+Palitra91 bets 65250
+pacorico80 raises 241965 to 307215 and is all-in
+Palitra91 folds
+pacorico80 collected 502965 from pot
+*** SUMMARY ***
+Total pot 502965 | No rake
+Board: [5h 4d 7s 8h]
+Seat 1: pacorico80 (big blind) won 502965
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 19 - HandId: #4980556072008810530-72-1788732831 - Holdem no limit (3000/12500/25000) - 2026/09/06 22:13:51 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (502965, 13.12€ bounty)
+Seat 2: Palitra91 (854495, 12.87€ bounty)
+Seat 3: Fungusriper (208983, 7.25€ bounty)
+Seat 4: donSimon987 (501958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (383776, 4.35€ bounty)
+Seat 6: FromLaManga (404087, 8€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 3000
+Palitra91 posts ante 3000
+Fungusriper posts ante 3000
+donSimon987 posts ante 3000
+ChristPqrs34 posts ante 3000
+FromLaManga posts ante 3000
+pacorico80 posts small blind 12500
+Palitra91 posts big blind 25000
+Dealt to donSimon987 [Kc 8d]
+*** PRE-FLOP *** 
+Fungusriper folds
+donSimon987 folds
+ChristPqrs34 folds
+FromLaManga folds
+pacorico80 calls 12500
+Palitra91 checks
+*** FLOP *** [7d Js 8s]
+pacorico80 checks
+Palitra91 bets 25000
+pacorico80 calls 25000
+*** TURN *** [7d Js 8s][8h]
+pacorico80 checks
+Palitra91 bets 37500
+pacorico80 calls 37500
+*** RIVER *** [7d Js 8s 8h][7c]
+pacorico80 checks
+Palitra91 bets 763995 and is all-in
+pacorico80 folds
+Palitra91 collected 956995 from pot
+*** SUMMARY ***
+Total pot 956995 | No rake
+Board: [7d Js 8s 8h 7c]
+Seat 2: Palitra91 (big blind) won 956995
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 19 - HandId: #4980556072008810530-73-1788732889 - Holdem no limit (3000/12500/25000) - 2026/09/06 22:14:49 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (412465, 13.12€ bounty)
+Seat 2: Palitra91 (956995, 12.87€ bounty)
+Seat 3: Fungusriper (205983, 7.25€ bounty)
+Seat 4: donSimon987 (498958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (380776, 4.35€ bounty)
+Seat 6: FromLaManga (401087, 8€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 3000
+Fungusriper posts ante 3000
+pacorico80 posts ante 3000
+donSimon987 posts ante 3000
+ChristPqrs34 posts ante 3000
+FromLaManga posts ante 3000
+Palitra91 posts small blind 12500
+Fungusriper posts big blind 25000
+Dealt to donSimon987 [Qc 4s]
+*** PRE-FLOP *** 
+donSimon987 folds
+ChristPqrs34 folds
+FromLaManga folds
+pacorico80 calls 25000
+Palitra91 calls 12500
+Fungusriper raises 177983 to 202983 and is all-in
+pacorico80 folds
+Palitra91 folds
+Fungusriper collected 270983 from pot
+*** SUMMARY ***
+Total pot 270983 | No rake
+Seat 3: Fungusriper (big blind) won 270983
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 20 - HandId: #4980556072008810530-74-1788732925 - Holdem no limit (3500/15000/30000) - 2026/09/06 22:15:25 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (384465, 13.12€ bounty)
+Seat 2: Palitra91 (928995, 12.87€ bounty)
+Seat 3: Fungusriper (270983, 7.25€ bounty)
+Seat 4: donSimon987 (495958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (377776, 4.35€ bounty)
+Seat 6: FromLaManga (398087, 8€ bounty)
+*** ANTE/BLINDS ***
+Fungusriper posts ante 3500
+donSimon987 posts ante 3500
+pacorico80 posts ante 3500
+Palitra91 posts ante 3500
+ChristPqrs34 posts ante 3500
+FromLaManga posts ante 3500
+Fungusriper posts small blind 15000
+donSimon987 posts big blind 30000
+Dealt to donSimon987 [Jh 5d]
+*** PRE-FLOP *** 
+ChristPqrs34 folds
+FromLaManga raises 364587 to 394587 and is all-in
+pacorico80 calls 380965 and is all-in
+Palitra91 folds
+Fungusriper folds
+donSimon987 folds
+*** FLOP *** [4c Qh 6h]
+*** TURN *** [4c Qh 6h][5h]
+*** RIVER *** [4c Qh 6h 5h][6c]
+*** SHOW DOWN ***
+pacorico80 shows [Td Qs] (Two pairs : Queens and 6)
+FromLaManga shows [Th As] (One pair : 6)
+FromLaManga collected 13622 from side pot 1
+pacorico80 collected 827930 from main pot
+*** SUMMARY ***
+Total pot 841552 | No rake
+Board: [4c Qh 6h 5h 6c]
+Seat 1: pacorico80 showed [Td Qs] and won 827930 with Two pairs : Queens and 6
+Seat 6: FromLaManga showed [Th As] and won 13622 with One pair : 6
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 20 - HandId: #4980556072008810530-75-1788732952 - Holdem no limit (3500/15000/30000) - 2026/09/06 22:15:52 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (827930, 13.12€ bounty)
+Seat 2: Palitra91 (925495, 12.87€ bounty)
+Seat 3: Fungusriper (252483, 7.25€ bounty)
+Seat 4: donSimon987 (462458, 3.60€ bounty)
+Seat 5: ChristPqrs34 (374276, 4.35€ bounty)
+Seat 6: FromLaManga (13622, 8€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 3500
+ChristPqrs34 posts ante 3500
+pacorico80 posts ante 3500
+Palitra91 posts ante 3500
+Fungusriper posts ante 3500
+FromLaManga posts ante 3500
+donSimon987 posts small blind 15000
+ChristPqrs34 posts big blind 30000
+Dealt to donSimon987 [Ks 9c]
+*** PRE-FLOP *** 
+FromLaManga calls 10122 and is all-in
+pacorico80 calls 30000
+Palitra91 folds
+Fungusriper calls 30000
+donSimon987 calls 15000
+ChristPqrs34 checks
+*** FLOP *** [4c 8s 5h]
+donSimon987 checks
+ChristPqrs34 checks
+pacorico80 bets 151122
+Fungusriper raises 67861 to 218983 and is all-in
+donSimon987 folds
+ChristPqrs34 folds
+pacorico80 calls 67861
+*** TURN *** [4c 8s 5h][4h]
+*** RIVER *** [4c 8s 5h 4h][Qh]
+*** SHOW DOWN ***
+Fungusriper shows [7c Td] (One pair : 4)
+FromLaManga shows [7d 3c] (One pair : 4)
+pacorico80 shows [5c 8d] (Two pairs : 8 and 5)
+pacorico80 collected 589088 from pot
+*** SUMMARY ***
+Total pot 589088 | No rake
+Board: [4c 8s 5h 4h Qh]
+Seat 1: pacorico80 showed [5c 8d] and won 589088 with Two pairs : 8 and 5
+Seat 3: Fungusriper (button) showed [7c Td] and lost with One pair : 4
+Seat 6: FromLaManga showed [7d 3c] and lost with One pair : 4
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 20 - HandId: #4980556072008810530-76-1788733035 - Holdem no limit (3500/15000/30000) - 2026/09/06 22:17:15 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (1164535, 53.37€ bounty)
+Seat 2: Palitra91 (921995, 12.87€ bounty)
+Seat 4: donSimon987 (428958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (340776, 4.35€ bounty)
+*** ANTE/BLINDS ***
+ChristPqrs34 posts ante 3500
+pacorico80 posts ante 3500
+Palitra91 posts ante 3500
+donSimon987 posts ante 3500
+ChristPqrs34 posts small blind 15000
+pacorico80 posts big blind 30000
+Dealt to donSimon987 [2s Jh]
+*** PRE-FLOP *** 
+Palitra91 folds
+donSimon987 folds
+ChristPqrs34 folds
+pacorico80 collected 59000 from pot
+*** SUMMARY ***
+Total pot 59000 | No rake
+Seat 1: pacorico80 (big blind) won 59000
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 20 - HandId: #4980556072008810530-77-1788733044 - Holdem no limit (3500/15000/30000) - 2026/09/06 22:17:24 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (1190035, 53.37€ bounty)
+Seat 2: Palitra91 (918495, 12.87€ bounty)
+Seat 3: Tanguotimiso (887251, 6.28€ bounty)
+Seat 4: donSimon987 (425458, 3.60€ bounty)
+Seat 5: ChristPqrs34 (322276, 4.35€ bounty)
+Seat 6: Raco.12 (802818, 13.05€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 3500
+Palitra91 posts ante 3500
+Tanguotimiso posts ante 3500
+donSimon987 posts ante 3500
+ChristPqrs34 posts ante 3500
+pacorico80 posts small blind 15000
+Palitra91 posts big blind 30000
+Dealt to donSimon987 [4d 6h]
+*** PRE-FLOP *** 
+Tanguotimiso folds
+donSimon987 folds
+ChristPqrs34 folds
+pacorico80 calls 15000
+Palitra91 raises 884995 to 914995 and is all-in
+pacorico80 folds
+Palitra91 collected 962495 from pot
+*** SUMMARY ***
+Total pot 962495 | No rake
+Seat 2: Palitra91 (big blind) won 962495
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 20 - HandId: #4980556072008810530-78-1788733065 - Holdem no limit (3500/15000/30000) - 2026/09/06 22:17:45 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #1 is the button
+Seat 1: pacorico80 (1156535, 53.37€ bounty)
+Seat 2: Palitra91 (962495, 12.87€ bounty)
+Seat 3: Tanguotimiso (883751, 6.28€ bounty)
+Seat 4: donSimon987 (421958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (318776, 4.35€ bounty)
+Seat 6: Raco.12 (802818, 13.05€ bounty)
+*** ANTE/BLINDS ***
+Palitra91 posts ante 3500
+Tanguotimiso posts ante 3500
+pacorico80 posts ante 3500
+donSimon987 posts ante 3500
+ChristPqrs34 posts ante 3500
+Raco.12 posts ante 3500
+Palitra91 posts small blind 15000
+Tanguotimiso posts big blind 30000
+Dealt to donSimon987 [8c 9d]
+*** PRE-FLOP *** 
+donSimon987 folds
+ChristPqrs34 folds
+Raco.12 folds
+pacorico80 calls 30000
+Palitra91 raises 75000 to 105000
+Tanguotimiso folds
+pacorico80 calls 75000
+*** FLOP *** [Ts 5h Jd]
+Palitra91 bets 86130
+pacorico80 folds
+Palitra91 collected 347130 from pot
+*** SUMMARY ***
+Total pot 347130 | No rake
+Board: [Ts 5h Jd]
+Seat 2: Palitra91 (small blind) won 347130
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 21 - HandId: #4980556072008810530-79-1788733151 - Holdem no limit (4000/17500/35000) - 2026/09/06 22:19:11 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #2 is the button
+Seat 1: pacorico80 (1048035, 53.37€ bounty)
+Seat 2: Palitra91 (1114995, 12.87€ bounty)
+Seat 3: Tanguotimiso (850251, 6.28€ bounty)
+Seat 4: donSimon987 (418458, 3.60€ bounty)
+Seat 5: ChristPqrs34 (315276, 4.35€ bounty)
+Seat 6: Raco.12 (799318, 13.05€ bounty)
+*** ANTE/BLINDS ***
+Tanguotimiso posts ante 4000
+donSimon987 posts ante 4000
+pacorico80 posts ante 4000
+Palitra91 posts ante 4000
+ChristPqrs34 posts ante 4000
+Raco.12 posts ante 4000
+Tanguotimiso posts small blind 17500
+donSimon987 posts big blind 35000
+Dealt to donSimon987 [4h Jc]
+*** PRE-FLOP *** 
+ChristPqrs34 folds
+Raco.12 folds
+pacorico80 calls 35000
+Palitra91 folds
+Tanguotimiso folds
+donSimon987 checks
+*** FLOP *** [9h 5s 9d]
+donSimon987 checks
+pacorico80 checks
+*** TURN *** [9h 5s 9d][Js]
+donSimon987 checks
+pacorico80 bets 35000
+donSimon987 calls 35000
+*** RIVER *** [9h 5s 9d Js][8c]
+donSimon987 checks
+pacorico80 checks
+*** SHOW DOWN ***
+pacorico80 shows [Ks 6d] (One pair : 9)
+donSimon987 shows [4h Jc] (Two pairs : Jacks and 9)
+donSimon987 collected 181500 from pot
+*** SUMMARY ***
+Total pot 181500 | No rake
+Board: [9h 5s 9d Js 8c]
+Seat 1: pacorico80 showed [Ks 6d] and lost with One pair : 9
+Seat 4: donSimon987 (big blind) showed [4h Jc] and won 181500 with Two pairs : Jacks and 9
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 21 - HandId: #4980556072008810530-80-1788733179 - Holdem no limit (4000/17500/35000) - 2026/09/06 22:19:39 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #3 is the button
+Seat 1: pacorico80 (974035, 53.37€ bounty)
+Seat 2: Palitra91 (1110995, 12.87€ bounty)
+Seat 3: Tanguotimiso (828751, 6.28€ bounty)
+Seat 4: donSimon987 (525958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (311276, 4.35€ bounty)
+Seat 6: Raco.12 (795318, 13.05€ bounty)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 4000
+ChristPqrs34 posts ante 4000
+pacorico80 posts ante 4000
+Palitra91 posts ante 4000
+Tanguotimiso posts ante 4000
+Raco.12 posts ante 4000
+donSimon987 posts small blind 17500
+ChristPqrs34 posts big blind 35000
+Dealt to donSimon987 [7s 7c]
+*** PRE-FLOP *** 
+Raco.12 folds
+pacorico80 folds
+Palitra91 folds
+Tanguotimiso calls 35000
+donSimon987 raises 486958 to 521958 and is all-in
+ChristPqrs34 folds
+Tanguotimiso folds
+donSimon987 collected 615958 from pot
+*** SUMMARY ***
+Total pot 615958 | No rake
+Seat 4: donSimon987 (small blind) won 615958
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 21 - HandId: #4980556072008810530-81-1788733198 - Holdem no limit (4000/17500/35000) - 2026/09/06 22:19:58 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #4 is the button
+Seat 1: pacorico80 (970035, 53.37€ bounty)
+Seat 2: Palitra91 (1106995, 12.87€ bounty)
+Seat 3: Tanguotimiso (789751, 6.28€ bounty)
+Seat 4: donSimon987 (615958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (272276, 4.35€ bounty)
+Seat 6: Raco.12 (791318, 13.05€ bounty)
+*** ANTE/BLINDS ***
+ChristPqrs34 posts ante 4000
+Raco.12 posts ante 4000
+pacorico80 posts ante 4000
+Palitra91 posts ante 4000
+Tanguotimiso posts ante 4000
+donSimon987 posts ante 4000
+ChristPqrs34 posts small blind 17500
+Raco.12 posts big blind 35000
+Dealt to donSimon987 [Kh 6c]
+*** PRE-FLOP *** 
+pacorico80 calls 35000
+Palitra91 raises 52500 to 87500
+Tanguotimiso folds
+donSimon987 folds
+ChristPqrs34 folds
+Raco.12 folds
+pacorico80 calls 52500
+*** FLOP *** [4d 9c 6s]
+pacorico80 checks
+Palitra91 bets 82995
+pacorico80 calls 82995
+*** TURN *** [4d 9c 6s][4s]
+pacorico80 checks
+Palitra91 bets 932500 and is all-in
+pacorico80 calls 795540 and is all-in
+*** RIVER *** [4d 9c 6s 4s][7d]
+*** SHOW DOWN ***
+pacorico80 shows [9h 9s] (Full of 9 and 4)
+Palitra91 shows [Ah 9d] (Two pairs : 9 and 4)
+Palitra91 collected 136960 from side pot 1
+pacorico80 collected 2008570 from main pot
+*** SUMMARY ***
+Total pot 2145530 | No rake
+Board: [4d 9c 6s 4s 7d]
+Seat 1: pacorico80 showed [9h 9s] and won 2008570 with Full of 9 and 4
+Seat 2: Palitra91 showed [Ah 9d] and won 136960 with Two pairs : 9 and 4
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 21 - HandId: #4980556072008810530-82-1788733235 - Holdem no limit (4000/17500/35000) - 2026/09/06 22:20:35 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #5 is the button
+Seat 1: pacorico80 (2008570, 53.37€ bounty)
+Seat 2: Palitra91 (136960, 12.87€ bounty)
+Seat 3: Tanguotimiso (785751, 6.28€ bounty)
+Seat 4: donSimon987 (611958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (250776, 4.35€ bounty)
+Seat 6: Raco.12 (752318, 13.05€ bounty)
+*** ANTE/BLINDS ***
+Raco.12 posts ante 4000
+pacorico80 posts ante 4000
+Palitra91 posts ante 4000
+Tanguotimiso posts ante 4000
+donSimon987 posts ante 4000
+ChristPqrs34 posts ante 4000
+Raco.12 posts small blind 17500
+pacorico80 posts big blind 35000
+Dealt to donSimon987 [3s Jh]
+*** PRE-FLOP *** 
+Palitra91 folds
+Tanguotimiso calls 35000
+donSimon987 folds
+ChristPqrs34 folds
+Raco.12 raises 713318 to 748318 and is all-in
+pacorico80 folds
+Tanguotimiso raises 33433 to 781751 and is all-in
+*** FLOP *** [8s Th 7h]
+*** TURN *** [8s Th 7h][Ah]
+*** RIVER *** [8s Th 7h Ah][2c]
+*** SHOW DOWN ***
+Tanguotimiso shows [9h 9s] (One pair : 9)
+Raco.12 shows [Ad Jc] (One pair : Aces)
+Raco.12 collected 1555636 from main pot
+Tanguotimiso collected 33433 from side pot 1
+*** SUMMARY ***
+Total pot 1589069 | No rake
+Board: [8s Th 7h Ah 2c]
+Seat 3: Tanguotimiso showed [9h 9s] and won 33433 with One pair : 9
+Seat 6: Raco.12 (small blind) showed [Ad Jc] and won 1555636 with One pair : Aces
+
+
+Winamax Poker - Tournament "#36 - W SERIES - SPACE KO" buyIn: 4.50€ + 0.50€ level: 21 - HandId: #4980556072008810530-83-1788733263 - Holdem no limit (4000/17500/35000) - 2026/09/06 22:21:03 UTC
+Table: '#36 - W SERIES - SPACE KO(1159626076)#0033' 6-max (real money) Seat #6 is the button
+Seat 1: pacorico80 (1969570, 53.37€ bounty)
+Seat 2: Palitra91 (132960, 12.87€ bounty)
+Seat 3: Tanguotimiso (33433, 6.28€ bounty)
+Seat 4: donSimon987 (607958, 3.60€ bounty)
+Seat 5: ChristPqrs34 (246776, 4.35€ bounty)
+Seat 6: Raco.12 (1555636, 13.05€ bounty)
+*** ANTE/BLINDS ***
+pacorico80 posts ante 4000
+Palitra91 posts ante 4000
+Tanguotimiso posts ante 4000
+donSimon987 posts ante 4000
+ChristPqrs34 posts ante 4000
+Raco.12 posts ante 4000
+pacorico80 posts small blind 17500
+Palitra91 posts big blind 35000
+Dealt to donSimon987 [4c Kc]
+*** PRE-FLOP *** 
+Tanguotimiso calls 29433 and is all-in
+donSimon987 calls 35000
+ChristPqrs34 raises 207776 to 242776 and is all-in
+Raco.12 folds
+pacorico80 calls 225276
+Palitra91 calls 93960 and is all-in
+donSimon987 calls 207776
+*** FLOP *** [8s 4h Td]
+pacorico80 bets 373950
+donSimon987 calls 361182 and is all-in
+*** TURN *** [8s 4h Td][Js]
+*** RIVER *** [8s 4h Td Js][7d]
+*** SHOW DOWN ***
+Tanguotimiso shows [5s 6d] (Straight 8 high)
+donSimon987 shows [4c Kc] (One pair : 4)
+ChristPqrs34 shows [3s 3c] (One pair : 3)
+pacorico80 shows [Th 3h] (One pair : Tens)
+Palitra91 shows [Qd 9s] (Straight Queen high)
+Palitra91 collected 569273 from main pot
+pacorico80 collected 1076580 from side pot 1
+*** SUMMARY ***
+Total pot 1645853 | No rake
+Board: [8s 4h Td Js 7d]
+Seat 1: pacorico80 (small blind) showed [Th 3h] and won 1076580 with One pair : Tens
+Seat 2: Palitra91 (big blind) showed [Qd 9s] and won 569273 with Straight Queen high
+Seat 3: Tanguotimiso showed [5s 6d] and lost with Straight 8 high
+Seat 4: donSimon987 showed [4c Kc] and lost with One pair : 4
+Seat 5: ChristPqrs34 showed [3s 3c] and lost with One pair : 3
+
+

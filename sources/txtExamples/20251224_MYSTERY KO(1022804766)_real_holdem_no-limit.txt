@@ -1,0 +1,931 @@
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4392913020162932739-52-1766582100 - Holdem no limit (30/125/250) - 2025/12/24 13:15:00 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #6 is the button
+Seat 1: WallStreet23 (64816)
+Seat 2: donSimon987 (12132)
+Seat 3: Garbou (33305)
+Seat 4: RoiDesPauvre (18370)
+Seat 5: seleckta1 (25450)
+Seat 6: PasQ1Pe (22484)
+*** ANTE/BLINDS ***
+WallStreet23 posts ante 30
+donSimon987 posts ante 30
+Garbou posts ante 30
+RoiDesPauvre posts ante 30
+seleckta1 posts ante 30
+PasQ1Pe posts ante 30
+WallStreet23 posts small blind 125
+donSimon987 posts big blind 250
+Dealt to donSimon987 [7s Th]
+*** PRE-FLOP *** 
+Garbou raises 805 to 1055
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 calls 930
+donSimon987 folds
+*** FLOP *** [8c Qc 7c]
+WallStreet23 checks
+Garbou bets 2540
+WallStreet23 folds
+Garbou collected 5080 from pot
+*** SUMMARY ***
+Total pot 5080 | No rake
+Board: [8c Qc 7c]
+Seat 3: Garbou won 5080
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4392913020162932739-53-1766582126 - Holdem no limit (30/125/250) - 2025/12/24 13:15:26 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #1 is the button
+Seat 1: WallStreet23 (63731)
+Seat 2: donSimon987 (11852)
+Seat 3: Garbou (34760)
+Seat 4: RoiDesPauvre (18340)
+Seat 5: seleckta1 (25420)
+Seat 6: PasQ1Pe (22454)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 30
+Garbou posts ante 30
+WallStreet23 posts ante 30
+RoiDesPauvre posts ante 30
+seleckta1 posts ante 30
+PasQ1Pe posts ante 30
+donSimon987 posts small blind 125
+Garbou posts big blind 250
+Dealt to donSimon987 [9s 6c]
+*** PRE-FLOP *** 
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 raises 250 to 500
+donSimon987 folds
+Garbou folds
+WallStreet23 collected 1055 from pot
+*** SUMMARY ***
+Total pot 1055 | No rake
+Seat 1: WallStreet23 (button) won 1055
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4392913020162932739-54-1766582152 - Holdem no limit (30/125/250) - 2025/12/24 13:15:52 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #2 is the button
+Seat 1: WallStreet23 (64256)
+Seat 2: donSimon987 (11697)
+Seat 3: Garbou (34480)
+Seat 4: RoiDesPauvre (18310)
+Seat 5: seleckta1 (25390)
+Seat 6: PasQ1Pe (22424)
+*** ANTE/BLINDS ***
+Garbou posts ante 30
+RoiDesPauvre posts ante 30
+WallStreet23 posts ante 30
+donSimon987 posts ante 30
+seleckta1 posts ante 30
+PasQ1Pe posts ante 30
+Garbou posts small blind 125
+RoiDesPauvre posts big blind 250
+Dealt to donSimon987 [5d 2s]
+*** PRE-FLOP *** 
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 folds
+Garbou raises 680 to 930
+RoiDesPauvre folds
+Garbou collected 1360 from pot
+*** SUMMARY ***
+Total pot 1360 | No rake
+Seat 3: Garbou (small blind) won 1360
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4392913020162932739-55-1766582189 - Holdem no limit (30/125/250) - 2025/12/24 13:16:29 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #3 is the button
+Seat 1: WallStreet23 (64226)
+Seat 2: donSimon987 (11667)
+Seat 3: Garbou (34880)
+Seat 4: RoiDesPauvre (18030)
+Seat 5: seleckta1 (25360)
+Seat 6: PasQ1Pe (22394)
+*** ANTE/BLINDS ***
+RoiDesPauvre posts ante 30
+seleckta1 posts ante 30
+WallStreet23 posts ante 30
+donSimon987 posts ante 30
+Garbou posts ante 30
+PasQ1Pe posts ante 30
+RoiDesPauvre posts small blind 125
+seleckta1 posts big blind 250
+Dealt to donSimon987 [7d As]
+*** PRE-FLOP *** 
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 raises 250 to 500
+Garbou folds
+RoiDesPauvre folds
+seleckta1 calls 250
+*** FLOP *** [6h Qc Td]
+seleckta1 checks
+donSimon987 bets 653
+seleckta1 calls 653
+*** TURN *** [6h Qc Td][6s]
+seleckta1 bets 914
+donSimon987 calls 914
+*** RIVER *** [6h Qc Td 6s][9c]
+seleckta1 bets 4439
+donSimon987 folds
+seleckta1 collected 8878 from pot
+*** SUMMARY ***
+Total pot 8878 | No rake
+Board: [6h Qc Td 6s 9c]
+Seat 5: seleckta1 (big blind) won 8878
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 2 - HandId: #4392913020162932739-56-1766582276 - Holdem no limit (30/125/250) - 2025/12/24 13:17:56 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #4 is the button
+Seat 1: WallStreet23 (64196)
+Seat 2: donSimon987 (9570)
+Seat 3: Garbou (34850)
+Seat 4: RoiDesPauvre (17875)
+Seat 5: seleckta1 (27702)
+Seat 6: PasQ1Pe (22364)
+*** ANTE/BLINDS ***
+seleckta1 posts ante 30
+PasQ1Pe posts ante 30
+WallStreet23 posts ante 30
+donSimon987 posts ante 30
+Garbou posts ante 30
+RoiDesPauvre posts ante 30
+seleckta1 posts small blind 125
+PasQ1Pe posts big blind 250
+Dealt to donSimon987 [6h 7c]
+*** PRE-FLOP *** 
+WallStreet23 folds
+donSimon987 folds
+Garbou calls 250
+RoiDesPauvre calls 250
+seleckta1 raises 1180 to 1430
+PasQ1Pe folds
+Garbou calls 1180
+RoiDesPauvre folds
+*** FLOP *** [4c Kd 5d]
+seleckta1 bets 2301
+Garbou folds
+seleckta1 collected 5841 from pot
+*** SUMMARY ***
+Total pot 5841 | No rake
+Board: [4c Kd 5d]
+Seat 5: seleckta1 (small blind) won 5841
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-57-1766582326 - Holdem no limit (35/150/300) - 2025/12/24 13:18:46 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #5 is the button
+Seat 1: WallStreet23 (64166)
+Seat 2: donSimon987 (9540)
+Seat 3: Garbou (33390)
+Seat 4: RoiDesPauvre (17595)
+Seat 5: seleckta1 (29782)
+Seat 6: PasQ1Pe (22084)
+*** ANTE/BLINDS ***
+PasQ1Pe posts ante 35
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts small blind 150
+WallStreet23 posts big blind 300
+Dealt to donSimon987 [Kd 9d]
+*** PRE-FLOP *** 
+donSimon987 raises 300 to 600
+Garbou folds
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 collected 1260 from pot
+*** SUMMARY ***
+Total pot 1260 | No rake
+Seat 2: donSimon987 won 1260
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-58-1766582392 - Holdem no limit (35/150/300) - 2025/12/24 13:19:52 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #6 is the button
+Seat 1: WallStreet23 (63831)
+Seat 2: donSimon987 (10165)
+Seat 3: Garbou (33355)
+Seat 4: RoiDesPauvre (17560)
+Seat 5: seleckta1 (29747)
+Seat 6: PasQ1Pe (21899)
+*** ANTE/BLINDS ***
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts ante 35
+WallStreet23 posts small blind 150
+donSimon987 posts big blind 300
+Dealt to donSimon987 [9s 2c]
+*** PRE-FLOP *** 
+Garbou folds
+RoiDesPauvre raises 300 to 600
+seleckta1 folds
+PasQ1Pe calls 600
+WallStreet23 calls 450
+donSimon987 calls 300
+*** FLOP *** [Qd Qs 9c]
+WallStreet23 checks
+donSimon987 checks
+RoiDesPauvre bets 887
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 calls 887
+*** TURN *** [Qd Qs 9c][Kh]
+donSimon987 checks
+RoiDesPauvre checks
+*** RIVER *** [Qd Qs 9c Kh][4d]
+donSimon987 bets 1096
+RoiDesPauvre folds
+donSimon987 collected 5480 from pot
+*** SUMMARY ***
+Total pot 5480 | No rake
+Board: [Qd Qs 9c Kh 4d]
+Seat 2: donSimon987 (big blind) won 5480
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-59-1766582458 - Holdem no limit (35/150/300) - 2025/12/24 13:20:58 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #1 is the button
+Seat 1: WallStreet23 (63196)
+Seat 2: donSimon987 (13027)
+Seat 3: Garbou (33320)
+Seat 4: RoiDesPauvre (16038)
+Seat 5: seleckta1 (29712)
+Seat 6: PasQ1Pe (21264)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 35
+Garbou posts ante 35
+WallStreet23 posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts ante 35
+donSimon987 posts small blind 150
+Garbou posts big blind 300
+Dealt to donSimon987 [Ts 5h]
+*** PRE-FLOP *** 
+RoiDesPauvre raises 300 to 600
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 folds
+Garbou raises 1560 to 2160
+RoiDesPauvre calls 1560
+*** FLOP *** [7h 8d Kd]
+Garbou checks
+RoiDesPauvre checks
+*** TURN *** [7h 8d Kd][2s]
+Garbou checks
+RoiDesPauvre checks
+*** RIVER *** [7h 8d Kd 2s][5d]
+Garbou checks
+RoiDesPauvre checks
+*** SHOW DOWN ***
+Garbou shows [Ah Jh] (High card : Ace)
+RoiDesPauvre shows [6c 6h] (One pair : 6)
+RoiDesPauvre collected 4680 from pot
+*** SUMMARY ***
+Total pot 4680 | No rake
+Board: [7h 8d Kd 2s 5d]
+Seat 3: Garbou (big blind) showed [Ah Jh] and lost with High card : Ace
+Seat 4: RoiDesPauvre showed [6c 6h] and won 4680 with One pair : 6
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-60-1766582491 - Holdem no limit (35/150/300) - 2025/12/24 13:21:31 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #2 is the button
+Seat 1: WallStreet23 (63161)
+Seat 2: donSimon987 (12842)
+Seat 3: Garbou (31125)
+Seat 4: RoiDesPauvre (18523)
+Seat 5: seleckta1 (29677)
+Seat 6: PasQ1Pe (21229)
+*** ANTE/BLINDS ***
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts ante 35
+Garbou posts small blind 150
+RoiDesPauvre posts big blind 300
+Dealt to donSimon987 [9s Tc]
+*** PRE-FLOP *** 
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 calls 300
+Garbou folds
+RoiDesPauvre checks
+*** FLOP *** [9d Kh Qh]
+RoiDesPauvre checks
+donSimon987 bets 480
+RoiDesPauvre calls 480
+*** TURN *** [9d Kh Qh][Jc]
+RoiDesPauvre checks
+donSimon987 bets 960
+RoiDesPauvre calls 960
+*** RIVER *** [9d Kh Qh Jc][5s]
+RoiDesPauvre checks
+donSimon987 bets 3072
+RoiDesPauvre folds
+donSimon987 collected 6912 from pot
+*** SUMMARY ***
+Total pot 6912 | No rake
+Board: [9d Kh Qh Jc 5s]
+Seat 2: donSimon987 (button) won 6912
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-61-1766582564 - Holdem no limit (35/150/300) - 2025/12/24 13:22:44 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #3 is the button
+Seat 1: WallStreet23 (63126)
+Seat 2: donSimon987 (14907)
+Seat 3: Garbou (30940)
+Seat 4: RoiDesPauvre (16748)
+Seat 5: seleckta1 (29642)
+Seat 6: PasQ1Pe (21194)
+*** ANTE/BLINDS ***
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+PasQ1Pe posts ante 35
+RoiDesPauvre posts small blind 150
+seleckta1 posts big blind 300
+Dealt to donSimon987 [Tc Ks]
+*** PRE-FLOP *** 
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 raises 300 to 600
+Garbou folds
+RoiDesPauvre raises 1800 to 2400
+seleckta1 folds
+donSimon987 calls 1800
+*** FLOP *** [9c Kc 6d]
+RoiDesPauvre bets 1381
+donSimon987 raises 11091 to 12472 and is all-in
+RoiDesPauvre folds
+donSimon987 collected 19163 from pot
+*** SUMMARY ***
+Total pot 19163 | No rake
+Board: [9c Kc 6d]
+Seat 2: donSimon987 won 19163
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-62-1766582617 - Holdem no limit (35/150/300) - 2025/12/24 13:23:37 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #4 is the button
+Seat 1: WallStreet23 (63091)
+Seat 2: donSimon987 (19163)
+Seat 3: Garbou (30905)
+Seat 4: RoiDesPauvre (12932)
+Seat 5: seleckta1 (29307)
+Seat 6: PasQ1Pe (21159)
+*** ANTE/BLINDS ***
+seleckta1 posts ante 35
+PasQ1Pe posts ante 35
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts small blind 150
+PasQ1Pe posts big blind 300
+Dealt to donSimon987 [Jd Ah]
+*** PRE-FLOP *** 
+WallStreet23 folds
+donSimon987 raises 300 to 600
+Garbou folds
+RoiDesPauvre raises 12297 to 12897 and is all-in
+seleckta1 folds
+PasQ1Pe folds
+donSimon987 raises 6231 to 19128 and is all-in
+*** FLOP *** [3h 8s 6c]
+*** TURN *** [3h 8s 6c][3d]
+*** RIVER *** [3h 8s 6c 3d][6d]
+*** SHOW DOWN ***
+donSimon987 shows [Jd Ah] (Two pairs : 6 and 3)
+RoiDesPauvre shows [Ac 8h] (Two pairs : 8 and 6)
+RoiDesPauvre collected 26454 from main pot
+donSimon987 collected 6231 from side pot 1
+*** SUMMARY ***
+Total pot 32685 | No rake
+Board: [3h 8s 6c 3d 6d]
+Seat 2: donSimon987 showed [Jd Ah] and won 6231 with Two pairs : 6 and 3
+Seat 4: RoiDesPauvre (button) showed [Ac 8h] and won 26454 with Two pairs : 8 and 6
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-63-1766582656 - Holdem no limit (35/150/300) - 2025/12/24 13:24:16 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #5 is the button
+Seat 1: WallStreet23 (63056)
+Seat 2: donSimon987 (6231)
+Seat 3: Garbou (30870)
+Seat 4: RoiDesPauvre (26454)
+Seat 5: seleckta1 (29122)
+Seat 6: PasQ1Pe (20824)
+*** ANTE/BLINDS ***
+PasQ1Pe posts ante 35
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts small blind 150
+WallStreet23 posts big blind 300
+Dealt to donSimon987 [6h Ah]
+*** PRE-FLOP *** 
+donSimon987 raises 5896 to 6196 and is all-in
+Garbou calls 6196
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+*** FLOP *** [4s 7s 3c]
+*** TURN *** [4s 7s 3c][3d]
+*** RIVER *** [4s 7s 3c 3d][8d]
+*** SHOW DOWN ***
+Garbou shows [Qc Jh] (One pair : 3)
+donSimon987 shows [6h Ah] (One pair : 3)
+donSimon987 collected 13052 from pot
+*** SUMMARY ***
+Total pot 13052 | No rake
+Board: [4s 7s 3c 3d 8d]
+Seat 2: donSimon987 showed [6h Ah] and won 13052 with One pair : 3
+Seat 3: Garbou showed [Qc Jh] and lost with One pair : 3
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 3 - HandId: #4392913020162932739-64-1766582680 - Holdem no limit (35/150/300) - 2025/12/24 13:24:40 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #6 is the button
+Seat 1: WallStreet23 (62721)
+Seat 2: donSimon987 (13052)
+Seat 3: Garbou (24639)
+Seat 4: RoiDesPauvre (26419)
+Seat 5: seleckta1 (29087)
+Seat 6: PasQ1Pe (20639)
+*** ANTE/BLINDS ***
+WallStreet23 posts ante 35
+donSimon987 posts ante 35
+Garbou posts ante 35
+RoiDesPauvre posts ante 35
+seleckta1 posts ante 35
+PasQ1Pe posts ante 35
+WallStreet23 posts small blind 150
+donSimon987 posts big blind 300
+Dealt to donSimon987 [Tc Qd]
+*** PRE-FLOP *** 
+Garbou folds
+RoiDesPauvre raises 300 to 600
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 calls 300
+*** FLOP *** [8s 3s 9s]
+donSimon987 checks
+RoiDesPauvre checks
+*** TURN *** [8s 3s 9s][9d]
+donSimon987 checks
+RoiDesPauvre checks
+*** RIVER *** [8s 3s 9s 9d][Jd]
+donSimon987 bets 1560
+RoiDesPauvre folds
+donSimon987 collected 3120 from pot
+*** SUMMARY ***
+Total pot 3120 | No rake
+Board: [8s 3s 9s 9d Jd]
+Seat 2: donSimon987 (big blind) won 3120
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-65-1766582733 - Holdem no limit (40/175/350) - 2025/12/24 13:25:33 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #1 is the button
+Seat 1: WallStreet23 (62536)
+Seat 2: donSimon987 (13977)
+Seat 3: Garbou (24604)
+Seat 4: RoiDesPauvre (25784)
+Seat 5: seleckta1 (29052)
+Seat 6: PasQ1Pe (20604)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 40
+Garbou posts ante 40
+WallStreet23 posts ante 40
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+donSimon987 posts small blind 175
+Garbou posts big blind 350
+Dealt to donSimon987 [8d 3s]
+*** PRE-FLOP *** 
+RoiDesPauvre folds
+seleckta1 raises 525 to 875
+PasQ1Pe folds
+WallStreet23 raises 1925 to 2800
+donSimon987 folds
+Garbou folds
+seleckta1 calls 1925
+*** FLOP *** [Qc 4d Qd]
+seleckta1 bets 3183
+WallStreet23 folds
+seleckta1 collected 9548 from pot
+*** SUMMARY ***
+Total pot 9548 | No rake
+Board: [Qc 4d Qd]
+Seat 5: seleckta1 won 9548
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-66-1766582790 - Holdem no limit (40/175/350) - 2025/12/24 13:26:30 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #2 is the button
+Seat 1: WallStreet23 (59696)
+Seat 2: donSimon987 (13762)
+Seat 3: Garbou (24214)
+Seat 4: RoiDesPauvre (25744)
+Seat 5: seleckta1 (32577)
+Seat 6: PasQ1Pe (20564)
+*** ANTE/BLINDS ***
+Garbou posts ante 40
+RoiDesPauvre posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+Garbou posts small blind 175
+RoiDesPauvre posts big blind 350
+Dealt to donSimon987 [9c 3s]
+*** PRE-FLOP *** 
+seleckta1 raises 525 to 875
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 folds
+Garbou folds
+RoiDesPauvre folds
+seleckta1 collected 1640 from pot
+*** SUMMARY ***
+Total pot 1640 | No rake
+Seat 5: seleckta1 won 1640
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-67-1766582819 - Holdem no limit (40/175/350) - 2025/12/24 13:26:59 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #3 is the button
+Seat 1: WallStreet23 (59656)
+Seat 2: donSimon987 (13722)
+Seat 3: Garbou (23999)
+Seat 4: RoiDesPauvre (25354)
+Seat 5: seleckta1 (33302)
+Seat 6: PasQ1Pe (20524)
+*** ANTE/BLINDS ***
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+Garbou posts ante 40
+PasQ1Pe posts ante 40
+RoiDesPauvre posts small blind 175
+seleckta1 posts big blind 350
+Dealt to donSimon987 [7h 3h]
+*** PRE-FLOP *** 
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 folds
+Garbou folds
+RoiDesPauvre calls 175
+seleckta1 checks
+*** FLOP *** [4d 5c Jc]
+RoiDesPauvre checks
+seleckta1 checks
+*** TURN *** [4d 5c Jc][Kd]
+RoiDesPauvre checks
+seleckta1 checks
+*** RIVER *** [4d 5c Jc Kd][5s]
+RoiDesPauvre checks
+seleckta1 checks
+*** SHOW DOWN ***
+seleckta1 shows [3d 8s] (One pair : 5)
+RoiDesPauvre shows [6d Qs] (One pair : 5)
+RoiDesPauvre collected 940 from pot
+*** SUMMARY ***
+Total pot 940 | No rake
+Board: [4d 5c Jc Kd 5s]
+Seat 4: RoiDesPauvre (small blind) showed [6d Qs] and won 940 with One pair : 5
+Seat 5: seleckta1 (big blind) showed [3d 8s] and lost with One pair : 5
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-68-1766582854 - Holdem no limit (40/175/350) - 2025/12/24 13:27:34 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #4 is the button
+Seat 1: WallStreet23 (59616)
+Seat 2: donSimon987 (13682)
+Seat 3: Garbou (23959)
+Seat 4: RoiDesPauvre (25904)
+Seat 5: seleckta1 (32912)
+Seat 6: PasQ1Pe (20484)
+*** ANTE/BLINDS ***
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+Garbou posts ante 40
+RoiDesPauvre posts ante 40
+seleckta1 posts small blind 175
+PasQ1Pe posts big blind 350
+Dealt to donSimon987 [8c Ac]
+*** PRE-FLOP *** 
+WallStreet23 folds
+donSimon987 raises 350 to 700
+Garbou raises 1400 to 2100
+RoiDesPauvre calls 2100
+seleckta1 folds
+PasQ1Pe folds
+donSimon987 calls 1400
+*** FLOP *** [Qs Js Qc]
+donSimon987 checks
+Garbou checks
+RoiDesPauvre bets 3533
+donSimon987 folds
+Garbou folds
+RoiDesPauvre collected 10598 from pot
+*** SUMMARY ***
+Total pot 10598 | No rake
+Board: [Qs Js Qc]
+Seat 4: RoiDesPauvre (button) won 10598
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-69-1766582908 - Holdem no limit (40/175/350) - 2025/12/24 13:28:28 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #5 is the button
+Seat 1: WallStreet23 (59576)
+Seat 2: donSimon987 (11542)
+Seat 3: Garbou (21819)
+Seat 4: RoiDesPauvre (30829)
+Seat 5: seleckta1 (32697)
+Seat 6: PasQ1Pe (20094)
+*** ANTE/BLINDS ***
+PasQ1Pe posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+Garbou posts ante 40
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts small blind 175
+WallStreet23 posts big blind 350
+Dealt to donSimon987 [6h Jd]
+*** PRE-FLOP *** 
+donSimon987 folds
+Garbou raises 21429 to 21779 and is all-in
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 folds
+Garbou collected 22544 from pot
+*** SUMMARY ***
+Total pot 22544 | No rake
+Seat 3: Garbou won 22544
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-70-1766582926 - Holdem no limit (40/175/350) - 2025/12/24 13:28:46 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #6 is the button
+Seat 1: WallStreet23 (59186)
+Seat 2: donSimon987 (11502)
+Seat 3: Garbou (22544)
+Seat 4: RoiDesPauvre (30789)
+Seat 5: seleckta1 (32657)
+Seat 6: PasQ1Pe (19879)
+*** ANTE/BLINDS ***
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+Garbou posts ante 40
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+WallStreet23 posts small blind 175
+donSimon987 posts big blind 350
+Dealt to donSimon987 [6h 5c]
+*** PRE-FLOP *** 
+Garbou folds
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe folds
+WallStreet23 calls 175
+donSimon987 checks
+*** FLOP *** [9h Qd 4c]
+WallStreet23 checks
+donSimon987 checks
+*** TURN *** [9h Qd 4c][Ts]
+WallStreet23 checks
+donSimon987 checks
+*** RIVER *** [9h Qd 4c Ts][6s]
+WallStreet23 checks
+donSimon987 bets 350
+WallStreet23 calls 350
+*** SHOW DOWN ***
+WallStreet23 shows [4d 5d] (One pair : 4)
+donSimon987 shows [6h 5c] (One pair : 6)
+donSimon987 collected 1640 from pot
+*** SUMMARY ***
+Total pot 1640 | No rake
+Board: [9h Qd 4c Ts 6s]
+Seat 1: WallStreet23 (small blind) showed [4d 5d] and lost with One pair : 4
+Seat 2: donSimon987 (big blind) showed [6h 5c] and won 1640 with One pair : 6
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-71-1766583003 - Holdem no limit (40/175/350) - 2025/12/24 13:30:03 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #1 is the button
+Seat 1: WallStreet23 (58446)
+Seat 2: donSimon987 (12402)
+Seat 3: Garbou (22504)
+Seat 4: RoiDesPauvre (30749)
+Seat 5: seleckta1 (32617)
+Seat 6: PasQ1Pe (19839)
+*** ANTE/BLINDS ***
+donSimon987 posts ante 40
+Garbou posts ante 40
+WallStreet23 posts ante 40
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+donSimon987 posts small blind 175
+Garbou posts big blind 350
+Dealt to donSimon987 [2s Qs]
+*** PRE-FLOP *** 
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe raises 350 to 700
+WallStreet23 folds
+donSimon987 calls 525
+Garbou calls 350
+*** FLOP *** [Qh 7c 9s]
+donSimon987 checks
+Garbou checks
+PasQ1Pe bets 772
+donSimon987 calls 772
+Garbou folds
+*** TURN *** [Qh 7c 9s][Jc]
+donSimon987 checks
+PasQ1Pe checks
+*** RIVER *** [Qh 7c 9s Jc][3d]
+donSimon987 bets 1942
+PasQ1Pe raises 16385 to 18327 and is all-in
+donSimon987 folds
+PasQ1Pe collected 24153 from pot
+*** SUMMARY ***
+Total pot 24153 | No rake
+Board: [Qh 7c 9s Jc 3d]
+Seat 6: PasQ1Pe won 24153
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-72-1766583070 - Holdem no limit (40/175/350) - 2025/12/24 13:31:10 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #2 is the button
+Seat 1: WallStreet23 (58406)
+Seat 2: donSimon987 (8948)
+Seat 3: Garbou (21764)
+Seat 4: RoiDesPauvre (30709)
+Seat 5: seleckta1 (32577)
+Seat 6: PasQ1Pe (24153)
+*** ANTE/BLINDS ***
+Garbou posts ante 40
+RoiDesPauvre posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+seleckta1 posts ante 40
+PasQ1Pe posts ante 40
+Garbou posts small blind 175
+RoiDesPauvre posts big blind 350
+Dealt to donSimon987 [4c 9c]
+*** PRE-FLOP *** 
+seleckta1 raises 525 to 875
+PasQ1Pe folds
+WallStreet23 calls 875
+donSimon987 folds
+Garbou folds
+RoiDesPauvre folds
+*** FLOP *** [Kc Js Ah]
+seleckta1 bets 1258
+WallStreet23 calls 1258
+*** TURN *** [Kc Js Ah][3c]
+seleckta1 bets 2516
+WallStreet23 folds
+seleckta1 collected 7547 from pot
+*** SUMMARY ***
+Total pot 7547 | No rake
+Board: [Kc Js Ah 3c]
+Seat 5: seleckta1 won 7547
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 4 - HandId: #4392913020162932739-73-1766583101 - Holdem no limit (40/175/350) - 2025/12/24 13:31:41 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #3 is the button
+Seat 1: WallStreet23 (56233)
+Seat 2: donSimon987 (8908)
+Seat 3: Garbou (21549)
+Seat 4: RoiDesPauvre (30319)
+Seat 5: seleckta1 (35435)
+Seat 6: PasQ1Pe (24113)
+*** ANTE/BLINDS ***
+RoiDesPauvre posts ante 40
+seleckta1 posts ante 40
+WallStreet23 posts ante 40
+donSimon987 posts ante 40
+Garbou posts ante 40
+PasQ1Pe posts ante 40
+RoiDesPauvre posts small blind 175
+seleckta1 posts big blind 350
+Dealt to donSimon987 [Td 2c]
+*** PRE-FLOP *** 
+PasQ1Pe folds
+WallStreet23 folds
+donSimon987 folds
+Garbou folds
+RoiDesPauvre calls 175
+seleckta1 checks
+*** FLOP *** [2s 3h Kc]
+RoiDesPauvre checks
+seleckta1 checks
+*** TURN *** [2s 3h Kc][2h]
+RoiDesPauvre checks
+seleckta1 checks
+*** RIVER *** [2s 3h Kc 2h][6h]
+RoiDesPauvre bets 611
+seleckta1 folds
+RoiDesPauvre collected 1551 from pot
+*** SUMMARY ***
+Total pot 1551 | No rake
+Board: [2s 3h Kc 2h 6h]
+Seat 4: RoiDesPauvre (small blind) won 1551
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 5 - HandId: #4392913020162932739-74-1766583138 - Holdem no limit (50/200/400) - 2025/12/24 13:32:18 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #4 is the button
+Seat 1: WallStreet23 (56193)
+Seat 2: donSimon987 (8868)
+Seat 3: Garbou (21509)
+Seat 4: RoiDesPauvre (30869)
+Seat 5: seleckta1 (35045)
+Seat 6: PasQ1Pe (24073)
+*** ANTE/BLINDS ***
+seleckta1 posts ante 50
+PasQ1Pe posts ante 50
+WallStreet23 posts ante 50
+donSimon987 posts ante 50
+Garbou posts ante 50
+RoiDesPauvre posts ante 50
+seleckta1 posts small blind 200
+PasQ1Pe posts big blind 400
+Dealt to donSimon987 [7h 6c]
+*** PRE-FLOP *** 
+WallStreet23 folds
+donSimon987 folds
+Garbou calls 400
+RoiDesPauvre calls 400
+seleckta1 folds
+PasQ1Pe checks
+*** FLOP *** [Kc Ah Jc]
+PasQ1Pe checks
+Garbou bets 1700
+RoiDesPauvre raises 28719 to 30419 and is all-in
+PasQ1Pe folds
+Garbou folds
+RoiDesPauvre collected 33819 from pot
+*** SUMMARY ***
+Total pot 33819 | No rake
+Board: [Kc Ah Jc]
+Seat 4: RoiDesPauvre (button) won 33819
+
+
+Winamax Poker - Tournament "MYSTERY KO" buyIn: 0.90€ + 0.10€ level: 5 - HandId: #4392913020162932739-75-1766583177 - Holdem no limit (50/200/400) - 2025/12/24 13:32:57 UTC
+Table: 'MYSTERY KO(1022804766)#0002' 6-max (real money) Seat #5 is the button
+Seat 1: WallStreet23 (56143)
+Seat 2: donSimon987 (8818)
+Seat 3: Garbou (19359)
+Seat 4: RoiDesPauvre (33819)
+Seat 5: seleckta1 (34795)
+Seat 6: PasQ1Pe (23623)
+*** ANTE/BLINDS ***
+PasQ1Pe posts ante 50
+WallStreet23 posts ante 50
+donSimon987 posts ante 50
+Garbou posts ante 50
+RoiDesPauvre posts ante 50
+seleckta1 posts ante 50
+PasQ1Pe posts small blind 200
+WallStreet23 posts big blind 400
+Dealt to donSimon987 [6h Ad]
+*** PRE-FLOP *** 
+donSimon987 raises 8368 to 8768 and is all-in
+Garbou folds
+RoiDesPauvre folds
+seleckta1 folds
+PasQ1Pe raises 14805 to 23573 and is all-in
+WallStreet23 folds
+*** FLOP *** [Ac 7d 2h]
+*** TURN *** [Ac 7d 2h][Jh]
+*** RIVER *** [Ac 7d 2h Jh][Kc]
+*** SHOW DOWN ***
+donSimon987 shows [6h Ad] (One pair : Aces)
+PasQ1Pe shows [Qs Qh] (One pair : Queens)
+PasQ1Pe collected 14805 from side pot 1
+donSimon987 collected 18236 from main pot
+*** SUMMARY ***
+Total pot 33041 | No rake
+Board: [Ac 7d 2h Jh Kc]
+Seat 2: donSimon987 showed [6h Ad] and won 18236 with One pair : Aces
+Seat 6: PasQ1Pe (small blind) showed [Qs Qh] and won 14805 with One pair : Queens
+
+

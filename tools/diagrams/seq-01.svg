@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="912" viewBox="0 0 1000 912">
+<rect width="1000" height="912" fill="#FFFFFF"/>
+<rect x="38.0" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="108.3" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Jugador</text>
+<line x1="108.3" y1="74" x2="108.3" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="194.7" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="265.0" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Interfaz</text>
+<line x1="265.0" y1="74" x2="265.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="351.3" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="421.7" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">API</text>
+<line x1="421.7" y1="74" x2="421.7" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="508.0" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="578.3" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Parser</text>
+<line x1="578.3" y1="74" x2="578.3" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="664.7" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="735.0" y="46.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Session</text>
+<text x="735.0" y="66.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Builder</text>
+<line x1="735.0" y1="74" x2="735.0" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<rect x="821.3" y="26" width="140.7" height="48" rx="6" fill="#5B9BD5" stroke="#4472C4" stroke-width="1.5"/>
+<text x="891.7" y="56.0" font-family="DejaVu Sans" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Motor</text>
+<line x1="891.7" y1="74" x2="891.7" y2="892" stroke="#9DC3E6" stroke-width="1.6" stroke-dasharray="7 5"/>
+<line x1="108.3" y1="130" x2="265.0" y2="130" stroke="#333333" stroke-width="1.6"/>
+<polygon points="265.0,130 253.0,124 253.0,136" fill="#333333"/>
+<rect x="73.3" y="105.0" width="226.8" height="20" fill="#FFFFFF"/>
+<text x="186.7" y="120.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Selecciona archivos .txt</text>
+<line x1="265.0" y1="184" x2="421.7" y2="184" stroke="#333333" stroke-width="1.6"/>
+<polygon points="421.66666666666663,184 409.66666666666663,178 409.66666666666663,190" fill="#333333"/>
+<rect x="280.5" y="159.0" width="125.6" height="20" fill="#FFFFFF"/>
+<text x="343.3" y="174.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Envía el lote</text>
+<line x1="421.7" y1="238" x2="578.3" y2="238" stroke="#333333" stroke-width="1.6"/>
+<polygon points="578.3333333333333,238 566.3333333333333,232 566.3333333333333,244" fill="#333333"/>
+<rect x="409.6" y="213.0" width="180.8" height="20" fill="#FFFFFF"/>
+<text x="500.0" y="228.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Valida e interpreta</text>
+<path d="M 578.3333333333333 292 L 624.3333333333333 292 L 624.3333333333333 314 L 578.3333333333333 314" fill="none" stroke="#333333" stroke-width="1.6"/><polygon points="578.3333333333333,314 590.3333333333333,308 590.3333333333333,320" fill="#333333"/><rect x="629.3" y="293.0" width="190.0" height="20" fill="#FFFFFF"/><text x="632.3" y="308.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="start">Comprueba duplicados</text>
+<line x1="578.3" y1="346" x2="265.0" y2="346" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="265.0,346 277.0,340 277.0,352" fill="#333333"/>
+<rect x="285.3" y="321.0" width="272.8" height="20" fill="#FFFFFF"/>
+<text x="421.7" y="336.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Válidos, duplicados y errores</text>
+<line x1="108.3" y1="400" x2="265.0" y2="400" stroke="#333333" stroke-width="1.6"/>
+<polygon points="265.0,400 253.0,394 253.0,406" fill="#333333"/>
+<rect x="68.7" y="375.0" width="236.0" height="20" fill="#FFFFFF"/>
+<text x="186.7" y="390.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Confirma el procesamiento</text>
+<line x1="265.0" y1="454" x2="421.7" y2="454" stroke="#333333" stroke-width="1.6"/>
+<polygon points="421.66666666666663,454 409.66666666666663,448 409.66666666666663,460" fill="#333333"/>
+<rect x="271.3" y="429.0" width="144.0" height="20" fill="#FFFFFF"/>
+<text x="343.3" y="444.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Procesa el lote</text>
+<line x1="421.7" y1="508" x2="578.3" y2="508" stroke="#333333" stroke-width="1.6"/>
+<polygon points="578.3333333333333,508 566.3333333333333,502 566.3333333333333,514" fill="#333333"/>
+<rect x="386.6" y="483.0" width="226.8" height="20" fill="#FFFFFF"/>
+<text x="500.0" y="498.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Registra manos canónicas</text>
+<line x1="578.3" y1="562" x2="735.0" y2="562" stroke="#333333" stroke-width="1.6"/>
+<polygon points="735.0,562 723.0,556 723.0,568" fill="#333333"/>
+<rect x="570.9" y="537.0" width="171.6" height="20" fill="#FFFFFF"/>
+<text x="656.7" y="552.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Manos normalizadas</text>
+<line x1="735.0" y1="616" x2="891.7" y2="616" stroke="#333333" stroke-width="1.6"/>
+<polygon points="891.6666666666666,616 879.6666666666666,610 879.6666666666666,622" fill="#333333"/>
+<rect x="718.3" y="591.0" width="190.0" height="20" fill="#FFFFFF"/>
+<text x="813.3" y="606.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Sesiones y agregados</text>
+<path d="M 891.6666666666666 670 L 845.6666666666666 670 L 845.6666666666666 692 L 891.6666666666666 692" fill="none" stroke="#333333" stroke-width="1.6"/><polygon points="891.6666666666666,692 879.6666666666666,686 879.6666666666666,698" fill="#333333"/><rect x="705.9" y="671.0" width="134.8" height="20" fill="#FFFFFF"/><text x="837.7" y="686.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="end">Audita el lote</text>
+<line x1="891.7" y1="724" x2="421.7" y2="724" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="421.66666666666663,724 433.66666666666663,718 433.66666666666663,730" fill="#333333"/>
+<rect x="566.3" y="699.0" width="180.8" height="20" fill="#FFFFFF"/>
+<text x="656.7" y="714.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Resultado y alertas</text>
+<line x1="421.7" y1="778" x2="265.0" y2="778" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="265.0,778 277.0,772 277.0,784" fill="#333333"/>
+<rect x="275.9" y="753.0" width="134.8" height="20" fill="#FFFFFF"/>
+<text x="343.3" y="768.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Lote procesado</text>
+<line x1="265.0" y1="832" x2="108.3" y2="832" stroke="#666666" stroke-width="1.6" stroke-dasharray="6 4"/>
+<polygon points="108.33333333333333,832 120.33333333333333,826 120.33333333333333,838" fill="#333333"/>
+<rect x="87.1" y="807.0" width="199.2" height="20" fill="#FFFFFF"/>
+<text x="186.7" y="822.0" font-family="DejaVu Sans" font-size="17" fill="#222222" text-anchor="middle">Dashboard con el lote</text>
+</svg>

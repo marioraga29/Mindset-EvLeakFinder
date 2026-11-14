@@ -1,0 +1,151 @@
+================================================================================
+ESPECIFICACIÓN TÉCNICA DEL TFG: MINDSET & EV LEAK FINDER
+Detección Algorítmica de Desviaciones Conductuales y Fugas de EV en Póker Online
+Autor: Mario Ramírez García | Grado en Ingeniería Informática
+================================================================================
+
+1. DEFINICIÓN Y OBJETIVO ACADÉMICO
+--------------------------------------------------------------------------------
+Desarrollar y validar un sistema software que analiza historiales de manos (Hand 
+Histories) en formato texto (.txt) de póker online para detectar de forma 
+automática anomalías conductuales, episodios reactivos de tilt y degradación 
+del rendimiento (fatiga) a lo largo de series temporales.
+
+PRINCIPIO FUNDAMENTAL:
+"No diagnosticar estados psicológicos subjetivos, sino detectar cambios 
+conductuales observables mediante contraste estadístico contra el baseline 
+personal del jugador y aportar evidencia auditable mano a mano".
+
+
+2. EL PROBLEMA TÉCNICO FRENTE A LOS TRACKERS TRADICIONALES
+--------------------------------------------------------------------------------
+Los trackers de la industria (PokerTracker 4, Hold'em Manager 3, Hand2Note) 
+presentan tres limitaciones estructurales:
+1. Métricas estáticas descontextualizadas: Promedian 50.000+ manos ocultando 
+   episodios locales de pérdida de control.
+2. Incapacidad de aislar la varianza: No distinguen formalmente entre perder 
+   dinero por mala suerte en all-ins (varianza) y perder fichas por decisiones 
+   erróneas motivadas por frustración.
+3. Fricción en la revisión: Obligan al usuario a filtrar manualmente miles de 
+   manos sin señalar el momento exacto donde la conducta se degradó.
+
+
+3. FUNDAMENTACIÓN CIENTÍFICA Y RIGOR METODOLÓGICO
+--------------------------------------------------------------------------------
+- Literatura de referencia: Palomäki et al. (sensibilidad a pérdidas y severidad 
+  del tilt), Moreau et al. (distinción entre tilt percibido y conducta observable), 
+  Hamel et al. (degradación por fatiga y prolongación de sesiones).
+- Separación de dimensiones:
+  * Rendimiento: Medido en Ciegas Grandes ganadas/perdidas (bb/100) y Expected 
+    Value (EVbb/100).
+  * Conducta técnica: VPIP (% bote voluntario), PFR (% subida preflop), 3-Bet 
+    (% resubida), WTSD (% ir al showdown), Fold vs 3-Bet, etc.
+- Prevención de Data Leakage: El Baseline histórico se calcula exclusivamente con 
+  datos cronológicamente anteriores al periodo o lote evaluado (orden estricto 
+  de series temporales, evitando contaminar el estándar de A-Game).
+- Control de Falsos Positivos: Corrección por múltiples comparaciones 
+  (Benjamini-Hochberg / FDR con q < 0.05) para descartar el ruido por varianza 
+  en muestras locales cortas.
+
+
+4. ARQUITECTURA DEL SISTEMA Y PIPELINE DE DATOS
+--------------------------------------------------------------------------------
+Pipeline estructurado bajo principios de Clean Architecture:
+
+Hand Histories (.txt Winamax)
+   │
+   ▼
+[ MÓDULO 1: Parser & Ingesta ETL ]
+   - Extracción de metadatos (hand_id, timestamp, mesa, jugadores, ciegas).
+   - Normalización financiera obligatoria: conversión de apuestas y botes a Ciegas 
+     Grandes (total_pot_bb, net_bb).
+   - Clasificación de acciones por calles: preflop (vpip, pfr, 3bet), flop, 
+     turn, river, board y showdown (wtsd, wssd).
+   │
+   ▼
+[ MÓDULO 2: Session Builder ]
+   - Agrupación cronológica de manos en sesiones y torneos independientes 
+     mediante detección de pausas (>30 min de inactividad).
+   │
+   ▼
+[ MÓDULO 3: Motor de Baseline Individual ]
+   - Cálculo del perfil habitual no contaminado del jugador (media histórica de 
+     VPIP, PFR, 3-Bet, EVbb/100 sobre miles de manos previas).
+   - Mecanismo de Recalibración: Capacidad de recalcular el Baseline excluyendo 
+     automáticamente ventanas de tilt previas (T+30) y tramos de fatiga extrema.
+   │
+   ▼
+[ MÓDULO 4: Motor Analítico y Detección de Disparadores ]
+   A) Eventos Gatillo (Bad Beats / Tilt Reactivo):
+      * Criterio disparador: Pérdida de bote crítico (>= 40 BB) habiendo entrado 
+        al all-in con equidad favorable (>= 70%).
+      * Ventana de análisis: Ventana T+30 (auditoría reactiva de las 30 manos 
+        inmediatamente posteriores al bad beat).
+   B) Desviaciones de Tendencia (Sobrefrecuencia sin Trigger):
+      * Ventana móvil deslizante (Sliding Window) sobre la serie temporal.
+      * Contraste binomial local (acciones / oportunidades) frente al Baseline.
+      * Fusión de intervalos continuos (Interval Merging): consolidación de 
+        bloques consecutivos anómalos en un único tramo continuo (ej. mano 30 a 90).
+   C) Análisis de Fatiga en la Sesión:
+      * Segmentación del EVbb/100 por horas de juego continuo para ubicar el 
+        punto de cruce a pérdidas (breakeven).
+   │
+   ▼
+[ MÓDULO 5: Clasificación Semántica de Jugadas (Human-in-the-Loop) ]
+   - Enfoque colaborativo (Crowdsourced Learning): Los usuarios etiquetan jugadas 
+     en el visor para entrenar un clasificador multiclase común (Random Forest).
+   - Calidad del dato: Ponderación de etiquetas según el nivel/stake declarado 
+     por el usuario (sample_weight) y flujo de validación con un clic:
+     [ Aceptar sugerencia ✓ ] o [ Cambiar etiqueta ✎ ].
+   │
+   ▼
+[ MÓDULO 6: API REST & Frontend Interactivo ]
+   - Backend desacoplado exponiendo endpoints JSON estructurados.
+   - Interfaz web interactiva con panel de control, tablas de auditoría y 
+     gráficas SVG/Canvas sincronizadas con visor de manos.
+
+
+5. ESPECIFICACIÓN DE PANTALLAS Y COMPONENTES DEL PROTOTIPO
+--------------------------------------------------------------------------------
+1. Pantalla de Carga:
+   - Carga de nuevos archivos .txt de sesión a auditar.
+
+1.5. Pantalla de Baseline:
+   - Actualización del baseline actual añadiendo más manos en txt o borrar el actual por manos nuevas
+   - O recalibrar el baseline en base a manos que se han ido subiendo y descartando las de fase tilt
+
+2. Dashboard Principal (Vista Macro):
+   - Tarjetas superiores: Métricas del Baseline histórico (VPIP, PFR, 3-Bet, 
+     Winrate EV) y botón de acceso rápido [ ⚙ Recalibrar A-Game ].
+   - Gráfica temporal de sesión: Curva de rendimiento EV vs. horas continuas 
+     marcando la zona roja de degradación por fatiga.
+   - Feed de Alertas Conductuales: Listado jerarquizado con botón [ Auditar ]:
+     * Alerta Roja: Tilt crítico tras Bad Beat (ej. Torneo #8492, mano #112).
+     * Alerta Ámbar: Desviación sostenida de agresividad/3-Bet (ej. Torneo #8488).
+
+3. Historial de Torneos Auditados:
+   - Tabla interactiva con columnas: Torneo, Fecha, Manos, VPIP/PFR, EV (bb), 
+     Estado Conductual (Alerta Tilt / Desviación / Sesión Limpia) y Acción.
+   - Modal de Filtros Avanzados: Filtrado multidimensional por estado conductual 
+     (sólo alertas vs. sesiones limpias), periodo y formato de torneo.
+
+4. Visor de Torneo Individual y Hand Replayer:
+   - Gráfica interactiva dual: Evolución acumulada de Fichas Reales (bb) vs. 
+     EV Esperado mano a mano.
+   - Resaltado visual de anomalías: Franja sombreada roja para ventana reactiva 
+     T+30 y franja ámbar para tramos de sobreagresividad.
+   - Visor de Mano interactivo (Hand Replayer):
+     * Metadatos, cartas de Hero, cartas del rival y cartas comunitarias (board).
+     * Secuencia cronológica de apuestas calle por calle (Preflop, Flop, Turn, River).
+     * Contexto conductual: Bloque colaborativo con diagnóstico inferido por 
+       la comunidad (`Call especulativo`, `Fold disciplinado`, etc.) con botones 
+       [ Aceptar ✓ ] / [ Cambiar ✎ ] o selector manual para sumar al modelo común.
+     * Navegación secuencial: Botones [ < Mano Anterior ] y [ Siguiente en T+30 > ].
+
+5. Modal de Recalibración del Baseline:
+   - Configuración del tamaño de muestra (últimas 25.000 / 15.000 manos o rango).
+   - Controles de pureza: Checkboxes para excluir ventanas reactivas post-bote 
+     crítico (T+30) y tramos de fatiga prolongada.
+   - Tabla comparativa de impacto previo: Variación entre métricas del Baseline 
+     Actual vs. Nuevo Propuesto antes de congelar cambios.
+================================================================================
