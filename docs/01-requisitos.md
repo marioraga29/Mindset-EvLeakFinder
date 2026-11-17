@@ -134,13 +134,12 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 **Criterios de aceptación:**
 
-- **a)** Las tarjetas son `Baseline VPIP`, `Baseline PFR`, `Baseline 3-Bet` y `EVbb/100 (ajuste all-in)`, con subtítulos “Entrada voluntaria”, “Subida preflop”, “Resubida” y “Muestra: N manos”.
+- **a)** Las tarjetas son `Baseline VPIP`, `Baseline PFR`, `Baseline 3-Bet` y `Winrate baseline (EV)`, con subtítulos “Entrada voluntaria”, “Subida preflop”, “Resubida” y “Muestra: N manos”.
 - **b)** Los valores proceden del snapshot activo.
 - **c)** La fila muestra `Muestra: N manos` y `Congelado el <fecha>` junto al KPI de EVbb/100 o en una línea común.
 - **d)** VPIP muestra el valor del baseline y, separada, una referencia poblacional para MTT.
-- **e)** Se muestra el badge “Baseline inicial” o “Recalibrado”.
-- **f)** La versión o fecha de congelación es visible en badge o tooltip.
-- **g)** El valor de `EVbb/100` usa color y signo: positivo en verde, negativo en rojo, cero en neutro, siempre con signo explícito.
+- **e)** La fecha de congelación es visible en la fila; no se muestra ni número de versión ni si el baseline es inicial o recalibrado (M22).
+- **f)** El valor de `EVbb/100` usa color y signo: positivo en verde, negativo en rojo, cero en neutro, siempre con signo explícito.
 
 ##### RF-DSH-KPI-02 — Calcular y presentar EVbb/100 con ajuste all-in
 
@@ -148,7 +147,7 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 **Criterios de aceptación:**
 
-- **a)** El valor principal es `EVbb/100` con la etiqueta “ajuste all-in”.
+- **a)** El valor principal es `EVbb/100`, que la tarjeta rotula «Winrate baseline (EV)»; un ⓘ explica que está ajustado por equidad en all-in (M21).
 - **b)** En manos con all-in se usa el EV esperado según equidad; en el resto, el resultado real.
 - **c)** La tarjeta no muestra insignia ni tooltip con el número de all-in ajustados (K32): el prototipo nunca los mostró y el dato no se guarda en el baseline.
 
@@ -191,12 +190,12 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 ##### RF-DSH-FAT-02 — Construcción y fusión de tramos
 
-**Requisito:** Los tramos de duración se construyen de forma adaptativa, se congelan con el baseline y se fusionan si no alcanzan muestra suficiente.
+**Requisito:** Los tramos de duración se construyen de forma adaptativa, con siempre el mismo número de puntos, se congelan con el baseline y se fusionan si no alcanzan muestra suficiente.
 
 **Criterios de aceptación:**
 
 - **a)** El eje X es categórico por tramos; cada punto es un tramo agregado.
-- **b)** Los tramos se definen por la mediana de duración: hasta 2 h en intervalos de 30 min; más de 2 h y hasta 5 h en intervalos de 1 h; más de 5 h en intervalos de 2 h.
+- **b)** La gráfica tiene siempre el mismo número de puntos y ocupa siempre el mismo espacio; el ancho de cada tramo se calcula con la duración de las sesiones del baseline, de modo que un jugador de sesiones de 2 h y otro de 8 h obtienen la misma gráfica con tramos de distinto ancho. El número de puntos y la regla del ancho están por definir (M09).
 - **c)** El último tramo es abierto (`X+`).
 - **d)** La definición de tramos se congela con el baseline y solo cambia al recalibrar.
 - **e)** Si un tramo no alcanza el mínimo de manos, se fusiona con el vecino; el mínimo se define en 1.10.
@@ -261,17 +260,17 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 - **a)** El feed usa únicamente las alertas del último lote importado.
 - **b)** Se muestran todas las alertas y desviaciones del lote; el feed es desplazable.
 - **c)** El subtítulo indica que se listan todas las alertas del lote.
-- **d)** En T+30, el trigger queda excluido; se analizan las 30 manos posteriores; si dos triggers se solapan, las ventanas se fusionan y las manos compartidas se cuentan una vez.
+- **d)** En T+30, el trigger queda excluido; se analizan las 30 manos siguientes del jugador en su sesión, de cualquier torneo; si dos triggers se solapan, las ventanas se fusionan y las manos compartidas se cuentan una vez.
 - **e)** Las métricas guardan numerador y denominador, no solo el porcentaje.
 
 ##### RF-DSH-FED-02 — Orden y severidad
 
-**Requisito:** El feed ordena por tipo, magnitud de fuga y fecha, y distingue visualmente tilt y desviación.
+**Requisito:** El feed ordena por concluyente, tipo, solidez, magnitud de fuga y fecha, y distingue visualmente tilt y desviación.
 
 **Criterios de aceptación:**
 
-- **a)** Primero las alertas de tilt, después las desviaciones.
-- **b)** Dentro de cada tipo, mayor fuga primero; a igualdad, la más reciente.
+- **a)** Primero las alertas concluyentes y después las no concluyentes (ventanas sin datos suficientes). Dentro de cada grupo, primero las de tilt y después las desviaciones.
+- **b)** Dentro de cada tipo, más métricas evaluables primero (solidez); a igualdad, mayor fuga primero y, a igualdad, la más reciente.
 - **c)** Tilt en rojo y desviación en ámbar.
 - **d)** La prioridad de orden se basa en el tipo de alerta.
 
@@ -293,10 +292,11 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 **Criterios de aceptación:**
 
-- **a)** Tilt abre en la mano trigger; desviación abre al inicio del tramo.
-- **b)** Al abrir el visor, la alerta pasa a auditada, desaparece del feed y sube la siguiente.
+- **a)** Tilt abre en la mano trigger; desviación abre al inicio del tramo; el visor permite recorrer todo el torneo.
+- **b)** Al abrir el visor, también desde una alerta no concluyente, la alerta pasa a auditada, desaparece del feed y sube la siguiente.
 - **c)** La alerta se conserva en el historial.
-- **d)** El enlace al historial muestra un contador de alertas; el criterio de recuento se define en 1.10.
+- **d)** El enlace al historial muestra un contador de alertas, que cuenta las alertas del lote estén o no auditadas.
+- **e)** La cabecera del feed muestra un contador «n de m auditadas», con m las alertas del último lote, incluidas las no concluyentes, y n las ya auditadas; sigue visible cuando todas están auditadas (M27).
 
 ##### RF-DSH-FED-05 — Estado vacío y alcance del feed
 
@@ -317,9 +317,9 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 **Criterios de aceptación:**
 
 - **a)** Etiqueta `TORNEOS` con el recuento del último lote.
-- **b)** Etiqueta `CON ALERTA` con los torneos que tienen al menos una alerta de tilt o desviación; la fatiga no cuenta. El criterio exacto cuando un torneo acumula ambos tipos se define en 1.10.
-- **c)** Porcentaje de manos en T+30: numerador = manos dentro de ventanas T+30, sin duplicar solapes y truncando al final del torneo; denominador = manos totales del lote. Se muestra el valor absoluto y el denominador en tooltip.
-- **d)** El recuento de `CON ALERTA` se rige por el parámetro correspondiente de 1.10.
+- **b)** Etiqueta `CON ALERTA` con los torneos que tienen al menos una alerta concluyente de tilt o desviación, estén o no auditadas; la fatiga no cuenta. Un torneo con tilt y desviación cuenta como uno (M27).
+- **c)** Porcentaje de manos en T+30: numerador = manos dentro de ventanas T+30, sin duplicar solapes y truncando al final de la sesión; denominador = manos totales del lote. Se muestra el valor absoluto y el denominador en tooltip.
+- **d)** El recuento de `CON ALERTA` cuenta torneos, no alertas, y no baja al auditar: describe el contenido del lote y no la cola de pendientes.
 
 ##### RF-DSH-SUM-02 — Validez del lote
 
@@ -382,21 +382,20 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 - **a)** Texto: “Auditoría completada · X torneos y Y manos procesadas · Z alertas en el feed”.
 - **b)** El enlace “Ver alertas nuevas” filtra el historial por el lote.
-- **c)** El toast de error muestra el mensaje del fallo.
+- **c)** El toast de error muestra el mensaje del fallo, compuesto en el frontend a partir del código de error y sus parámetros.
 - **d)** Los toasts de auditoría y de error no ofrecen deshacer.
 
 #### 1.5.7 Overlays y configuración
 
 ##### RF-DSH-CFG-01 — Drawer de cuenta global
 
-**Requisito:** El drawer de cuenta es global y reúne identidad, configuración y versión del motor.
+**Requisito:** El drawer de cuenta es global y reúne identidad y configuración del motor.
 
 **Criterios de aceptación:**
 
 - **a)** El drawer y los modales se abren desde cualquier pantalla.
 - **b)** El drawer muestra nombre de usuario, sitio activo y estado “Activa”.
 - **c)** El drawer incluye “Ventana reactiva”, “Sensibilidad (FDR q)” y “Nivel de juego”.
-- **d)** El drawer muestra la versión del motor y la fecha de la última recalibración.
 
 ##### RF-DSH-CFG-02 — Configuración del motor
 
@@ -417,7 +416,7 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 **Criterios de aceptación:**
 
-- **a)** Categoría “PÓKER · MÉTRICAS”, título, definición, bloque “CÓMO SE LEER” con el dato del baseline y acciones “Entendido” y “Ver en el Glosario”.
+- **a)** Categoría “PÓKER · MÉTRICAS”, título, definición, bloque “CÓMO SE LEE” con el dato del baseline y acciones “Entendido” y “Ver en el Glosario”.
 - **b)** “Ver en el Glosario” abre el término concreto.
 
 ##### RF-DSH-CFG-04 — Cierre de sesión
@@ -489,12 +488,12 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 
 **Criterios de aceptación:**
 
-- **a)** El baseline solo usa datos cronológicamente anteriores al periodo evaluado.
+- **a)** El baseline solo usa datos cronológicamente anteriores al periodo evaluado. Al importar, un torneo que empieza antes de la última mano del baseline activo no se procesa y se informa con un aviso, que no es un error (M04).
 - **b)** Recalibrar solo afecta a lotes futuros; las alertas pasadas conservan su snapshot.
 - **c)** Cada adición o recalibración crea una versión nueva congelada; la anterior se conserva intacta.
 - **d)** Sustituir el baseline archiva la versión anterior y conserva sus archivos.
 - **e)** Deshacer y restaurar eliminan la versión recién creada, junto con los archivos, torneos y manos que solo incorporó esa acción, y reactivan la anterior; los archivos subidos por error pueden volver a subirse sin detectarse como duplicados. Solo son posibles desde el aviso que aparece al añadir o sustituir; al cambiar de pestaña o cerrarlo, la opción se pierde. Como el aviso desaparece al salir de Mi Baseline, la versión eliminada nunca ha servido para auditar un lote.
-- **f)** El baseline inicial excluye automáticamente las ventanas T+30 de los triggers, que se detectan sin baseline; las recalibraciones excluyen además los tramos de desviación, porque ya hay un baseline con el que contrastarlos. Si no hay detecciones, el conjunto excluido queda vacío. La fatiga no se excluye.
+- **f)** El baseline inicial excluye automáticamente las ventanas T+30 de los triggers, que se detectan sin baseline; no excluye fatiga. La recalibración excluye además los tramos de desviación, porque ya hay un baseline con el que contrastarlos, y ofrece dos casillas marcadas por defecto y desmarcables: excluir las ventanas T+30 y filtrar la fatiga prolongada. La fatiga prolongada son las manos jugadas desde el punto crítico del propio jugador; si no tiene punto crítico, no se excluye fatiga y la pantalla lo indica. Si no hay detecciones, el conjunto excluido queda vacío.
 
 ##### RF-DSH-GLB-04 — Coherencia de métricas y Nivel 2
 
@@ -513,8 +512,8 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 | ID | Regla |
 |---|---|
 | RN-DSH-01 | El resultado no define la conducta. Una sesión puede ganar y contener una desviación; puede perder y ser limpia. |
-| RN-DSH-02 | El baseline solo usa datos cronológicamente anteriores al periodo evaluado. |
-| RN-DSH-03 | En T+30, el trigger queda excluido; se analizan las 30 manos posteriores; los solapes se fusionan. |
+| RN-DSH-02 | El baseline solo usa datos cronológicamente anteriores al periodo evaluado; Importar omite, con un aviso, los torneos que empiezan antes de la última mano del baseline activo. |
+| RN-DSH-03 | En T+30, el trigger queda excluido; se analizan las 30 manos siguientes del jugador en su sesión, de cualquier torneo; los solapes se fusionan. |
 | RN-DSH-04 | La fatiga no entra en el feed de alertas; solo se visualiza en la gráfica. |
 | RN-DSH-05 | Una etiqueta comunitaria no modifica el baseline ni las alertas del Nivel 1. |
 | RN-DSH-06 | El sistema solo usa datos, métricas y etiquetas reales. |
@@ -522,9 +521,9 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 | RN-DSH-08 | El baseline se congela como snapshot inmutable y versionado. |
 | RN-DSH-09 | Recalibrar solo afecta a lotes futuros; las alertas pasadas conservan su snapshot. |
 | RN-DSH-10 | Añadir datos al baseline crea una versión nueva congelada al momento. |
-| RN-DSH-11 | El baseline inicial excluye automáticamente las ventanas T+30 de los triggers; la recalibración excluye además los tramos de desviación. La fatiga se conserva y se mide. |
+| RN-DSH-11 | El baseline inicial excluye automáticamente las ventanas T+30 de los triggers. La recalibración excluye además los tramos de desviación y, con las casillas marcadas por defecto, las ventanas T+30 y la fatiga prolongada (manos desde el punto crítico del jugador; sin punto crítico no se excluye fatiga). La gráfica de fatiga se sigue midiendo con todas las manos. |
 | RN-DSH-12 | Auditar una alerta es irreversible desde el feed; la alerta permanece en el historial. |
-| RN-DSH-13 | El orden del feed es tipo (tilt antes que desviación), magnitud de fuga y fecha. |
+| RN-DSH-13 | El orden del feed es: concluyentes antes que no concluyentes; tipo (tilt antes que desviación); solidez (más métricas evaluables primero); magnitud de fuga; fecha (M06). |
 | RN-DSH-14 | La definición de EV es única en toda la aplicación: all-in → EV esperado; resto → resultado real. |
 | RN-DSH-15 | Sustituir el baseline archiva la versión anterior. Mientras no se deshaga, el historial conserva ambas y las alertas pasadas siguen apuntando al snapshot con el que se calcularon. |
 | RN-DSH-16 | Los archivos que se suben para crear el baseline solo construyen el perfil: no se auditan, no generan alertas y no aparecen en el Historial ni en los visores. |
@@ -551,14 +550,14 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 | `pfr` | Decimal | KPI PFR |
 | `threebet` | Decimal | KPI 3-Bet |
 | `evbb100` | Decimal | KPI EVbb/100 |
-| `vpip_population_range` | Texto | Referencia poblacional MTT |
+| `vpip_population_min` | Decimal | Límite inferior de la referencia poblacional MTT |
+| `vpip_population_max` | Decimal | Límite superior de la referencia poblacional MTT |
 
 #### `FatigueBucket`
 
 | Campo | Tipo | Uso |
 |---|---|---|
 | `bucket_id` | ID | Identificador del tramo |
-| `label` | Texto | Etiqueta visible, en minutos u horas |
 | `hours_from` | Decimal | Inicio del tramo |
 | `hours_to` | Decimal o nulo | Fin del tramo; nulo si es abierto |
 | `evbb100` | Decimal | Valor del tramo |
@@ -616,8 +615,6 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 |---|---|---|
 | `tilt_window` | `T+20` / `T+30` / `T+50` / `T+100` | Ventana reactiva |
 | `fdr_q` | Decimal | Umbral FDR |
-| `engine_version` | Texto | Versión del motor |
-| `last_recalibration_at` | Fecha/hora UTC | Última recalibración |
 
 #### `UserSession`
 
@@ -628,15 +625,16 @@ La recalibración se ejecuta desde **Mi Baseline**. El Dashboard no incluye el b
 | `email` | Texto | Cuenta |
 | `active_site` | Texto | Sitio activo |
 | `permissions` | Lista | Acceso a pantallas |
-| `play_level` | Texto | Nivel de juego declarado (buy-in habitual) |
+| `play_level` | `micro` / `bajo` / `medio` / `alto` / `muy_alto` | Código del nivel de juego declarado (buy-in habitual) |
 
 #### `Notification`
 
 | Campo | Tipo | Uso |
 |---|---|---|
 | `type` | `exito` / `error` / `info` | Tipo de toast |
-| `text` | Texto | Mensaje |
-| `action_label` | Texto o nulo | Acción opcional |
+| `code` | Texto | Código del mensaje; el texto se compone en el frontend con la clave correspondiente |
+| `params` | Objeto | Parámetros del mensaje (por ejemplo, torneos, manos o alertas) |
+| `action_code` | Texto o nulo | Código de la acción opcional |
 | `action_target` | Texto o nulo | Destino de la acción |
 | `duration_ms` | Entero o nulo | Duración; nulo si es persistente |
 | `dismissible` | Booleano | Si se puede cerrar |
@@ -691,7 +689,7 @@ La acción de recuperación de cada error de bloque es la fijada en 1.10: reinte
 | Umbral FDR por defecto | `q < 0,05` | Detección de desviaciones |
 | Opciones de sensibilidad FDR | `q < 0,10`, `q < 0,05`, `q < 0,01` | Configuración del motor |
 | Intervalo de confianza de la fatiga | 95 % | Gráfica de fatiga |
-| Tramos de fatiga | Hasta 2 h: 30 min; más de 2 h y hasta 5 h: 1 h; más de 5 h: 2 h | Gráfica de fatiga |
+| Tramos de fatiga | Número fijo de puntos y ancho adaptado a las sesiones del baseline (por definir) | Gráfica de fatiga |
 | Resolución mínima de diseño | 1280×720 | Shell |
 | Contraste mínimo | WCAG AA, 4,5:1 en texto normal | Accesibilidad |
 | Duración de toast de éxito | 6–8 s | Toasts |
@@ -716,13 +714,13 @@ La acción de recuperación de cada error de bloque es la fijada en 1.10: reinte
 | Manos mínimas por tramo de fatiga | Por definir | Fusión de tramos |
 | Referencia poblacional MTT para VPIP | Por definir | Tarjeta VPIP |
 | Cierre de overlays (backdrop, Esc) | Por definir | Overlays |
-| Recuento del contador del enlace al historial | Por definir | Feed |
-| Definición de `CON ALERTA` con tilt y desviación | Por definir | Resumen |
+| Recuento del contador del enlace al historial | Alertas del lote, auditadas o no (M27) | Feed |
+| Definición de `CON ALERTA` con tilt y desviación | Cuenta torneos: un torneo con ambos cuenta como uno (M27) | Resumen |
 | Tokens de color y valores de contraste | Por definir | Accesibilidad |
 | Copy exacto de toasts y modales | Por definir | Toasts y overlays |
 | Punto crítico con un tramo exactamente en 0 | Por definir | Gráfica de fatiga |
 | Filtros del enlace del feed al historial | Por definir | Navegación |
-| Recuento de `CON ALERTA`: auditadas o pendientes | Por definir | Resumen |
+| Recuento de `CON ALERTA`: auditadas o pendientes | Incluye las auditadas (M27) | Resumen |
 
 ---
 

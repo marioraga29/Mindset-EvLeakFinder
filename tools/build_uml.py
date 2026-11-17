@@ -81,6 +81,8 @@ ENTITIES: dict[str, dict] = {
             "sesiones_lote: INTEGER",
             "periodo_desde: TIMESTAMPTZ",
             "periodo_hasta: TIMESTAMPTZ",
+            "ventana_reactiva: INTEGER",
+            "fdr_q: NUMERIC(4,3)",
             "creado_en: TIMESTAMPTZ",
         ],
     },
@@ -119,6 +121,7 @@ ENTITIES: dict[str, dict] = {
             "nivel_inicial: INTEGER",
             "nivel_final: INTEGER",
             "max_jugadores: INTEGER",
+            "recompensa: TEXT",
             "manos: INTEGER",
             "bb_ganadas: NUMERIC(12,4)",
             "ev_bb: NUMERIC(12,4)",
@@ -212,6 +215,7 @@ ENTITIES: dict[str, dict] = {
             "hasta: TIMESTAMPTZ",
             "ventana_reactiva: INTEGER",
             "fdr_q: NUMERIC(4,3)",
+            "punto_critico_horas: NUMERIC(5,2)",
         ],
     },
     "metrica_valor": {
@@ -221,6 +225,7 @@ ENTITIES: dict[str, dict] = {
             "entidad_tipo: TEXT",
             "entidad_id: UUID",
             "metrica: TEXT",
+            "tramo_stack: TEXT",
             "numerador: NUMERIC(12,4)",
             "denominador: NUMERIC(12,4)",
             "valor: NUMERIC(12,6)",
@@ -243,6 +248,14 @@ ENTITIES: dict[str, dict] = {
         "attrs": [
             "snapshot_id: UUID «PK» «FK»",
             "torneo_id: UUID «PK» «FK»",
+        ],
+    },
+    "ventana_mano": {
+        "ri": "nueva",
+        "attrs": [
+            "ventana_id: UUID «PK» «FK»",
+            "mano_id: UUID «PK» «FK»",
+            "orden: SMALLINT",
         ],
     },
     "trigger": {
@@ -291,14 +304,16 @@ ENTITIES: dict[str, dict] = {
         "ri": "RI-11",
         "attrs": [
             "id: UUID «PK»",
-            "usuario_id: UUID «FK»",
-            "desde: TIMESTAMPTZ",
-            "hasta: TIMESTAMPTZ",
+            "snapshot_id: UUID «FK»",
+            "orden: SMALLINT",
+            "hora_desde: NUMERIC(5,2)",
+            "hora_hasta: NUMERIC(5,2)",
             "manos: INTEGER",
             "sesiones: INTEGER",
+            "ev_bb: NUMERIC(12,4)",
             "evbb100: NUMERIC(10,4)",
-            "orden: SMALLINT",
-            "recalculado_en: TIMESTAMPTZ",
+            "ic95_inferior: NUMERIC(10,4)",
+            "ic95_superior: NUMERIC(10,4)",
         ],
     },
     "prueba_estadistica": {
@@ -306,6 +321,7 @@ ENTITIES: dict[str, dict] = {
         "attrs": [
             "id: UUID «PK»",
             "lote_id: UUID «FK»",
+            "snapshot_id: UUID «FK»",
             "tipo: TEXT",
             "referencia_id: UUID",
             "metrica: TEXT",
@@ -337,8 +353,7 @@ ENTITIES: dict[str, dict] = {
         "ri": "RI-13",
         "attrs": [
             "id: UUID «PK»",
-            "nombre: TEXT «UQ»",
-            "definicion: TEXT",
+            "codigo: TEXT «UQ»",
             "version: INTEGER",
             "peso_base: NUMERIC(4,3)",
             "activa: BOOLEAN",
@@ -356,7 +371,6 @@ ENTITIES: dict[str, dict] = {
             "peso_aplicado: NUMERIC(4,3)",
             "origen: TEXT",
             "validada: BOOLEAN",
-            "validador_id: UUID «FK»",
         ],
     },
 }
@@ -626,7 +640,7 @@ DIAGRAMS = [
             {"x": 40, "y": 40, "w": 560, "h": 340, "title": "Identidad e importación"},
             {"x": 40, "y": 420, "w": 560, "h": 340, "title": "Manos"},
             {"x": 640, "y": 40, "w": 570, "h": 300, "title": "Baseline"},
-            {"x": 640, "y": 420, "w": 540, "h": 440, "title": "Detección"},
+            {"x": 640, "y": 420, "w": 540, "h": 470, "title": "Detección"},
             {"x": 1220, "y": 40, "w": 420, "h": 240, "title": "Nivel 2 · etiquetado"},
         ],
         "boxes": [
@@ -644,6 +658,7 @@ DIAGRAMS = [
             box("baseline_exclusion", 980, 230, attrs=[]),
             box("trigger", 680, 500, attrs=[]),
             box("ventana_reactiva", 900, 500, attrs=[]),
+            box("ventana_mano", 900, 800, attrs=[]),
             box("tramo_desviacion", 680, 600, attrs=[]),
             box("prueba_estadistica", 900, 600, attrs=[]),
             box("tramo_fatiga", 680, 700, attrs=[]),
@@ -667,6 +682,7 @@ DIAGRAMS = [
             {"a": "ventana_reactiva", "b": "prueba_estadistica", "kind": "assoc"},
             {"a": "tramo_desviacion", "b": "prueba_estadistica", "kind": "assoc"},
             {"a": "prueba_estadistica", "b": "alerta", "kind": "assoc"},
+            {"a": "baseline_snapshot", "b": "prueba_estadistica", "kind": "assoc"},
             {"a": "alerta", "b": "tramo_desviacion", "kind": "assoc"},
             {"a": "etiqueta", "b": "etiqueta_mano", "kind": "assoc"},
         ],
@@ -676,7 +692,7 @@ DIAGRAMS = [
                 "y": 330,
                 "w": 420,
                 "text": (
-                    "Las cinco agrupaciones cubren las 20 entidades del modelo. "
+                    "Las cinco agrupaciones cubren las 21 entidades del modelo. "
                     "El detalle de atributos y multiplicidades está en los "
                     "diagramas uml-01 a uml-05."
                 ),
@@ -797,14 +813,15 @@ DIAGRAMS = [
     {
         "slug": "uml-03-baseline",
         "width": 1450,
-        "height": 800,
+        "height": 1170,
         "boxes": [
             box("baseline_snapshot", 80, 140),
             box("metrica_valor", 700, 80),
             box("baseline_exclusion", 700, 500),
             box("baseline_snapshot_torneo", 1100, 500),
+            box("tramo_fatiga", 700, 790),
             box("torneo", 1200, 300, external=True),
-            box("usuario", 80, 560, external=True),
+            box("usuario", 80, 650, external=True),
         ],
         "links": [
             {
@@ -820,6 +837,14 @@ DIAGRAMS = [
                 "b": "baseline_exclusion",
                 "kind": "comp",
                 "label": "excluye",
+                "ma": "1",
+                "mb": "0..N",
+            },
+            {
+                "a": "baseline_snapshot",
+                "b": "tramo_fatiga",
+                "kind": "comp",
+                "label": "congela la curva",
                 "ma": "1",
                 "mb": "0..N",
             },
@@ -856,6 +881,15 @@ DIAGRAMS = [
                     "tramo_desviacion, sesion, torneo}: referencia polimórfica "
                     "validada por la aplicación."
                 ),
+            },
+            {
+                "x": 80,
+                "y": 760,
+                "w": 430,
+                "text": (
+                    "La fatiga no genera alertas: la curva se congela con el "
+                    "baseline y solo se muestra en la gráfica del Dashboard."
+                ),
             }
         ],
     },
@@ -865,13 +899,13 @@ DIAGRAMS = [
         "height": 1300,
         "boxes": [
             box("ventana_reactiva", 620, 60),
+            box("ventana_mano", 620, 400),
             box("trigger", 70, 180),
             box("tramo_desviacion", 620, 620),
             box("prueba_estadistica", 1200, 320),
             box("alerta", 1200, 820),
-            box("tramo_fatiga", 70, 700),
             box("usuario", 640, 1040, external=True),
-            box("mano", 500, 300, external=True),
+            box("mano", 400, 430, external=True),
             box("baseline_snapshot", 1620, 900, external=True),
         ],
         "links": [
@@ -881,6 +915,21 @@ DIAGRAMS = [
                 "label": "cubre",
                 "ma": "1",
                 "mb": "1..N",
+            },
+            {
+                "a": "ventana_reactiva",
+                "b": "ventana_mano",
+                "kind": "comp",
+                "label": "se compone de",
+                "ma": "1",
+                "mb": "1..N",
+            },
+            {
+                "a": "mano",
+                "b": "ventana_mano",
+                "label": "forma parte de",
+                "ma": "1",
+                "mb": "0..1",
             },
             {
                 "a": "mano",
@@ -909,6 +958,12 @@ DIAGRAMS = [
                 "kind": "dep",
             },
             {
+                "a": "baseline_snapshot",
+                "b": "prueba_estadistica",
+                "label": "esperado de",
+                "kind": "dep",
+            },
+            {
                 "a": "alerta",
                 "b": "ventana_reactiva",
                 "label": "tilt",
@@ -929,24 +984,9 @@ DIAGRAMS = [
                 "ma": "1",
                 "mb": "0..N",
             },
-            {
-                "a": "usuario",
-                "b": "tramo_fatiga",
-                "label": "acumula",
-                "ma": "1",
-                "mb": "0..N",
-            },
         ],
         "notes": [
-            {
-                "x": 70,
-                "y": 1130,
-                "w": 430,
-                "text": (
-                    "La fatiga no genera alertas: solo se muestra en la gráfica "
-                    "macro y se mide en horas."
-                ),
-            }
+
         ],
     },
     {

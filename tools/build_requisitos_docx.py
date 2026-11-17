@@ -194,6 +194,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Comprueba que el contenido corresponde a un historial de Winamax.",
                     "Rechaza los archivos vacíos o ilegibles.",
                     "Obtiene el identificador de torneo del nombre del archivo y el número de manos de cada archivo válido.",
+                    "Detecta el tamaño de mesa y la recompensa (ninguna, KO o Mystery) de cada torneo, sin guardar importes.",
                     "Explica cada archivo inválido en una ventana emergente de error con su motivo.",
                     "Si hay archivos inválidos, pregunta al jugador si continúa con los válidos o cancela el lote.",
                 ],
@@ -203,7 +204,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "title": "Detección de torneos duplicados",
                 "module": "Importación",
                 "priority": "Alta",
-                "desc": "El sistema debe impedir que se incorpore un torneo que ya está guardado.",
+                "desc": "El sistema debe impedir que se incorpore un torneo que ya está guardado o que es anterior al final del baseline activo.",
                 "actor": "Sistema",
                 "pre": "Archivo validado.",
                 "crit": [
@@ -211,6 +212,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Un torneo ya existente no se procesa.",
                     "Informa del duplicado en una ventana emergente de error.",
                     "El torneo duplicado no consume análisis ni altera los datos existentes.",
+                    "Un torneo que empieza antes de la última mano del baseline activo tampoco se procesa, para evitar fuga de datos: se informa con un aviso, que no es un error, y el lote continúa con los demás.",
                     "Si no queda ningún torneo nuevo, no se crea lote y se avisa al jugador.",
                 ],
             },
@@ -403,7 +405,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "title": "Métricas de conducta",
                 "module": "Parser ETL",
                 "priority": "Alta",
-                "desc": "El sistema debe calcular las ocho métricas del héroe con su numerador y denominador.",
+                "desc": "El sistema debe calcular las cinco métricas de conducta del héroe con su numerador y denominador.",
                 "actor": "Sistema",
                 "pre": "Acciones, botes y resultado calculados.",
                 "crit": [
@@ -411,10 +413,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "PFR: manos con subida preflop entre manos jugadas.",
                     "3-Bet: subidas sobre una subida entre oportunidades de 3-bet.",
                     "Fold vs 3-Bet: retiradas ante un 3-bet entre las veces que lo afronta.",
-                    "C-Bet: apuestas en flop como agresor preflop entre oportunidades, entendiendo oportunidad como llegar al flop como agresor sin apuesta previa.",
-                    "Fold vs C-Bet: retiradas ante una apuesta de continuación entre las veces que la afronta.",
                     "WTSD: manos que llegan a showdown entre manos que vieron flop.",
-                    "WSSD: showdowns ganados entre showdowns jugados.",
                     "Cada métrica guarda numerador y denominador.",
                     "Solo se calculan sobre manos del héroe.",
                 ],
@@ -552,10 +551,11 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Sistema",
                 "pre": "Manos normalizadas y agrupadas.",
                 "crit": [
-                    "Calcula VPIP, PFR, 3-Bet y EVbb/100.",
+                    "Calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD y EVbb/100.",
                     "Pondera cada métrica por el número de manos.",
                     "Usa exclusivamente manos anteriores al periodo evaluado.",
                     "Guarda el numerador y el denominador de cada métrica.",
+                    "Desglosa VPIP, PFR, 3-Bet, Fold vs 3-Bet y WTSD por tramo de stack (menos de 10 BB, 10–20, 20–40 y 40 BB o más, provisionales) y guarda también el total; el EVbb/100 se guarda solo como total.",
                     "El baseline inicial se crea desde Mi Baseline en estado vacío, con archivos que el jugador arrastra a esa pantalla.",
                     "Los archivos del baseline se procesan como un lote de tipo baseline: solo construyen el perfil y no generan alertas ni aparecen en el Historial ni en los visores.",
                     "El baseline inicial excluye las ventanas T+30 de los triggers, que se detectan sin baseline; los tramos de desviación no se excluyen porque aún no hay baseline con el que contrastarlos.",
@@ -604,13 +604,15 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "title": "Recalibración del baseline",
                 "module": "Baseline",
                 "priority": "Alta",
-                "desc": "El sistema debe permitir recalcular el baseline excluyendo las ventanas reactivas y los tramos de desviación y conservando la información de fatiga.",
+                "desc": "El sistema debe permitir recalcular el baseline excluyendo los tramos de desviación y, mediante dos casillas marcadas por defecto, las ventanas reactivas y la fatiga prolongada del propio jugador.",
                 "actor": "Jugador",
                 "pre": "Baseline existente y manos nuevas disponibles.",
                 "crit": [
                     "Recalcula el baseline con las manos seleccionadas.",
-                    "Excluye automáticamente las ventanas T+30 y los tramos de desviación.",
-                    "Conserva las sesiones de fatiga.",
+                    "Excluye automáticamente los tramos de desviación.",
+                    "Ofrece dos casillas, marcadas por defecto y desmarcables: excluir ventanas T+30 y filtrar fatiga prolongada.",
+                    "La fatiga prolongada son las manos jugadas desde el punto crítico de fatiga del propio jugador, no una hora fija.",
+                    "Si el jugador no tiene punto crítico, no excluye fatiga aunque la casilla esté marcada y la pantalla lo indica.",
                     "Crea una versión nueva y archiva la anterior.",
                     "No altera las alertas ya emitidas.",
                 ],
@@ -638,8 +640,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Jugador",
                 "pre": "Baseline existente.",
                 "crit": [
-                    "Muestra métricas, muestra, fecha de congelación y versión.",
-                    "Indica si el baseline es inicial o recalibrado.",
+                    "Muestra métricas, muestra y fecha de congelación.",
                     "Muestra el número de archivos y de sesiones de la muestra.",
                     "El jugador solo ve el baseline activo: las versiones archivadas se conservan para auditar las alertas y no se consultan desde la interfaz.",
                 ],
@@ -672,14 +673,17 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "title": "Ventana reactiva T+30",
                 "module": "Motor Nivel 1",
                 "priority": "Alta",
-                "desc": "El sistema debe analizar las 30 manos inmediatamente posteriores a cada trigger, excluyendo la mano trigger.",
+                "desc": "El sistema debe analizar las 30 manos inmediatamente posteriores a cada trigger en la sesión del jugador, de cualquier torneo, excluyendo la mano trigger.",
                 "actor": "Sistema",
                 "pre": "Trigger detectado.",
                 "crit": [
                     "Excluye la mano trigger del análisis.",
-                    "Analiza las 30 manos posteriores dentro del mismo torneo.",
-                    "Trunca la ventana si el torneo termina antes.",
-                    "Fusiona ventanas solapadas y cuenta las manos compartidas una sola vez.",
+                    "Analiza las 30 manos siguientes del jugador en su sesión, de cualquier torneo, ordenadas por hora.",
+                    "Trunca la ventana al final de la sesión (pausa de más de 30 minutos).",
+                    "Fusiona ventanas solapadas, aunque los triggers sean de torneos distintos, y cuenta las manos compartidas una sola vez.",
+                    "Si no hay manos posteriores en la sesión, no hay ventana ni alerta; el trigger se muestra en el visor con la nota «sin manos posteriores».",
+                    "Si la ventana tiene menos de la mitad de las manos configuradas, queda sin datos suficientes y ninguna métrica se contrasta; con más de la mitad pero menos de las configuradas, se analiza y se marca como incompleta.",
+                    "La alerta pertenece al torneo del trigger; los demás torneos con manos de la ventana solo llevan una marca informativa.",
                 ],
             },
             {
@@ -691,10 +695,14 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Sistema",
                 "pre": "Ventana T+30 construida.",
                 "crit": [
-                    "Calcula VPIP, PFR, 3-Bet y EVbb/100 de la ventana.",
-                    "Contrasta cada métrica contra el baseline activo.",
+                    "Calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD y EVbb/100 de la ventana.",
+                    "Determina cuáles de VPIP, PFR y 3-Bet son evaluables: las que alcanzan un mínimo de oportunidades igual a la mitad de las habituales del jugador en ese número de manos, según su baseline, con un suelo de 3 (provisional).",
+                    "Contrasta contra el baseline activo VPIP, PFR y 3-Bet cuando son evaluables; Fold vs 3-Bet y WTSD se guardan sin contrastarse en la ventana (los contrasta la comparativa); las no evaluables conservan numerador y denominador, sin porcentaje.",
+                    "Si ninguna métrica es evaluable, la ventana queda sin datos suficientes: genera una alerta no concluyente, sin fuga neta, y no cuenta como torneo limpio.",
+                    "Calcula el esperado de cada mano con el valor del baseline en su tramo de stack y, si ese tramo del baseline tiene menos de 50 oportunidades de la métrica, con el valor total del baseline.",
+                    "Obtiene el p-valor con un contraste exacto que admite una probabilidad esperada distinta por mano (Poisson-binomial), en lugar de la binomial con una sola tasa.",
                     "Guarda la diferencia en puntos porcentuales.",
-                    "Guarda numerador y denominador de cada métrica.",
+                    "Guarda numerador y denominador de cada métrica, con su desglose por tramo de stack.",
                 ],
             },
             {
@@ -707,7 +715,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "pre": "Manos normalizadas y baseline disponible.",
                 "crit": [
                     "Aplica una ventana deslizante sobre la serie temporal.",
-                    "Contrasta localmente acciones frente a oportunidades.",
+                    "Contrasta localmente acciones frente a oportunidades en VPIP, PFR y 3-Bet, con el esperado de cada mano según su tramo de stack y el mismo contraste exacto que la ventana T+30; solo se contrastan las métricas evaluables y la corrección FDR se aplica solo a esas pruebas.",
                     "Calcula el q-value de cada prueba.",
                     "Registra el inicio y el fin del tramo candidato.",
                 ],
@@ -736,7 +744,9 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "pre": "Sesiones y manos normalizadas.",
                 "crit": [
                     "Calcula el EVbb/100 por tramos de horas de juego.",
-                    "Construye tramos adaptativos y los fusiona cuando no alcanzan muestra suficiente.",
+                    "Construye tramos de ancho adaptado a las sesiones del baseline, con siempre el mismo número de puntos (por definir), y los fusiona cuando no alcanzan muestra suficiente.",
+                    "Calcula la curva con las mismas manos que el baseline (sin ventanas T+30 ni tramos de desviación), salvo la exclusión de fatiga, que no se aplica.",
+                    "Guarda con el baseline las horas de inicio y fin de cada tramo (el último, abierto), sus manos, sesiones, suma de EV, EVbb/100 e intervalo de confianza del 95 %, y el punto crítico.",
                     "Localiza el punto de cruce a pérdidas.",
                     "La fatiga se visualiza en la gráfica y no genera alertas en el feed.",
                 ],
@@ -790,11 +800,10 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Jugador",
                 "pre": "Baseline activo.",
                 "crit": [
-                    "Muestra cuatro indicadores: VPIP, PFR, 3-Bet y EVbb/100 con ajuste all-in.",
+                    "Muestra cuatro indicadores: VPIP, PFR, 3-Bet y Winrate baseline (EV), que es el EVbb/100 con ajuste all-in.",
                     "Los valores proceden del snapshot activo.",
-                    "Muestra la muestra, la fecha de congelación y la versión.",
+                    "Muestra la muestra y la fecha de congelación.",
                     "VPIP incluye una referencia poblacional para MTT.",
-                    "Indica si el baseline es inicial o recalibrado.",
                 ],
             },
             {
@@ -806,7 +815,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Jugador",
                 "pre": "Baseline activo.",
                 "crit": [
-                    "El valor principal es EVbb/100 con la etiqueta “ajuste all-in”.",
+                    "El valor principal es EVbb/100, rotulado «Winrate baseline (EV)», con un ⓘ que explica el ajuste all-in por equidad.",
                     "En manos con all-in usa el EV esperado; en el resto, el resultado real.",
                 ],
             },
@@ -838,9 +847,11 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "crit": [
                     "Muestra únicamente alertas del último lote.",
                     "Muestra todas las alertas del lote en un feed desplazable.",
-                    "Ordena primero las alertas de tilt y después las desviaciones.",
-                    "Dentro de cada tipo, ordena por magnitud de fuga y, a igualdad, por fecha.",
-                    "Cada métrica muestra numerador y denominador.",
+                    "Ordena primero las alertas concluyentes y después las no concluyentes.",
+                    "Dentro de cada grupo, ordena primero las alertas de tilt y después las desviaciones.",
+                    "Dentro de cada tipo, ordena por solidez (más métricas evaluables primero), después por magnitud de fuga y, a igualdad, por fecha.",
+                    "Cada métrica muestra numerador y denominador; la que no alcanza su mínimo de oportunidades se muestra como «k de n» marcada como no evaluable, sin porcentaje.",
+                    "Una ventana sin datos suficientes aparece como alerta no concluyente, sin fuga neta y con el aviso de que no se puede evaluar.",
                 ],
             },
             {
@@ -870,6 +881,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Una alerta de tilt abre el visor en la mano trigger.",
                     "Una alerta de desviación abre el visor en la primera mano del tramo.",
                     "Al abrir el visor, la alerta pasa a auditada y desaparece del feed.",
+                    "La cabecera del feed muestra un contador «n de m auditadas» con las alertas concluyentes del último lote.",
                     "La alerta se conserva en el historial.",
                 ],
             },
@@ -915,7 +927,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Jugador",
                 "pre": "Sesión iniciada.",
                 "crit": [
-                    "El drawer de cuenta muestra usuario, sitio activo, estado, versión del motor y última recalibración.",
+                    "El drawer de cuenta muestra usuario, sitio activo, estado y nivel de juego.",
                     "La ventana reactiva se configura entre T+20, T+30, T+50 y T+100.",
                     "La sensibilidad FDR se configura entre q < 0,10, q < 0,05 y q < 0,01.",
                     "Los cambios se guardan de forma explícita y afectan únicamente al siguiente lote.",
@@ -943,7 +955,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
     (
         "3.7",
         "Historial de torneos",
-        "El historial conserva todos los torneos procesados y permite localizar sesiones limpias, alertas de tilt y desviaciones.",
+        "El historial conserva todos los torneos procesados y permite localizar torneos limpios, alertas de tilt y desviaciones.",
         [
             {
                 "id": "RF-HIS-01",
@@ -972,9 +984,10 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Jugador",
                 "pre": "Listado de torneos disponible.",
                 "crit": [
-                    "Filtra por estado conductual: tilt, desviación o sesión limpia.",
+                    "Filtra por estado conductual: tilt, desviación o torneo limpio.",
                     "Filtra por periodo.",
-                    "Filtra por formato de torneo.",
+                    "Filtra por tamaño de mesa (por ejemplo 6-max o 3-max).",
+                    "Filtra por recompensa del torneo: ninguna, KO o Mystery.",
                     "Los filtros son combinables y se pueden limpiar.",
                 ],
             },
@@ -989,8 +1002,10 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "crit": [
                     "Marca tilt cuando el torneo contiene al menos una alerta de tilt.",
                     "Marca desviación cuando contiene un tramo significativo sin trigger.",
-                    "Marca sesión limpia cuando no contiene alertas ni tramos.",
-                    "La prioridad es tilt, después desviación y después sesión limpia.",
+                    "Marca no concluyente cuando contiene alguna ventana sin datos suficientes y ninguna alerta ni tramo significativo.",
+                    "Muestra una marca informativa, con enlace a la alerta, en el torneo que contiene manos de la ventana T+30 de otro torneo; esa marca no es una alerta y no permite el torneo limpio.",
+                    "Marca torneo limpio cuando no contiene alertas ni tramos ni ventanas sin datos suficientes.",
+                    "La prioridad es tilt, después desviación, después no concluyente y después torneo limpio.",
                 ],
             },
             {
@@ -1003,6 +1018,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "pre": "Listado de torneos disponible.",
                 "crit": [
                     "Al seleccionar una fila se abre el visor del torneo.",
+                    "Todos los torneos auditados se pueden abrir, tengan o no alertas, incluidos los no concluyentes y los torneos limpios (M28).",
                     "El visor conserva el contexto del torneo seleccionado.",
                 ],
             },
@@ -1055,6 +1071,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Resalta la ventana T+30 en rojo.",
                     "Resalta el tramo de desviación en ámbar.",
                     "El tooltip identifica el tipo de anomalía y sus métricas.",
+                    "Con una ventana que toca varios torneos, la franja de cada torneo cubre solo sus manos de la ventana.",
                 ],
             },
             {
@@ -1098,9 +1115,46 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Suerte del torneo muestra las BB ganadas, el All-in EV y la suerte all-in del torneo, con un ⓘ y el enlace «Ver en el Glosario».",
                     "La suerte all-in es neutra si la diferencia entre BB ganadas y All-in EV no supera 1σ, a favor si es mayor que σ y en contra si es menor que −σ; un torneo sin all-in es neutro. El umbral 1σ es provisional.",
                     "Con ventana T+30, Conducta muestra el trigger, la posición de la mano dentro de la ventana, las métricas de la alerta frente al baseline y la fuga neta estimada con un ⓘ.",
-                    "Con desviación sin trigger, Conducta muestra solo las métricas de la alerta frente al baseline, sin fuga neta ni inicio y fin de tramo.",
-                    "Sin alertas, Conducta indica que no se han detectado anomalías conductuales frente al baseline y no muestra métricas del torneo.",
+                    "Con desviación sin trigger, Conducta muestra el tramo detectado (manos de inicio y fin y número de manos, de forma aproximada), las métricas de la alerta frente al baseline y la fuga neta estimada con un ⓘ, y la gráfica marca el tramo con una franja; si una ventana T+30 lo atraviesa, la gráfica la muestra dentro del tramo con su propia franja y Conducta indica que el tramo está interrumpido por esa ventana.",
+                    "Conducta solo aparece cuando la mano abierta pertenece a una alerta y muestra esa alerta; una mano fuera de cualquier alerta muestra solo Suerte del torneo, y la cabecera del visor indica si el torneo tiene alertas o no tiene anomalías.",
                     "El visor no muestra «resultado adicional» ni subtramos dentro de la ventana T+30, ni las cajas de impacto, cierre, fuga estimada o resto del patrón.",
+                    "En un torneo con manos de la ventana de otro torneo, Conducta remite a esa alerta en lugar de indicar que no hay anomalías.",
+                ],
+            },
+            {
+                "id": "RF-VTR-06",
+                "title": "Pestañas por torneo en la ventana T+30",
+                "module": "Visor de torneo",
+                "priority": "Alta",
+                "desc": "El sistema debe permitir recorrer los torneos que aportan manos a una ventana T+30 sin mezclar sus gráficas.",
+                "actor": "Jugador",
+                "pre": "Ventana T+30 con manos de más de un torneo.",
+                "crit": [
+                    "Muestra una pestaña por cada torneo que aporta manos a la ventana; si solo toca uno, no hay pestañas.",
+                    "La pestaña del torneo del trigger se abre primero.",
+                    "Cada pestaña muestra la gráfica real frente a EV de su torneo y la franja T+30 solo sobre las manos de ese torneo dentro de la ventana.",
+                    "Un torneo que no es el del trigger muestra un aviso informativo con enlace a la alerta, sin generar alerta propia, y no cuenta como torneo limpio.",
+                    "Un trigger sin manos posteriores no genera ventana ni alerta y se muestra con la nota «sin manos posteriores».",
+                ],
+            },
+            {
+                "id": "RF-VTR-07",
+                "title": "Pantalla de la ventana T+30",
+                "module": "Visor de torneo",
+                "priority": "Alta",
+                "desc": "El sistema debe mostrar las manos de una ventana T+30 en el orden en que se jugaron, con la evidencia conductual de la ventana.",
+                "actor": "Jugador",
+                "pre": "Ventana T+30 detectada.",
+                "crit": [
+                    "Muestra las manos de la ventana ordenadas por hora, cada una con su torneo, su número de mano en el torneo, su resultado en BB y su acción.",
+                    "Pulsar una mano abre su visor en la pestaña de su torneo.",
+                    "El título identifica el torneo del trigger y el subtítulo la mano trigger y el tamaño de la ventana; si la ventana toca otros torneos, lo indica.",
+                    "Muestra las manos de la ventana sobre las configuradas («n de 30» si es incompleta) y la fuga neta estimada con un ⓘ, o «no estimable» si la ventana es no concluyente.",
+                    "Muestra VPIP, PFR y 3-Bet frente al baseline; las que no alcanzan su mínimo de oportunidades se muestran como «k de n» sin porcentaje.",
+                    "Una ventana sin datos suficientes se identifica como no concluyente.",
+                    "El resultado de cada mano es verde si es ganada, ámbar si pierde menos de 5 BB y rojo si pierde 5 BB o más.",
+                    "No muestra un total de resultado de la ventana ni el recuento de manos con pérdida.",
+                    "«Abrir la mano» lleva a la primera mano de la ventana.",
                 ],
             },
         ],
@@ -1122,6 +1176,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Muestra metadatos, cartas del héroe, cartas de los rivales y cartas comunitarias.",
                     "Muestra bote, ciegas, posición y stack.",
                     "Muestra el resultado real y el EV de la mano.",
+                    "El jugador puede recorrer todas las manos del torneo una a una y seleccionar cualquiera desde la gráfica; un torneo sin alertas abre en su primera mano (M28).",
                 ],
             },
             {
@@ -1211,7 +1266,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "actor": "Sistema y jugador",
                 "pre": "Acceso al visor de mano.",
                 "crit": [
-                    "Cada etiqueta tiene nombre, definición y ejemplo.",
+                    "Cada etiqueta tiene un código estable; su nombre, definición y ejemplo se cargan del archivo de traducción.",
                     "El catálogo está versionado.",
                     "La taxonomía se define en la sección 8. Los pesos por nivel de juego son provisionales y se calibrarán con datos reales.",
                 ],
@@ -1226,6 +1281,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "pre": "Mano abierta en el visor.",
                 "crit": [
                     "Cada usuario puede registrar una etiqueta por mano.",
+                    "Se puede etiquetar cualquier mano de cualquier torneo auditado, tenga o no alerta (M28).",
                     "El registro guarda usuario, fecha y origen de la etiqueta.",
                     "La etiqueta queda asociada a la mano y al torneo.",
                 ],
@@ -1355,7 +1411,7 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "crit": [
                     "El jugador crea una cuenta con nombre, correo, contraseña y su nivel de juego (buy-in habitual en MTT); hay cinco tramos (1–5 €, 5–10 €, 10–25 €, 25–50 € y 50 € o más); cada tramo tiene un peso provisional (Micro 0,6, Bajo 0,8, Medio 1,0, Alto 1,2 y Muy alto 1,4).",
                     "El correo y el nombre son únicos.",
-                    "La contraseña cumple los requisitos mínimos, pendientes de definir.",
+                    "La contraseña tiene entre 8 y 64 caracteres, sin reglas de composición.",
                     "La contraseña se almacena como hash y sal.",
                     "Tras el alta, el jugador puede iniciar sesión.",
                     "El acceso requiere credenciales válidas.",
@@ -1374,7 +1430,6 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                 "crit": [
                     "Muestra nombre de usuario, sitio activo, nivel de juego y estado de la cuenta.",
                     "Incluye la ventana reactiva y la sensibilidad FDR.",
-                    "Muestra la versión del motor y la última recalibración.",
                     "Se abre desde cualquier pantalla.",
                 ],
             },
@@ -1458,8 +1513,9 @@ SECTIONS: list[tuple[str, str, str, list[dict]]] = [
                     "Compara VPIP, PFR, 3-Bet, Fold vs 3-Bet y WTSD.",
                     "Muestra, para cada métrica, el valor del baseline, el valor de las ventanas y su diferencia en puntos porcentuales.",
                     "Cada métrica guarda su numerador y su denominador.",
-                    "Aplica la corrección FDR con el umbral q configurado y lo muestra en una insignia.",
-                    "Indica cuántas de las cinco métricas son significativas.",
+                    "Contrasta solo las métricas evaluables sobre las oportunidades acumuladas de las ventanas; las demás se muestran como «k de n» sin porcentaje.",
+                    "Aplica la corrección FDR solo a las pruebas evaluables, con el umbral q configurado, y lo muestra en una insignia.",
+                    "Indica cuántas de las métricas evaluables son significativas.",
                 ],
             },
             {
@@ -1592,10 +1648,9 @@ NFRS = [
         "id": "RNF-09",
         "title": "Idioma y formato",
         "category": "Localización",
-        "desc": "El sistema debe presentar la información con el idioma y el formato numérico definidos.",
+        "desc": "El sistema debe presentar la información con el idioma del MVP y el formato numérico y de fecha definidos. La externalización de los textos se recoge en RNF-12.",
         "crit": [
             "La interfaz está en español.",
-            "Los textos están externalizados.",
             "Las fechas se guardan en UTC y se muestran en la zona local.",
             "Los porcentajes usan coma decimal y un decimal.",
             "Las cifras de BB/100 usan dos decimales, signo y separador de miles.",
@@ -1610,7 +1665,7 @@ NFRS = [
         "crit": [
             "Cada alerta enlaza con la mano o el tramo que la origina.",
             "Cada métrica conserva su origen y su muestra.",
-            "La versión del motor es visible.",
+            "Cada alerta conserva el baseline y la configuración con los que se calculó.",
             "El historial conserva las alertas auditadas.",
         ],
         "verification": "Auditoría de una alerta de principio a fin.",
@@ -1628,6 +1683,19 @@ NFRS = [
             "Si el fallo persiste, el bloque queda en estado parcial y se ofrece recargarlo.",
         ],
         "verification": "Prueba de fallo inducido por bloque.",
+    },
+    {
+        "id": "RNF-12",
+        "title": "Internacionalización",
+        "category": "Localización",
+        "desc": "El sistema debe estar preparado para traducir la interfaz a otros idiomas sin rehacer pantallas, aunque el MVP solo ofrezca español.",
+        "crit": [
+            "Ningún texto visible se escribe en el código: pantallas, avisos, toasts, modales, alertas, bloque «Lectura», tooltips y glosario se cargan desde archivos de traducción por idioma (en el MVP solo español) mediante claves.",
+            "El backend y la base de datos no guardan ni devuelven frases montadas: alertas, lecturas, avisos de muestra pequeña y estados se representan con un código y sus parámetros, y el frontend compone el texto en el idioma activo.",
+            "Los datos se guardan en bruto, con números sin formato, fechas en UTC y métricas con numerador y denominador; el formato de números, porcentajes y fechas se aplica solo al mostrarlos, según el idioma.",
+            "Los términos técnicos de póker (VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD, bad beat, tilt, trigger, A-Game, EVbb/100, BB, FDR, MTT) no se traducen en ningún idioma.",
+        ],
+        "verification": "Búsqueda de textos visibles en el código y de frases montadas en las respuestas de la API; comprobación con un archivo de traducción de prueba.",
     },
 ]
 
@@ -1789,7 +1857,7 @@ body("Los términos siguientes se usan con un significado único en todo el docu
 DEFINITIONS = [
     ("Baseline", "Referencia estable del jugador calculada sobre sesiones anteriores al periodo evaluado. Es el estándar contra el que se compara cada ventana o tramo."),
     ("Trigger", "Evento que puede iniciar una reacción conductual. En este sistema, un bad beat (all-in perdido con equidad favorable) o la pérdida de un bote grande."),
-    ("Ventana T+30", "Conjunto de las 30 manos inmediatamente posteriores a un trigger. La mano trigger no se incluye."),
+    ("Ventana T+30", "Conjunto de las 30 manos que el jugador juega inmediatamente después de un trigger, en cualquier torneo de su sesión. La mano trigger no se incluye."),
     ("Tramo continuo", "Bloque de manos consecutivas con una desviación sostenida, obtenido mediante ventana deslizante y fusión de intervalos."),
     ("Fuga neta", "Estimación del coste en ciegas grandes de haber jugado distinto al baseline en una ventana o tramo, medido en EV: lo esperado a tu ritmo normal menos lo esperado en la ventana. Si la diferencia es negativa, no hay fuga."),
     ("BB ganadas", "Fichas ganadas o perdidas en el torneo, en ciegas grandes: suma del resultado real de todas sus manos. No es la posición final ni el premio."),
@@ -1801,7 +1869,7 @@ DEFINITIONS = [
     ("FDR", "Corrección de Benjamini-Hochberg para controlar los falsos positivos en comparaciones múltiples."),
     ("A-Game", "Nivel de juego óptimo del jugador, sin fatiga ni sesgo emocional."),
     ("Sesión", "Bloque continuo de manos separadas por pausas no superiores al umbral. Puede contener varios torneos y un torneo nunca se reparte entre sesiones."),
-    ("Sesión limpia", "Sesión sin alertas de tilt ni desviaciones significativas, con independencia de su resultado económico."),
+    ("Torneo limpio", "Torneo sin alertas de tilt ni desviaciones significativas, con independencia de su resultado económico."),
     ("Lote de importación", "Conjunto de torneos incorporados en una misma operación de importación. Se registra con identificador propio y se procesa de forma atómica."),
     ("Torneo duplicado", "Torneo cuyo identificador ya existe en el sistema. No se vuelve a procesar."),
 ]
@@ -1860,7 +1928,7 @@ h2("2.2 Principio rector")
 note(
     "Principio rector",
     "El resultado no define la conducta. Un torneo puede ganar dinero y contener una desviación "
-    "conductual; otro puede perder y ser una sesión limpia porque la pérdida se explica por varianza. "
+    "conductual; otro puede perder y ser un torneo limpio porque la pérdida se explica por varianza. "
     "Las alertas se basan en conducta observable contrastada contra el baseline, nunca en el resultado "
     "económico aislado.",
 )
@@ -1961,7 +2029,7 @@ intro(
 
 ENTITIES = [
     ("Usuario", "Cuenta y preferencias del jugador.", "id, nombre, email, sitio activo, consentimiento"),
-    ("Torneo", "Unidad de competición que agrupa manos.", "id, nombre, fecha inicio, fecha fin, nivel inicial, nivel final, formato, manos, rango de manos"),
+    ("Torneo", "Unidad de competición que agrupa manos.", "id, nombre, fecha inicio, fecha fin, nivel inicial, nivel final, formato, tamaño de mesa, recompensa, manos"),
     ("Sesión", "Bloque continuo de manos separadas por pausas no superiores al umbral.", "id, primera mano, inicio, fin, duración, manos, torneos, sitio, formato, resultado_bb, ev_bb, bb100, evbb100"),
     ("Mano", "Registro canónico de una mano.", "id, hand_id, índice propio, número original, torneo, sesión, timestamp UTC, ante, SB, BB, board, bote_bb, net_bb, ev_bb, all_in, showdown"),
     ("Participación en mano", "Intervención de un jugador en una mano.", "mano, jugador, asiento, posición, stack_bb, aportación_bb, cobrado_bb, neto_bb, cartas, all_in, estado"),
@@ -1972,7 +2040,7 @@ ENTITIES = [
     ("Tramo de desviación", "Intervalo continuo con sobrefrecuencia.", "id, inicio, fin, métricas, q-value"),
     ("Tramo de fatiga", "Intervalo de horas con EVbb/100.", "id, desde, hasta, manos, sesiones, evbb100"),
     ("Lote de importación", "Conjunto de torneos incorporados en una operación de importación.", "id, fecha UTC, torneos, manos, sesiones, periodo, estado, resultado por torneo"),
-    ("Etiqueta", "Etiqueta semántica del Nivel 2.", "id, nombre, definición, versión, peso"),
+    ("Etiqueta", "Etiqueta semántica del Nivel 2.", "id, código, versión, peso"),
     ("Etiqueta de mano", "Asignación validada de una etiqueta.", "id, mano, usuario, etiqueta, fecha, peso"),
 ]
 rows = [table_head(["Entidad", "Descripción", "Campos clave"], [2100, 3800, 3100])]
@@ -2089,7 +2157,7 @@ CLOSED = [
     ("Corrección FDR por defecto", "q < 0,05"),
     ("Opciones de sensibilidad FDR", "q < 0,10, q < 0,05, q < 0,01"),
     ("Intervalo de confianza de la fatiga", "95 %"),
-    ("Tramos de fatiga", "Hasta 2 h: 30 min; más de 2 h y hasta 5 h: 1 h; más de 5 h: 2 h"),
+    ("Tramos de fatiga", "Número fijo de puntos y ancho adaptado a las sesiones del baseline (por definir)"),
     ("Resolución mínima de diseño", "1280×720"),
     ("Contraste mínimo", "WCAG AA, 4,5:1 en texto normal"),
     ("Duración de toast de éxito", "6–8 s"),
@@ -2238,7 +2306,7 @@ ANNEX_TABLES = [
             ("Bote al cierre de cada calle", "Suma de las aportaciones", "Visor y validación"),
             ("Bote total", "`Total pot N`", "Validación de integridad"),
             ("All-in", "`and is all-in`", "Trigger y EV"),
-            ("Showdown", "`*** SHOW DOWN ***`", "WTSD y WSSD"),
+            ("Showdown", "`*** SHOW DOWN ***`", "WTSD"),
             ("Ganadores", "`collected` y sumario", "Resultado de la mano"),
             ("Descripción de la mano", "`showed … with …`", "Visor de mano"),
             ("Cartas del héroe", "`Dealt to …`", "Métricas y visor"),
@@ -2258,7 +2326,7 @@ ANNEX_TABLES = [
             ("Cantidad cobrada", "`collected`", "Resultado neto"),
             ("Resultado neto", "Cobrado − aportación total", "BB/100"),
             ("All-in", "`and is all-in`", "Trigger y EV"),
-            ("Estado", "`fold`, `showed`, `won`, `lost`", "WTSD, WSSD y visor"),
+            ("Estado", "`fold`, `showed`, `won`, `lost`", "WTSD y visor"),
         ],
     ),
     (
@@ -2287,9 +2355,8 @@ ANNEX_TABLES = [
     (
         "A.6 Métricas y EV",
         [
-            ("VPIP, PFR, 3-Bet y Fold vs 3-Bet", "Calculadas sobre las acciones", "Baseline y detección"),
-            ("C-Bet y Fold vs C-Bet", "Calculadas sobre el flop", "Baseline y tramos"),
-            ("WTSD y WSSD", "Calculadas sobre el showdown", "Baseline"),
+            ("VPIP, PFR, 3-Bet y Fold vs 3-Bet", "Calculadas sobre las acciones", "Baseline, ventana y comparativa; VPIP, PFR y 3-Bet también en los tramos"),
+            ("WTSD", "Calculada sobre el showdown", "Baseline, ventana y comparativa"),
             ("Numerador y denominador", "Uno por métrica", "FDR y dashboard"),
             ("Equidad", "Calculada en el all-in con cartas conocidas", "Trigger y EV"),
             ("EV y EVbb", "Calculados con reparto por capas", "Visor y EVbb/100"),

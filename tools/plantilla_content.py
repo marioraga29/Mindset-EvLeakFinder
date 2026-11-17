@@ -1,6 +1,6 @@
 """Contenido de los apartados 7.1.1 a 7.1.5 de la memoria del TFG.
 
-Los datos se han redactado a partir de las 78 fichas de requisitos y de las
+Los datos se han redactado a partir de las 80 fichas de requisitos y de las
 decisiones cerradas en docs/01-notas-internas.md. No se inventan umbrales,
 etiquetas ni métricas: lo que depende de una decisión abierta se remite a la
 sección 8 de la memoria.
@@ -147,7 +147,7 @@ BACKLOG = [
         "id": "HU-15",
         "desc": (
             "Como jugador semi-profesional, quiero revisar mi evolución por torneo "
-            "y por sesión con filtros, para detectar tendencias a lo largo del mes."
+            "con filtros, para detectar tendencias a lo largo del mes."
         ),
         "priority": "Media",
     },
@@ -225,7 +225,8 @@ RFS = [
             "El sistema comprueba que cada archivo es un historial de Winamax, no está vacío y es legible.",
             "El sistema obtiene el identificador de torneo del nombre del archivo, asocia cada archivo a un torneo y cuenta las manos detectadas.",
             "El sistema compara el identificador de torneo con los torneos ya guardados.",
-            "El sistema muestra los archivos cargados en una lista con su estado y separa los válidos, los inválidos y los duplicados.",
+            "El sistema comprueba que cada torneo empieza después de la última mano del baseline activo, para que ninguna alerta se calcule con un baseline que contiene partidas posteriores al torneo evaluado.",
+            "El sistema muestra los archivos cargados en una lista con su estado y separa los válidos, los inválidos, los duplicados y los anteriores al baseline.",
             "El jugador puede quitar cualquier archivo de la lista antes de confirmar; el sistema actualiza la lista y los recuentos.",
             "El jugador confirma la carga para continuar con el resumen del lote.",
         ],
@@ -235,6 +236,7 @@ RFS = [
             "La pantalla de importación no permite modificar el baseline.",
             "Si un archivo no es válido, el sistema muestra una ventana emergente con el motivo y pregunta si se continúa con los válidos o se cancela el lote.",
             "Si un torneo ya existe, no se procesa y se informa del duplicado en una ventana emergente.",
+            "Si un torneo empieza antes de la última mano del baseline activo, no se procesa y se informa con un aviso, sin tratarlo como error: el aviso dice que ese torneo no se va a auditar y el lote continúa con los demás.",
             "Si no queda ningún torneo nuevo, no se crea lote y se avisa al jugador.",
             "Quitar un archivo solo afecta al lote pendiente y no modifica los torneos ya importados.",
             "Si se quitan todos los archivos, no se puede continuar y se muestra el estado vacío.",
@@ -314,7 +316,7 @@ RFS = [
         "name": "Normalizar, calcular EV y métricas",
         "desc": (
             "El sistema expresa todos los importes en ciegas grandes, calcula el resultado real "
-            "y esperado de los all-in y obtiene las ocho métricas de conducta del héroe."
+            "y esperado de los all-in y obtiene las cinco métricas de conducta del héroe."
         ),
         "actors": "Sistema",
         "pre": "Acciones y botes reconstruidos.",
@@ -326,7 +328,7 @@ RFS = [
             "En los all-in con showdown y cartas conocidas, el sistema calcula la equidad y reparte el bote por capas, incluidos los side pots.",
             "El sistema guarda equidad, bote, EV y número de jugadores implicados, y calcula el EV al importar; la equidad se calcula en la ingesta, antes de guardar la mano, y queda vacía en las manos sin all-in.",
             "El sistema obtiene por torneo las BB ganadas (suma del resultado real), el All-in EV (suma del EV) y la suerte esperable en los all-in (σ), y clasifica la suerte del torneo como a favor, neutra o en contra según la diferencia entre ambos frente a σ.",
-            "El sistema calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet, C-Bet, Fold vs C-Bet, WTSD y WSSD con numerador y denominador.",
+            "El sistema calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet y WTSD con numerador y denominador.",
         ],
         "alt": [
             "En manos sin all-in, el EV coincide con el resultado real.",
@@ -338,7 +340,7 @@ RFS = [
             "El cálculo usa una semilla fija para que el resultado sea reproducible.",
         ],
         "post": (
-            "Cada mano guarda importes en BB, resultado real, EV y las ocho métricas "
+            "Cada mano guarda importes en BB, resultado real, EV y las cinco métricas "
             "con numerador y denominador."
         ),
     },
@@ -385,11 +387,12 @@ RFS = [
             "Sin baseline activo, el jugador abre Mi Baseline en estado vacío desde la guía «Crear baseline» del Dashboard.",
             "El jugador arrastra sus archivos .txt; el sistema los valida y los procesa como en una importación, pero como lote de baseline: sirven solo para construir el perfil y no se auditan.",
             "El sistema selecciona las manos cronológicamente anteriores al periodo evaluado.",
-            "El sistema calcula VPIP, PFR, 3-Bet y EVbb/100 y pondera cada métrica por el número de manos.",
+            "El sistema calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD y EVbb/100 y pondera cada métrica por el número de manos.",
             "El sistema guarda el numerador y el denominador de cada métrica.",
+            "El sistema desglosa VPIP, PFR, 3-Bet, Fold vs 3-Bet y WTSD por tramo de stack (menos de 10 BB, 10–20, 20–40 y 40 BB o más, provisionales) y guarda además el total; el EVbb/100 se guarda solo como total.",
             "El sistema comprueba que la muestra alcanza el mínimo de 2.000 manos.",
             "El sistema crea el baseline y lo deja activo.",
-            "El sistema muestra métricas, muestra, fecha de congelación, versión y si el baseline es inicial o recalibrado.",
+            "El sistema muestra métricas, muestra y fecha de congelación; no muestra el número de versión ni el origen (M22).",
         ],
         "alt": [
             "Si la muestra no alcanza las 2.000 manos, no se crea el baseline.",
@@ -419,7 +422,7 @@ RFS = [
             "El sistema guarda de cada versión los torneos que la componen (un archivo es un torneo), el número de sesiones de la muestra, su origen (inicial, añadir, sustituir o recalibrar) y la versión de la que procede.",
             "Cada alerta conserva el identificador del snapshot con el que se calculó.",
             "El jugador solicita la recalibración con las manos nuevas disponibles.",
-            "El sistema recalcula el baseline, excluye automáticamente las ventanas T+30 y los tramos de desviación y conserva las sesiones de fatiga.",
+            "El sistema recalcula el baseline y excluye automáticamente los tramos de desviación. Además ofrece dos casillas, marcadas por defecto, para excluir las ventanas T+30 y filtrar la fatiga prolongada, es decir, las manos jugadas desde el punto crítico de fatiga del propio jugador.",
             "El sistema crea una versión nueva y archiva la anterior sin modificarla.",
             "El jugador arrastra archivos .txt de Winamax a Mi Baseline; el sistema muestra una vista previa con las manos detectadas, el total resultante y las métricas del archivo.",
             "El jugador pulsa «Añadir al baseline» y el sistema crea una versión nueva que incluye los archivos anteriores y los nuevos.",
@@ -435,6 +438,8 @@ RFS = [
             "No se puede crear una versión con menos de 2.000 manos: el sistema lo indica y el baseline activo no cambia.",
             "Una versión nueva no modifica las versiones anteriores.",
             "La recalibración no altera las alertas ya emitidas.",
+            "El jugador puede desmarcar cualquiera de las dos casillas de la recalibración.",
+            "Si el jugador no tiene punto crítico de fatiga (pocas manos o una gráfica que nunca cruza a pérdidas), no se excluye fatiga aunque la casilla esté marcada y la pantalla lo indica.",
             "El aviso de obsolescencia queda fuera del MVP; su umbral está pendiente de definir.",
             "El jugador solo ve el baseline activo; las versiones archivadas se conservan para auditar las alertas y no se consultan desde la interfaz.",
             "Sustituir deja fuera del baseline todos los archivos anteriores, sin importar sus fechas; añadir suma los archivos nuevos a los de la versión activa.",
@@ -473,24 +478,32 @@ RFS = [
         "id": "RF-09",
         "name": "Analizar la ventana T+30",
         "desc": (
-            "El sistema analiza las 30 manos inmediatamente posteriores a cada trigger, "
+            "El sistema analiza las 30 manos inmediatamente posteriores a cada trigger en la sesión del jugador, de cualquier torneo, "
             "excluyendo la mano trigger, y contrasta la conducta observada con el baseline."
         ),
         "actors": "Sistema",
         "pre": "Trigger detectado.",
         "normal": [
             "El sistema excluye la mano trigger del análisis.",
-            "El sistema toma las 30 manos posteriores dentro del mismo torneo.",
-            "El sistema trunca la ventana si el torneo termina antes.",
-            "El sistema fusiona las ventanas solapadas y cuenta las manos compartidas una sola vez.",
-            "El sistema calcula VPIP, PFR, 3-Bet y EVbb/100 de la ventana.",
-            "El sistema contrasta cada métrica con el baseline activo y guarda la diferencia en puntos porcentuales.",
-            "El sistema guarda el numerador y el denominador de cada métrica.",
+            "El sistema toma las 30 manos siguientes del jugador en su sesión, de cualquier torneo, ordenadas por hora.",
+            "El sistema trunca la ventana al final de la sesión (pausa de más de 30 minutos).",
+            "El sistema fusiona las ventanas solapadas, aunque los triggers sean de torneos distintos, y cuenta las manos compartidas una sola vez.",
+            "El sistema calcula VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD y EVbb/100 de la ventana.",
+            "El sistema determina cuáles de VPIP, PFR y 3-Bet son evaluables: las que alcanzan un mínimo de oportunidades igual a la mitad de las habituales del jugador en ese número de manos, según su baseline, con un suelo de 3 (provisional).",
+            "El sistema contrasta con el baseline activo VPIP, PFR y 3-Bet cuando son evaluables y guarda la diferencia en puntos porcentuales; Fold vs 3-Bet y WTSD se guardan, sin contrastarse en la ventana, para la comparativa; las métricas no evaluables conservan su numerador y denominador, sin porcentaje.",
+            "El sistema calcula el esperado de cada mano con el valor del baseline en su tramo de stack y, si ese tramo del baseline tiene menos de 50 oportunidades de la métrica, con el valor total del baseline.",
+            "El sistema obtiene el p-valor con un contraste exacto que admite una probabilidad esperada distinta por mano (Poisson-binomial), en lugar de la binomial con una sola tasa.",
+            "El sistema guarda el numerador y el denominador de cada métrica, con su desglose por tramo de stack.",
         ],
         "alt": [
-            "Si el trigger es la última mano del torneo, la ventana queda vacía y no se analiza.",
+            "Si no hay manos posteriores en la sesión, no hay ventana: el trigger no genera alerta y se muestra en el visor con la nota «sin manos posteriores».",
             "Si dos triggers se solapan, sus ventanas se fusionan.",
             "El trigger nunca se incluye en la ventana.",
+            "Si la ventana tiene menos de la mitad de las manos configuradas (10 con T+20, 15 con T+30), queda sin datos suficientes: alerta no concluyente, métricas como «k de n» sin porcentaje y ninguna se contrasta.",
+            "Si tiene entre ese mínimo y menos de las manos configuradas, se analiza y se marca como incompleta («n de 30»).",
+            "La alerta pertenece al torneo del trigger; los demás torneos con manos de la ventana no generan alerta propia, llevan una marca informativa con enlace a la alerta y no cuentan como torneo limpio.",
+            "Si ninguna métrica es evaluable, la ventana queda «sin datos suficientes»: genera una alerta no concluyente, sin fuga neta, y no cuenta como torneo limpio.",
+            "Si hay métricas evaluables y ninguna es significativa, la ventana queda «sin desviación» y no genera alerta.",
         ],
         "post": (
             "Ventana reactiva con métricas, diferencias frente al baseline y "
@@ -508,7 +521,7 @@ RFS = [
         "pre": "Manos normalizadas y baseline disponible.",
         "normal": [
             "El sistema aplica una ventana deslizante sobre la serie temporal.",
-            "El sistema contrasta localmente acciones frente a oportunidades.",
+            "El sistema contrasta localmente acciones frente a oportunidades en VPIP, PFR y 3-Bet, con el esperado de cada mano según su tramo de stack y el mismo contraste exacto que la ventana T+30; solo se contrastan las métricas evaluables y la corrección FDR se aplica solo a esas pruebas.",
             "El sistema calcula el q-value de cada prueba.",
             "El sistema registra el inicio y el fin de cada tramo candidato.",
             "El sistema fusiona los bloques consecutivos separados por menos de 10 manos.",
@@ -532,10 +545,10 @@ RFS = [
         "pre": "Sesiones y manos normalizadas.",
         "normal": [
             "El sistema calcula el EVbb/100 por tramos de horas de juego.",
-            "El sistema construye tramos adaptativos.",
+            "El sistema construye tramos adaptativos de ancho calculado con las sesiones del baseline, con siempre el mismo número de puntos.",
             "El sistema fusiona los tramos que no alcanzan muestra suficiente.",
             "El sistema localiza el punto de cruce a pérdidas.",
-            "El sistema guarda desde, hasta, manos, sesiones y EVbb/100 de cada tramo.",
+            "El sistema guarda, con el baseline, las horas de inicio y fin de cada tramo (el último, abierto), sus manos, sesiones, EVbb/100 e intervalo de confianza del 95 %, y el punto crítico.",
         ],
         "alt": [
             "La fatiga no genera alertas en el feed.",
@@ -589,9 +602,8 @@ RFS = [
         "actors": "Jugador",
         "pre": "Baseline activo.",
         "normal": [
-            "El sistema muestra VPIP, PFR, 3-Bet y EVbb/100 con ajuste all-in del snapshot activo; VPIP incluye una referencia poblacional para MTT.",
-            "El sistema muestra la muestra, la fecha de congelación y la versión.",
-            "El sistema indica si el baseline es inicial o recalibrado.",
+            "El sistema muestra VPIP, PFR, 3-Bet y Winrate baseline (EV), que es el EVbb/100 con ajuste all-in, del snapshot activo; VPIP incluye una referencia poblacional para MTT.",
+            "El sistema muestra la muestra y la fecha de congelación.",
             "El sistema dibuja la gráfica de fatiga con los tramos, el cero visible como break-even y el punto crítico de cruce a pérdidas.",
             "El sistema muestra en el tooltip el tramo, el EVbb/100, las manos, las sesiones y el intervalo de confianza.",
         ],
@@ -618,12 +630,13 @@ RFS = [
         "normal": [
             "El sistema muestra el resumen del lote con torneos, manos, fecha de carga, periodo cubierto y porcentaje de manos dentro de ventanas T+30.",
             "El sistema muestra únicamente las alertas del último lote en un feed desplazable.",
-            "El sistema ordena primero las alertas de tilt y después las desviaciones; dentro de cada tipo, por magnitud de fuga y, a igualdad, por fecha.",
+            "El sistema ordena primero las alertas concluyentes y después las no concluyentes; dentro de cada grupo, tilt antes que desviación y, dentro de cada tipo, por solidez (más métricas evaluables primero), por magnitud de fuga y, a igualdad, por fecha.",
             "Cada tarjeta muestra tipo, torneo, trigger o métrica, ventana o tramo, valor observado, baseline, delta y fuga neta estimada (magnitud positiva en BB).",
-            "Cada métrica muestra su numerador y su denominador.",
+            "Cada métrica muestra su numerador y su denominador; si no alcanza su mínimo de oportunidades, se muestra como «k de n» marcada como no evaluable, sin porcentaje.",
+            "Una ventana sin datos suficientes aparece en el feed como alerta no concluyente, sin fuga neta y con el aviso de que no se puede evaluar.",
             "El jugador pulsa «Auditar» en una tarjeta.",
             "El sistema abre el visor en la mano trigger o en la primera mano del tramo.",
-            "La alerta pasa a auditada, desaparece del feed y se conserva en el historial.",
+            "La alerta pasa a auditada, desaparece del feed, se conserva en el historial y se suma al contador «n de m auditadas» de la cabecera del feed.",
             "La cabecera global permanece visible y permite navegar al Dashboard, Historial de torneos, Baseline, Baseline vs Tilt (T+30) y Glosario; el ítem activo se marca fuera del Dashboard.",
             "Cada bloque del Dashboard dispone de estados de vacío, carga, error, parcial y sin permisos.",
         ],
@@ -652,10 +665,11 @@ RFS = [
             "El sistema muestra BB ganadas y All-in EV en verde si son positivas y en rojo si son negativas, y la suerte all-in (a favor, neutra o en contra) sin color.",
             "El sistema ofrece un ⓘ en las cabeceras de BB ganadas, All-in EV y suerte all-in, con una definición breve y el enlace «Ver en el Glosario».",
             "El sistema ordena por fecha descendente y pagina cuando el listado supera el tamaño de página.",
-            "El jugador filtra por estado conductual, periodo y formato de torneo.",
+            "El jugador filtra por estado conductual, periodo, tamaño de mesa y recompensa del torneo.",
             "El sistema combina los filtros y permite limpiarlos.",
-            "El sistema asigna a cada torneo el estado tilt, desviación o sin alertas.",
-            "El jugador selecciona una fila y abre el visor del torneo.",
+            "El sistema asigna a cada torneo el estado tilt, desviación, no concluyente (ventana sin datos suficientes) o sin alertas; un torneo no concluyente no cuenta como torneo limpio.",
+            "El torneo que contiene manos de la ventana T+30 de otro torneo muestra una marca informativa con enlace a esa alerta; no genera alerta propia y no cuenta como torneo limpio.",
+            "El jugador selecciona una fila y abre el visor del torneo; todos los torneos auditados se pueden abrir, tengan o no alertas, incluidos los no concluyentes.",
             "El sistema conserva los torneos auditados y el snapshot con el que se evaluaron.",
         ],
         "alt": [
@@ -683,20 +697,24 @@ RFS = [
             "El sistema usa el número de mano como eje X y comparte escala y ejes entre ambas series.",
             "El sistema resalta la ventana T+30 en rojo y el tramo de desviación en ámbar.",
             "El tooltip identifica el tipo de anomalía y sus métricas.",
+            "Si la ventana T+30 toca varios torneos, el sistema muestra una pestaña por cada torneo que aporta manos (la del trigger se abre primero), cada una con la gráfica de su torneo y la franja T+30 solo sobre sus manos de la ventana.",
+            "El jugador abre la pantalla de la ventana T+30: las manos de la ventana por hora, cada una con su torneo, su resultado en BB y su acción, la fuga neta estimada y las métricas evaluadas (las demás como «k de n»); pulsar una mano abre su visor en la pestaña de su torneo.",
             "El jugador selecciona un punto de la gráfica y abre la mano correspondiente.",
             "El sistema permite avanzar y retroceder mano a mano conservando el contexto del torneo.",
             "El sistema muestra en la cabecera el torneo, el formato y el número de manos, y un subtítulo fijo de la gráfica («Resultado real frente a EV esperado, mano a mano»).",
             "El sistema presenta en el panel derecho un único bloque «Lectura» con dos partes: Conducta y Suerte del torneo.",
             "La parte Suerte del torneo muestra las BB ganadas, el All-in EV y la suerte all-in del torneo, con un ⓘ y el enlace «Ver en el Glosario».",
             "En un torneo con ventana T+30, la parte Conducta muestra el trigger, la posición de la mano dentro de la ventana, las métricas de la alerta frente al baseline y la fuga neta estimada, con un ⓘ.",
-            "En un torneo con desviación sin trigger, la parte Conducta muestra solo las métricas de la alerta frente al baseline, sin fuga neta ni inicio y fin de tramo.",
-            "En un torneo sin alertas, la parte Conducta indica que no se han detectado anomalías conductuales frente al baseline, sin métricas del torneo.",
+            "En un torneo con desviación sin trigger, la parte Conducta muestra el tramo detectado (manos de inicio y fin y número de manos, de forma aproximada), las métricas de la alerta frente al baseline y la fuga neta estimada, con un ⓘ, y la gráfica marca el tramo con una franja; si una ventana T+30 lo atraviesa, la gráfica la muestra dentro del tramo con su propia franja y Conducta indica que el tramo está interrumpido por esa ventana.",
+            "La parte Conducta solo aparece cuando la mano abierta pertenece a una alerta y muestra esa alerta; una mano fuera de cualquier alerta muestra solo Suerte del torneo, y la cabecera del visor indica si el torneo tiene alertas o no tiene anomalías.",
+            "En un torneo con manos de la ventana de otro torneo, la parte Conducta remite a esa alerta con un aviso informativo.",
+            "Un trigger sin manos posteriores se muestra con la nota «sin manos posteriores».",
         ],
         "alt": [
             "Si el torneo no tiene anomalías, la gráfica se muestra sin franjas.",
             "La navegación conserva siempre el torneo seleccionado.",
             "Un torneo sin all-in muestra la suerte all-in como neutra.",
-            "El visor no muestra «resultado adicional» ni subtramos dentro de la ventana T+30: la ventana se lee como un todo de 30 manos.",
+            "El visor no muestra «resultado adicional» ni subtramos dentro de la ventana T+30: la ventana se lee como un todo de 30 manos, sin total de resultado ni recuento de manos con pérdida.",
         ],
         "post": (
             "Visor del torneo con gráfica dual, franjas de anomalías y navegación a la mano."
@@ -722,7 +740,8 @@ RFS = [
             "El sistema muestra la etiqueta sugerida y permite aceptarla o cambiarla desde el catálogo.",
         ],
         "alt": [
-            "Una alerta de tilt abre la mano trigger; una alerta de desviación abre la primera mano del tramo.",
+            "Una alerta de tilt abre la mano trigger; una alerta de desviación abre la primera mano del tramo; un torneo sin alertas abre en su primera mano.",
+            "El jugador puede recorrer todas las manos de cualquier torneo auditado y etiquetar cualquiera de ellas.",
             "La mano abierta queda resaltada dentro de la secuencia.",
             "Si no hay etiqueta sugerida, el sistema permite elegirla del catálogo.",
         ],
@@ -741,7 +760,7 @@ RFS = [
         "actors": "Jugador y sistema",
         "pre": "Acceso al visor de mano.",
         "normal": [
-            "El sistema dispone de un catálogo versionado de etiquetas con nombre, definición y ejemplo.",
+            "El sistema dispone de un catálogo versionado de etiquetas con un código estable; el nombre, la definición y el ejemplo se cargan del archivo de traducción.",
             "El jugador registra una etiqueta por mano; el sistema guarda usuario, fecha y origen de la etiqueta.",
             "El sistema ofrece aceptar la sugerencia o cambiarla y exige una acción explícita de validación.",
             "El sistema asigna un peso a cada etiqueta según el nivel de juego declarado por el jugador y guarda el peso y el nivel aplicados.",
@@ -794,10 +813,10 @@ RFS = [
         "pre": "Acceso a la aplicación sin sesión iniciada.",
         "normal": [
             "El jugador crea una cuenta con nombre, correo, contraseña y su nivel de juego (el buy-in en el que suele jugar sus MTT) desde la pantalla de acceso; hay cinco tramos (1–5 €, 5–10 €, 10–25 €, 25–50 € y 50 € o más); cada tramo tiene un peso provisional para ponderar las etiquetas (Micro 0,6, Bajo 0,8, Medio 1,0, Alto 1,2 y Muy alto 1,4).",
-            "El sistema comprueba que el correo y el nombre no estén registrados y que la contraseña cumpla los requisitos mínimos, pendientes de definir.",
+            "El sistema comprueba que el correo y el nombre no estén registrados y que la contraseña tenga entre 8 y 64 caracteres, sin exigir mayúsculas, números ni símbolos.",
             "El sistema crea la cuenta con la contraseña almacenada como hash y sal, y permite iniciar sesión.",
             "El sistema exige credenciales válidas y mantiene la sesión hasta el cierre o la expiración.",
-            "El sistema muestra en el drawer de cuenta el usuario, el sitio activo, el estado, el nivel de juego, la versión del motor y la última recalibración.",
+            "El sistema muestra en el drawer de cuenta el usuario, el sitio activo, el estado, y el nivel de juego.",
             "El jugador ajusta la ventana reactiva entre T+20, T+30, T+50 y T+100.",
             "El jugador ajusta la sensibilidad FDR entre q < 0,10, q < 0,05 y q < 0,01.",
             "El jugador puede cambiar su nivel de juego desde el drawer; el cambio afecta solo a las etiquetas que registre a partir de ese momento.",
@@ -807,7 +826,7 @@ RFS = [
         ],
         "alt": [
             "Si el correo o el nombre ya existen, no se crea la cuenta y el aviso no revela datos de la cuenta existente.",
-            "Si la contraseña no cumple los requisitos mínimos, no se crea la cuenta y se indica qué falta.",
+            "Si la contraseña no tiene entre 8 y 64 caracteres, no se crea la cuenta y se indica el requisito.",
             "Si el alta falla, no se guarda ningún dato de la cuenta.",
             "El error de acceso no revela si el usuario existe.",
             "Si se cierra el drawer con cambios sin guardar, se pide confirmación.",
@@ -835,7 +854,7 @@ RFS = [
             "El sistema muestra las manos del baseline, las manos dentro de ventanas T+30 y el número de episodios.",
             "El sistema muestra tres indicadores: la desviación de VPIP en puntos porcentuales, la agresividad impulsiva (desviación de 3-Bet) y la fuga neta acumulada de las ventanas.",
             "El sistema representa, para VPIP, PFR, 3-Bet, Fold vs 3-Bet y WTSD, el valor del baseline frente al de las ventanas y su diferencia en puntos porcentuales.",
-            "El sistema contrasta cada métrica con el baseline, aplica la corrección FDR con el umbral q configurado y muestra cuántas de las cinco métricas son significativas.",
+            "El sistema contrasta con el baseline las métricas evaluables sobre las oportunidades acumuladas de las ventanas (las demás se muestran como «k de n» sin porcentaje), aplica la corrección FDR solo a esas pruebas con el umbral q configurado y muestra cuántas de las métricas evaluables son significativas.",
             "El sistema ofrece una explicación de lectura: qué es el baseline, qué es una ventana T+30, qué significa q y qué no demuestra la comparación.",
         ],
         "alt": [
@@ -982,12 +1001,11 @@ RNFS = [
         "id": "RNF-09",
         "name": "Idioma y formato",
         "desc": (
-            "El sistema debe presentar la información con el idioma y el formato numérico "
-            "definidos."
+            "El sistema debe presentar la información con el idioma del MVP y el formato "
+            "numérico y de fecha definidos. La externalización de los textos se recoge en RNF-12."
         ),
         "crit": [
             "La interfaz está en español.",
-            "Los textos están externalizados.",
             "Las fechas se guardan en UTC y se muestran en la zona local.",
             "Los porcentajes usan coma decimal y un decimal.",
             "Las cifras de BB/100 usan dos decimales, signo y separador de miles.",
@@ -1003,7 +1021,7 @@ RNFS = [
         "crit": [
             "Cada alerta enlaza con la mano o el tramo que la origina.",
             "Cada métrica conserva su origen y su muestra.",
-            "La versión del motor es visible.",
+            "Cada alerta conserva el baseline y la configuración con los que se calculó.",
             "El historial conserva las alertas auditadas.",
         ],
         "ver": "Auditoría de una alerta de principio a fin.",
@@ -1022,6 +1040,21 @@ RNFS = [
             "Si el fallo persiste, el bloque queda en estado parcial y se ofrece recargarlo.",
         ],
         "ver": "Prueba de fallo inducido por bloque.",
+    },
+    {
+        "id": "RNF-12",
+        "name": "Internacionalización",
+        "desc": (
+            "El sistema debe estar preparado para traducir la interfaz a otros idiomas "
+            "sin rehacer pantallas, aunque el MVP solo ofrezca español."
+        ),
+        "crit": [
+            "Ningún texto visible se escribe en el código: pantallas, avisos, toasts, modales, alertas, bloque «Lectura», tooltips y glosario se cargan desde archivos de traducción por idioma (en el MVP solo español) mediante claves.",
+            "El backend y la base de datos no guardan ni devuelven frases montadas: alertas, lecturas, avisos de muestra pequeña y estados se representan con un código y sus parámetros, y el frontend compone el texto en el idioma activo.",
+            "Los datos se guardan en bruto, con números sin formato, fechas en UTC y métricas con numerador y denominador; el formato de números, porcentajes y fechas se aplica solo al mostrarlos, según el idioma.",
+            "Los términos técnicos de póker (VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD, bad beat, tilt, trigger, A-Game, EVbb/100, BB, FDR, MTT) no se traducen en ningún idioma.",
+        ],
+        "ver": "Búsqueda de textos visibles en el código y de frases montadas en las respuestas de la API; comprobación con un archivo de traducción de prueba.",
     },
 ]
 
@@ -1042,7 +1075,7 @@ RIS = [
         "desc": "Unidad de competición que agrupa manos.",
         "attrs": (
             "id, nombre, fecha inicio, fecha fin, nivel inicial, nivel final, "
-            "formato, manos, BB ganadas, All-in EV, σ de suerte, suerte all-in"
+            "formato, tamaño de mesa, recompensa, manos, BB ganadas, All-in EV, σ de suerte, suerte all-in"
         ),
     },
     {
@@ -1098,7 +1131,7 @@ RIS = [
         "id": "RI-09",
         "name": "Ventana reactiva",
         "desc": "Ventana T+30 asociada a un trigger.",
-        "attrs": "id, trigger, inicio, fin, métricas",
+        "attrs": "id, inicio, fin, tamaño de ventana, manos analizadas, métricas",
     },
     {
         "id": "RI-10",
@@ -1117,14 +1150,15 @@ RIS = [
         "name": "Lote de importación",
         "desc": "Conjunto de torneos incorporados en una operación de importación.",
         "attrs": (
-            "id, tipo (baseline o auditoría), fecha UTC, torneos, manos, sesiones, periodo"
+            "id, tipo (baseline o auditoría), fecha UTC, torneos, manos, sesiones, periodo, "
+            "ventana T+30 y umbral FDR aplicados (solo auditoría)"
         ),
     },
     {
         "id": "RI-13",
         "name": "Etiqueta",
         "desc": "Etiqueta semántica del Nivel 2.",
-        "attrs": "id, nombre, definición, versión, peso",
+        "attrs": "id, código, versión, peso",
     },
     {
         "id": "RI-14",
@@ -1146,7 +1180,7 @@ RIS = [
         "name": "Prueba estadística",
         "desc": "Comparación de una métrica sometida a la corrección FDR.",
         "attrs": (
-            "id, lote, tipo, referencia, métrica, observado, esperado, "
+            "id, lote, baseline, tipo, referencia, métrica, observado, esperado, "
             "p-value, q-value, significativa"
         ),
     },
@@ -1223,7 +1257,7 @@ CASOS_USO = [
         ),
         "pos_salida": (
             "Los importes quedan en BB con cuatro decimales y se guardan la equidad, "
-            "el EV por capas y las ocho métricas con numerador y denominador; el "
+            "el EV por capas y las cinco métricas con numerador y denominador; el "
             "torneo acumula BB ganadas, All-in EV y suerte esperable."
         ),
         "neg_prueba": "Se procesa una mano sin all-in.",
@@ -1258,7 +1292,7 @@ CASOS_USO = [
             "archivos con más de 2.000 manos."
         ),
         "pos_salida": (
-            "Se crea un baseline activo con VPIP, PFR, 3-Bet, EVbb/100, muestra, fecha "
+            "Se crea un baseline activo con VPIP, PFR, 3-Bet, Fold vs 3-Bet, WTSD, EVbb/100, muestra, fecha "
             "y versión, guardando numerador y denominador de cada métrica; esos archivos "
             "no generan alertas ni aparecen en el Historial."
         ),
@@ -1298,7 +1332,7 @@ CASOS_USO = [
     {
         "id": "RF-09",
         "name": "Analizar la ventana T+30",
-        "pos_prueba": "Se detecta un trigger con 40 manos posteriores en el mismo torneo.",
+        "pos_prueba": "Se detecta un trigger con 40 manos posteriores en la misma sesión.",
         "pos_salida": (
             "Se analizan las 30 manos posteriores sin incluir el trigger y se guardan "
             "métricas, diferencias frente al baseline y numeradores/denominadores."
@@ -1321,7 +1355,7 @@ CASOS_USO = [
         "name": "Analizar la fatiga",
         "pos_prueba": "Se procesan sesiones con varias horas de juego continuo.",
         "pos_salida": (
-            "Se construyen tramos de fatiga con desde, hasta, manos, sesiones y EVbb/100, "
+            "Se construyen tramos de fatiga con horas de inicio y fin, manos, sesiones, EVbb/100 e intervalo de confianza del 95 %, "
             "disponibles para la gráfica macro."
         ),
         "neg_prueba": "La fatiga detecta un tramo con EVbb/100 negativo.",

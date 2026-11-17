@@ -526,7 +526,7 @@ def build_sections(els: list[tuple[str, str]]) -> dict[str, list[str]]:
 
     parts = [
         intro(
-            "Se recogen once requisitos no funcionales, agrupados por calidad de uso, "
+            "Se recogen doce requisitos no funcionales, agrupados por calidad de uso, "
             "eficiencia, protección, fiabilidad, evolución, portabilidad y localización."
         )
     ]
@@ -1039,7 +1039,7 @@ def main() -> None:
         )),
         ("w:p", intro(
             "A partir de las historias se definen los actores, veintiún requisitos funcionales, "
-            "once requisitos no funcionales y dieciséis requisitos de almacenamiento de "
+            "doce requisitos no funcionales y dieciséis requisitos de almacenamiento de "
             "información. Los requisitos funcionales se presentan como casos de uso con flujo "
             "normal y alternativo, y los tres flujos principales se ilustran con diagramas de "
             "secuencia."

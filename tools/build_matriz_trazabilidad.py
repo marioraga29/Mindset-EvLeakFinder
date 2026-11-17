@@ -1,4 +1,4 @@
-"""Genera la matriz de trazabilidad interna entre las 78 fichas y los 21 RF.
+"""Genera la matriz de trazabilidad interna entre las 80 fichas y los 21 RF.
 
 Uso:
     python3 tools/build_matriz_trazabilidad.py
@@ -80,6 +80,8 @@ MAPPING = {
     "RF-VTR-03": "RF-16",
     "RF-VTR-04": "RF-16",
     "RF-VTR-05": "RF-16",
+    "RF-VTR-06": "RF-16",
+    "RF-VTR-07": "RF-16",
     "RF-VMA-01": "RF-17",
     "RF-VMA-02": "RF-17",
     "RF-VMA-03": "RF-17",
@@ -145,8 +147,8 @@ def main() -> None:
                 }
             )
 
-    if len(rows) != 78:
-        raise SystemExit(f"Se esperaban 78 fichas y hay {len(rows)}")
+    if len(rows) != 80:
+        raise SystemExit(f"Se esperaban 80 fichas y hay {len(rows)}")
 
     rf_names = {rf["id"]: rf["name"] for rf in RFS}
     rf_order = [rf["id"] for rf in RFS]
@@ -160,7 +162,7 @@ def main() -> None:
     lines.append("")
     lines.append(
         "> Documento interno. No forma parte de la entrega de la memoria. "
-        "Las 78 fichas se conservan aquí como criterios de aceptación y como "
+        "Las 80 fichas se conservan aquí como criterios de aceptación y como "
         "trazabilidad de los 21 requisitos funcionales de la plantilla oficial."
     )
     lines.append("")
@@ -215,7 +217,7 @@ def main() -> None:
         "postcondiciones del RF correspondiente. Los criterios de la ficha se "
         "conservan íntegros en `docs/entrega/Requisitos-Funcionales-TFG.docx`, "
         "que pasa a ser el documento interno de detalle. La memoria oficial "
-        "solo incluye los 21 RF, los 11 RNF y las 16 entidades de "
+        "solo incluye los 21 RF, los 12 RNF y las 16 entidades de "
         "almacenamiento."
     )
     lines.append("")
